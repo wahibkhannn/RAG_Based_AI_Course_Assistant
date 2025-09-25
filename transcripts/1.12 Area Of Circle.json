@@ -1,0 +1,325 @@
+{
+    "chunks": [
+        {
+            "start": 0.0,
+            "end": 6.24,
+            "text": " next we will write another code and in this code we will calculate area of a circle"
+        },
+        {
+            "start": 6.24,
+            "end": 10.72,
+            "text": " now students who don't have much background in math, what is area of circle?"
+        },
+        {
+            "start": 10.72,
+            "end": 16.72,
+            "text": " if radius of any circle is given, means this radius is r"
+        },
+        {
+            "start": 16.72,
+            "end": 24.0,
+            "text": " and if value of radius is given then area of circle is pi radius square"
+        },
+        {
+            "start": 24.0,
+            "end": 29.52,
+            "text": " we can write it like this pi multiplied by radius multiplied by radius"
+        },
+        {
+            "start": 29.52,
+            "end": 37.2,
+            "text": " and what is value of pi? value of pi is always constant which is equal to 3.14 or 22 by 7"
+        },
+        {
+            "start": 37.2,
+            "end": 45.28,
+            "text": " so in our question what we are going to do? we will take input of this radius"
+        },
+        {
+            "start": 45.28,
+            "end": 51.519999999999996,
+            "text": " after that we will make a variable area, assume the type of this variable we have kept float"
+        },
+        {
+            "start": 52.32,
+            "end": 55.84,
+            "text": " so we have made float type of area variable and then what we will do?"
+        },
+        {
+            "start": 55.84,
+            "end": 59.84,
+            "text": " 3.14 multiplied by radius multiplied by radius"
+        },
+        {
+            "start": 60.480000000000004,
+            "end": 64.08,
+            "text": " in this way we have calculated area by pi r square"
+        },
+        {
+            "start": 64.64,
+            "end": 68.0,
+            "text": " and now we will print our area variable"
+        },
+        {
+            "start": 68.56,
+            "end": 71.68,
+            "text": " same process will be there, first we have to take some value input"
+        },
+        {
+            "start": 71.68,
+            "end": 75.76,
+            "text": " then we have to do some work with it, then we have to print some output"
+        },
+        {
+            "start": 75.76,
+            "end": 78.80000000000001,
+            "text": " what is input? input is radius, what is work to do?"
+        },
+        {
+            "start": 78.88,
+            "end": 84.88,
+            "text": " work to do is to calculate area, means pi multiplied by radius multiplied by radius"
+        },
+        {
+            "start": 84.88,
+            "end": 91.12,
+            "text": " what is to be done in output? we have to print area of the circle which is pi r square"
+        },
+        {
+            "start": 91.12,
+            "end": 94.47999999999999,
+            "text": " now let's write its code, first of all what we will do in code?"
+        },
+        {
+            "start": 94.47999999999999,
+            "end": 100.56,
+            "text": " we have to make our scanner class because to take input on something we need scanner object"
+        },
+        {
+            "start": 101.28,
+            "end": 102.8,
+            "text": " after that what we are going to do?"
+        },
+        {
+            "start": 102.8,
+            "end": 112.08,
+            "text": " make a floating variable radius, means radius can be 3.14, 4.85, 1.2, 1"
+        },
+        {
+            "start": 112.08,
+            "end": 115.44,
+            "text": " so radius is equal to sc.next float"
+        },
+        {
+            "start": 115.44,
+            "end": 119.12,
+            "text": " after that we will make float type of area variable"
+        },
+        {
+            "start": 119.84,
+            "end": 128.56,
+            "text": " in which 3.14 multiplied by radius multiplied by radius"
+        },
+        {
+            "start": 128.56,
+            "end": 133.04,
+            "text": " and finally what we will do? system.out.println"
+        },
+        {
+            "start": 133.04,
+            "end": 138.0,
+            "text": " and what we are going to print in next line? we will print our area variable"
+        },
+        {
+            "start": 138.0,
+            "end": 142.4,
+            "text": " now let's run it, to run it we are going to our terminal"
+        },
+        {
+            "start": 142.4,
+            "end": 148.4,
+            "text": " and here an error has come, error has come that we cannot convert double into float"
+        },
+        {
+            "start": 148.4,
+            "end": 151.28,
+            "text": " what is the meaning of converting double and float here?"
+        },
+        {
+            "start": 152.0,
+            "end": 158.24,
+            "text": " basically whatever decimal value we write in our program, any decimal value"
+        },
+        {
+            "start": 158.48000000000002,
+            "end": 162.24,
+            "text": " and we don't tell whether this decimal value is float or double"
+        },
+        {
+            "start": 162.24,
+            "end": 164.56,
+            "text": " because both have decimal use"
+        },
+        {
+            "start": 164.56,
+            "end": 169.44,
+            "text": " so java automatically takes every decimal value as double"
+        },
+        {
+            "start": 169.44,
+            "end": 170.88,
+            "text": " it doesn't consider it as float"
+        },
+        {
+            "start": 170.88,
+            "end": 176.56,
+            "text": " so to take float of any decimal value, means of 3.14"
+        },
+        {
+            "start": 176.56,
+            "end": 179.52,
+            "text": " what we have to do? we will put a small f here"
+        },
+        {
+            "start": 179.52,
+            "end": 184.32000000000002,
+            "text": " as soon as we put f with any decimal value it becomes a floating value"
+        },
+        {
+            "start": 184.56,
+            "end": 188.64,
+            "text": " as soon as we remove f from there it becomes a double value"
+        },
+        {
+            "start": 188.64,
+            "end": 192.16,
+            "text": " because we have taken radius of floating type"
+        },
+        {
+            "start": 192.16,
+            "end": 194.48,
+            "text": " we are taking our area of float type"
+        },
+        {
+            "start": 194.48,
+            "end": 197.76,
+            "text": " so we have to take float of 3.14"
+        },
+        {
+            "start": 197.76,
+            "end": 200.88,
+            "text": " so let's take float and put f here"
+        },
+        {
+            "start": 201.44,
+            "end": 204.95999999999998,
+            "text": " as soon as we put f and run again, now there will be no error"
+        },
+        {
+            "start": 204.95999999999998,
+            "end": 208.07999999999998,
+            "text": " now what we have to do simply? we have to enter our radius"
+        },
+        {
+            "start": 208.07999999999998,
+            "end": 211.35999999999999,
+            "text": " and as soon as we enter it, what area came out?"
+        },
+        {
+            "start": 211.44000000000003,
+            "end": 216.0,
+            "text": " area came out as 3.14 multiplied by 1 multiplied by 1"
+        },
+        {
+            "start": 216.0,
+            "end": 217.76000000000002,
+            "text": " which is eventually 3.14"
+        },
+        {
+            "start": 217.76000000000002,
+            "end": 220.4,
+            "text": " so for us area is 3.14"
+        },
+        {
+            "start": 220.4,
+            "end": 224.56,
+            "text": " if we enter 2 instead of 1 in our radius"
+        },
+        {
+            "start": 224.56,
+            "end": 226.88000000000002,
+            "text": " so area would have come as 12.56"
+        },
+        {
+            "start": 226.88000000000002,
+            "end": 228.48000000000002,
+            "text": " why it came as 12.56?"
+        },
+        {
+            "start": 228.48000000000002,
+            "end": 232.88000000000002,
+            "text": " because here 2 multiplied by 2 which is equal to 4"
+        },
+        {
+            "start": 232.88000000000002,
+            "end": 237.60000000000002,
+            "text": " and 4 multiplied by 3.14 is 12.56"
+        },
+        {
+            "start": 237.60000000000002,
+            "end": 240.48000000000002,
+            "text": " so in this way we can make different programs"
+        },
+        {
+            "start": 240.56,
+            "end": 244.07999999999998,
+            "text": " here we have written code to calculate circle area"
+        },
+        {
+            "start": 244.07999999999998,
+            "end": 247.76,
+            "text": " in the same way we can write code to calculate square area"
+        },
+        {
+            "start": 247.76,
+            "end": 249.76,
+            "text": " to calculate rectangle area"
+        },
+        {
+            "start": 249.76,
+            "end": 251.76,
+            "text": " to calculate rectangle perimeter"
+        },
+        {
+            "start": 251.76,
+            "end": 253.76,
+            "text": " to calculate circle circumference"
+        },
+        {
+            "start": 253.76,
+            "end": 258.08,
+            "text": " so in math all the small calculations"
+        },
+        {
+            "start": 258.08,
+            "end": 263.76,
+            "text": " our code calculates it all by itself without our brain"
+        },
+        {
+            "start": 263.76,
+            "end": 266.48,
+            "text": " we just have to use our brain for statements"
+        },
+        {
+            "start": 266.48,
+            "end": 270.24,
+            "text": " we just have to use our brain to make it work with computer"
+        },
+        {
+            "start": 270.24,
+            "end": 272.24,
+            "text": " on that thing"
+        }
+    ],
+    "full_text": " next we will write another code and in this code we will calculate area of a circle now students who don't have much background in math, what is area of circle? if radius of any circle is given, means this radius is r and if value of radius is given then area of circle is pi radius square we can write it like this pi multiplied by radius multiplied by radius and what is value of pi? value of pi is always constant which is equal to 3.14 or 22 by 7 so in our question what we are going to do? we will take input of this radius after that we will make a variable area, assume the type of this variable we have kept float so we have made float type of area variable and then what we will do? 3.14 multiplied by radius multiplied by radius in this way we have calculated area by pi r square and now we will print our area variable same process will be there, first we have to take some value input then we have to do some work with it, then we have to print some output what is input? input is radius, what is work to do? work to do is to calculate area, means pi multiplied by radius multiplied by radius what is to be done in output? we have to print area of the circle which is pi r square now let's write its code, first of all what we will do in code? we have to make our scanner class because to take input on something we need scanner object after that what we are going to do? make a floating variable radius, means radius can be 3.14, 4.85, 1.2, 1 so radius is equal to sc.next float after that we will make float type of area variable in which 3.14 multiplied by radius multiplied by radius and finally what we will do? system.out.println and what we are going to print in next line? we will print our area variable now let's run it, to run it we are going to our terminal and here an error has come, error has come that we cannot convert double into float what is the meaning of converting double and float here? basically whatever decimal value we write in our program, any decimal value and we don't tell whether this decimal value is float or double because both have decimal use so java automatically takes every decimal value as double it doesn't consider it as float so to take float of any decimal value, means of 3.14 what we have to do? we will put a small f here as soon as we put f with any decimal value it becomes a floating value as soon as we remove f from there it becomes a double value because we have taken radius of floating type we are taking our area of float type so we have to take float of 3.14 so let's take float and put f here as soon as we put f and run again, now there will be no error now what we have to do simply? we have to enter our radius and as soon as we enter it, what area came out? area came out as 3.14 multiplied by 1 multiplied by 1 which is eventually 3.14 so for us area is 3.14 if we enter 2 instead of 1 in our radius so area would have come as 12.56 why it came as 12.56? because here 2 multiplied by 2 which is equal to 4 and 4 multiplied by 3.14 is 12.56 so in this way we can make different programs here we have written code to calculate circle area in the same way we can write code to calculate square area to calculate rectangle area to calculate rectangle perimeter to calculate circle circumference so in math all the small calculations our code calculates it all by itself without our brain we just have to use our brain for statements we just have to use our brain to make it work with computer on that thing"
+}

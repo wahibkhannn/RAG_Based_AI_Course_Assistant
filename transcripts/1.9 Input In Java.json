@@ -1,0 +1,935 @@
+{
+    "chunks": [
+        {
+            "start": 0.0,
+            "end": 5.6000000000000005,
+            "text": " Next, we will talk about an important concept in Java, which is called input."
+        },
+        {
+            "start": 5.6000000000000005,
+            "end": 9.8,
+            "text": " We will talk about how to get input in Java."
+        },
+        {
+            "start": 9.8,
+            "end": 16.68,
+            "text": " We have learned how to print output in Java, how to make variables,"
+        },
+        {
+            "start": 16.68,
+            "end": 21.44,
+            "text": " and what are the different data types to make variables."
+        },
+        {
+            "start": 21.44,
+            "end": 27.48,
+            "text": " Now we will talk about how to get input from the user."
+        },
+        {
+            "start": 28.28,
+            "end": 32.92,
+            "text": " For example, Google search asks us what we want to search."
+        },
+        {
+            "start": 32.92,
+            "end": 37.52,
+            "text": " It is possible that we make a program or a calculator."
+        },
+        {
+            "start": 37.52,
+            "end": 44.88,
+            "text": " In the calculator, we want to know what is the value of A and B."
+        },
+        {
+            "start": 44.88,
+            "end": 49.36,
+            "text": " For that, we have to ask the user what value they want to give us."
+        },
+        {
+            "start": 49.36,
+            "end": 52.8,
+            "text": " For that, the program will have to take input."
+        },
+        {
+            "start": 52.8,
+            "end": 58.8,
+            "text": " To get input, we make an object of the scanner class."
+        },
+        {
+            "start": 58.8,
+            "end": 65.2,
+            "text": " Like we have made a class, Java Basics, there is another class that exists."
+        },
+        {
+            "start": 65.2,
+            "end": 69.6,
+            "text": " The name of this class is Scanner."
+        },
+        {
+            "start": 69.6,
+            "end": 75.0,
+            "text": " For now, we will ignore who has made this scanner class and why."
+        },
+        {
+            "start": 75.0,
+            "end": 79.24,
+            "text": " This scanner class is already made in Java."
+        },
+        {
+            "start": 79.24,
+            "end": 81.96,
+            "text": " All its related functions are also made."
+        },
+        {
+            "start": 82.0,
+            "end": 91.96,
+            "text": " We just have to write scanner sc=\"new scanner system.in\"."
+        },
+        {
+            "start": 91.96,
+            "end": 102.96,
+            "text": " In our code, we will write import java.util.star."
+        },
+        {
+            "start": 102.96,
+            "end": 108.52,
+            "text": " These two lines are very simple."
+        },
+        {
+            "start": 108.67999999999999,
+            "end": 111.08,
+            "text": " We will study them in detail later."
+        },
+        {
+            "start": 111.08,
+            "end": 114.36,
+            "text": " I know I keep saying that we will study them later."
+        },
+        {
+            "start": 114.36,
+            "end": 119.16,
+            "text": " But we will understand their meaning in the class of OOPS when we cover the basic concepts."
+        },
+        {
+            "start": 119.16,
+            "end": 122.28,
+            "text": " So for now, there is no need to worry about these things."
+        },
+        {
+            "start": 122.28,
+            "end": 124.6,
+            "text": " But you still want to know a little."
+        },
+        {
+            "start": 124.6,
+            "end": 128.44,
+            "text": " So this is a package that we have imported."
+        },
+        {
+            "start": 128.44,
+            "end": 133.72,
+            "text": " That is, there will be a package somewhere in Java that will have a lot of classes."
+        },
+        {
+            "start": 133.72,
+            "end": 137.72,
+            "text": " For example, we have made a class, we have made another class, we have made 5-6 classes."
+        },
+        {
+            "start": 137.72,
+            "end": 139.72,
+            "text": " We have written different types of code in it."
+        },
+        {
+            "start": 139.72,
+            "end": 142.12,
+            "text": " And we have made a package by joining them."
+        },
+        {
+            "start": 142.12,
+            "end": 144.12,
+            "text": " We have used a similar package."
+        },
+        {
+            "start": 144.12,
+            "end": 146.12,
+            "text": " The name of that package is util."
+        },
+        {
+            "start": 146.12,
+            "end": 149.72,
+            "text": " So we have imported all the things of the util package in our code."
+        },
+        {
+            "start": 149.72,
+            "end": 153.72,
+            "text": " Now here we have made a scanner class in the package."
+        },
+        {
+            "start": 153.72,
+            "end": 155.72,
+            "text": " We are making an object of it."
+        },
+        {
+            "start": 155.72,
+            "end": 158.72,
+            "text": " What is an object? We will study about it later."
+        },
+        {
+            "start": 158.72,
+            "end": 165.72,
+            "text": " As we used to write system.out, similarly for input, we have written system.in."
+        },
+        {
+            "start": 165.72,
+            "end": 169.72,
+            "text": " And now to take any input, what do we have to write?"
+        },
+        {
+            "start": 169.72,
+            "end": 171.72,
+            "text": " sc.next"
+        },
+        {
+            "start": 171.72,
+            "end": 176.72,
+            "text": " So we will store this input in a string."
+        },
+        {
+            "start": 176.72,
+            "end": 180.72,
+            "text": " Suppose we have given it a name, input is equal to."
+        },
+        {
+            "start": 180.72,
+            "end": 188.72,
+            "text": " So whatever input comes, this object captures the input with the help of this function, which is named next."
+        },
+        {
+            "start": 188.72,
+            "end": 193.72,
+            "text": " Whatever input comes from next, we have stored it in the string type variable."
+        },
+        {
+            "start": 193.72,
+            "end": 195.72,
+            "text": " Here the name of our variable is input."
+        },
+        {
+            "start": 195.72,
+            "end": 200.72,
+            "text": " And here because a curly brace was removed, we have put it."
+        },
+        {
+            "start": 200.72,
+            "end": 205.72,
+            "text": " So whatever input will be captured from here in Java, it will be stored inside this input."
+        },
+        {
+            "start": 205.72,
+            "end": 208.72,
+            "text": " Let's run it once."
+        },
+        {
+            "start": 209.72,
+            "end": 211.72,
+            "text": " What did we pass? We have to pass a name."
+        },
+        {
+            "start": 211.72,
+            "end": 213.72,
+            "text": " So I passed the name Tony."
+        },
+        {
+            "start": 213.72,
+            "end": 215.72,
+            "text": " And my program is over."
+        },
+        {
+            "start": 215.72,
+            "end": 221.72,
+            "text": " Why is it over? Because Tony came here and went to sc.next."
+        },
+        {
+            "start": 221.72,
+            "end": 225.72,
+            "text": " Here my input went through sc.next and was stored in this input."
+        },
+        {
+            "start": 225.72,
+            "end": 229.72,
+            "text": " But after that it was stored, where did I print it?"
+        },
+        {
+            "start": 229.72,
+            "end": 231.72,
+            "text": " So let's print it once."
+        },
+        {
+            "start": 231.72,
+            "end": 234.72,
+            "text": " system.out.println"
+        },
+        {
+            "start": 234.72,
+            "end": 236.72,
+            "text": " input"
+        },
+        {
+            "start": 236.72,
+            "end": 238.72,
+            "text": " Now I run the code again."
+        },
+        {
+            "start": 238.72,
+            "end": 242.72,
+            "text": " Now I have to enter Tony again."
+        },
+        {
+            "start": 242.72,
+            "end": 245.72,
+            "text": " So I wrote tony and pressed enter."
+        },
+        {
+            "start": 245.72,
+            "end": 249.72,
+            "text": " So what happened to me? Tony came to my screen and was printed again."
+        },
+        {
+            "start": 249.72,
+            "end": 253.72,
+            "text": " How was it printed? First it would have been stored in the input."
+        },
+        {
+            "start": 253.72,
+            "end": 255.72,
+            "text": " Then I output the value of the input."
+        },
+        {
+            "start": 255.72,
+            "end": 259.72,
+            "text": " So the value in it, that is, Tony, was output on my screen."
+        },
+        {
+            "start": 259.72,
+            "end": 263.72,
+            "text": " So we use this .next to capture any word."
+        },
+        {
+            "start": 263.72,
+            "end": 267.72,
+            "text": " Now it is not necessary that I have to keep the name of this object sc."
+        },
+        {
+            "start": 267.72,
+            "end": 269.72,
+            "text": " I can also keep the name of this object scanner."
+        },
+        {
+            "start": 269.72,
+            "end": 274.72,
+            "text": " Some people can keep the name of this object as sc.n."
+        },
+        {
+            "start": 274.72,
+            "end": 276.72,
+            "text": " But I like to keep it sc."
+        },
+        {
+            "start": 276.72,
+            "end": 280.72,
+            "text": " You can keep the name of your scanner object as you like."
+        },
+        {
+            "start": 280.72,
+            "end": 284.72,
+            "text": " So the work of the scanner object is to use different functions."
+        },
+        {
+            "start": 284.72,
+            "end": 289.72,
+            "text": " Capture different data types and store it in a variable."
+        },
+        {
+            "start": 289.72,
+            "end": 293.72,
+            "text": " So here it captured a string."
+        },
+        {
+            "start": 293.72,
+            "end": 297.72,
+            "text": " But suppose I had to capture the whole name."
+        },
+        {
+            "start": 297.72,
+            "end": 299.72,
+            "text": " Till now I had passed Tony."
+        },
+        {
+            "start": 299.72,
+            "end": 303.72,
+            "text": " But this time I passed Tony Stark."
+        },
+        {
+            "start": 303.72,
+            "end": 306.72,
+            "text": " That is, there is a first name and a last name."
+        },
+        {
+            "start": 306.72,
+            "end": 310.72,
+            "text": " But when I entered and printed, only Tony was printed."
+        },
+        {
+            "start": 310.72,
+            "end": 316.72,
+            "text": " Why is this? Because this function captures only up to the next line."
+        },
+        {
+            "start": 316.72,
+            "end": 320.72,
+            "text": " As soon as you give space, it will ignore everything in front."
+        },
+        {
+            "start": 320.72,
+            "end": 322.72,
+            "text": " So only Tony was stored in the input."
+        },
+        {
+            "start": 322.72,
+            "end": 327.72,
+            "text": " If I had to store the whole name, then I had to use another function."
+        },
+        {
+            "start": 327.72,
+            "end": 331.72,
+            "text": " Whose name is sc.nextline."
+        },
+        {
+            "start": 331.72,
+            "end": 335.72,
+            "text": " So when you have to store spaces, we use nextline."
+        },
+        {
+            "start": 335.72,
+            "end": 338.72,
+            "text": " So let's make a new string here."
+        },
+        {
+            "start": 338.72,
+            "end": 346.72,
+            "text": " Name is equal to system.out.println name"
+        },
+        {
+            "start": 346.72,
+            "end": 350.72,
+            "text": " And we will comment out both these lines."
+        },
+        {
+            "start": 350.72,
+            "end": 352.72,
+            "text": " So we commented them out."
+        },
+        {
+            "start": 352.72,
+            "end": 356.72,
+            "text": " Now we will capture the whole name and then print it."
+        },
+        {
+            "start": 356.72,
+            "end": 358.72,
+            "text": " So let's run the code again."
+        },
+        {
+            "start": 358.72,
+            "end": 361.72,
+            "text": " And this time we will enter the whole name Tony Stark."
+        },
+        {
+            "start": 361.72,
+            "end": 366.72,
+            "text": " We had to save this code and run it."
+        },
+        {
+            "start": 366.72,
+            "end": 368.72,
+            "text": " We will enter the name Tony Stark again."
+        },
+        {
+            "start": 368.72,
+            "end": 374.72,
+            "text": " So this time the whole string will be printed for us."
+        },
+        {
+            "start": 374.72,
+            "end": 378.72,
+            "text": " In fact, if we want to write a sentence here."
+        },
+        {
+            "start": 378.72,
+            "end": 382.72,
+            "text": " This is Shraddha teaching you Java."
+        },
+        {
+            "start": 382.72,
+            "end": 385.72,
+            "text": " So this whole string will be stored."
+        },
+        {
+            "start": 385.72,
+            "end": 391.72,
+            "text": " That is, if we have to take the whole sentence, then we will use nextline."
+        },
+        {
+            "start": 391.72,
+            "end": 395.72,
+            "text": " If we have to take a single word input, then we can use next."
+        },
+        {
+            "start": 395.72,
+            "end": 402.72,
+            "text": " Similarly, if I have to take a number input, then to take an integer input, I will use nextint."
+        },
+        {
+            "start": 402.72,
+            "end": 408.72,
+            "text": " Like int number is equal to sc.nextint"
+        },
+        {
+            "start": 408.72,
+            "end": 412.72,
+            "text": " And then we can print this number."
+        },
+        {
+            "start": 412.72,
+            "end": 413.72,
+            "text": " Let's do this too."
+        },
+        {
+            "start": 413.72,
+            "end": 414.72,
+            "text": " Comment out."
+        },
+        {
+            "start": 414.72,
+            "end": 415.72,
+            "text": " Save."
+        },
+        {
+            "start": 415.72,
+            "end": 417.72,
+            "text": " Now run."
+        },
+        {
+            "start": 417.72,
+            "end": 419.72,
+            "text": " So this time I have to enter a number."
+        },
+        {
+            "start": 419.72,
+            "end": 421.72,
+            "text": " I entered 25."
+        },
+        {
+            "start": 421.72,
+            "end": 423.72,
+            "text": " So 25 echoed back for me."
+        },
+        {
+            "start": 423.72,
+            "end": 426.72,
+            "text": " 25 was input through nextint."
+        },
+        {
+            "start": 426.72,
+            "end": 428.72,
+            "text": " And it was saved in the number."
+        },
+        {
+            "start": 428.72,
+            "end": 430.72,
+            "text": " And then we got it printed."
+        },
+        {
+            "start": 430.72,
+            "end": 437.72,
+            "text": " So the type of number we want to enter, the type of value we want to enter."
+        },
+        {
+            "start": 437.72,
+            "end": 440.72,
+            "text": " We will have to change our functions accordingly."
+        },
+        {
+            "start": 440.72,
+            "end": 442.72,
+            "text": " What are the functions?"
+        },
+        {
+            "start": 442.72,
+            "end": 444.72,
+            "text": " One is next for the word."
+        },
+        {
+            "start": 444.72,
+            "end": 446.72,
+            "text": " Nextline is with spaces."
+        },
+        {
+            "start": 446.72,
+            "end": 450.72,
+            "text": " If you want to take the whole paragraph, the whole sentence, the whole multi-word sentence."
+        },
+        {
+            "start": 451.72,
+            "end": 453.72,
+            "text": " Nextint is for integer."
+        },
+        {
+            "start": 453.72,
+            "end": 457.72,
+            "text": " Similarly, float is for floating value."
+        },
+        {
+            "start": 457.72,
+            "end": 461.72,
+            "text": " Let's say we have to enter the price."
+        },
+        {
+            "start": 461.72,
+            "end": 465.72,
+            "text": " Is equal to sc.nextfloat"
+        },
+        {
+            "start": 465.72,
+            "end": 467.72,
+            "text": " What is the method to write?"
+        },
+        {
+            "start": 467.72,
+            "end": 469.72,
+            "text": " Very easy way to remember."
+        },
+        {
+            "start": 469.72,
+            "end": 471.72,
+            "text": " Next we know."
+        },
+        {
+            "start": 471.72,
+            "end": 473.72,
+            "text": " The second word after that has the first letter capital."
+        },
+        {
+            "start": 473.72,
+            "end": 475.72,
+            "text": " Float is float's F capital."
+        },
+        {
+            "start": 475.72,
+            "end": 477.72,
+            "text": " Int is int's I capital."
+        },
+        {
+            "start": 478.72,
+            "end": 480.72,
+            "text": " Line is line's L capital."
+        },
+        {
+            "start": 480.72,
+            "end": 484.72,
+            "text": " And in this way we can print our price."
+        },
+        {
+            "start": 484.72,
+            "end": 486.72,
+            "text": " Now we have entered."
+        },
+        {
+            "start": 486.72,
+            "end": 488.72,
+            "text": " First we have to enter a number."
+        },
+        {
+            "start": 488.72,
+            "end": 490.72,
+            "text": " After that we have to enter a floating value."
+        },
+        {
+            "start": 490.72,
+            "end": 492.72,
+            "text": " Like 3.14"
+        },
+        {
+            "start": 492.72,
+            "end": 496.72,
+            "text": " So again 3.14 echoed and came to us."
+        },
+        {
+            "start": 496.72,
+            "end": 498.72,
+            "text": " Printed and came."
+        },
+        {
+            "start": 498.72,
+            "end": 500.72,
+            "text": " Now how many types of input functions do we have?"
+        },
+        {
+            "start": 500.72,
+            "end": 502.72,
+            "text": " There are many input functions."
+        },
+        {
+            "start": 502.72,
+            "end": 506.72,
+            "text": " Among these, the most basic next, nextline, nextint."
+        },
+        {
+            "start": 506.72,
+            "end": 508.72,
+            "text": " We have read all three."
+        },
+        {
+            "start": 508.72,
+            "end": 510.72,
+            "text": " These three are going to be used the most."
+        },
+        {
+            "start": 510.72,
+            "end": 514.72,
+            "text": " After that, if you want to enter byte type data, you can use nextbyte."
+        },
+        {
+            "start": 514.72,
+            "end": 516.72,
+            "text": " If you want to do float type, you can use nextfloat."
+        },
+        {
+            "start": 516.72,
+            "end": 519.72,
+            "text": " If you want to do double type, you can use nextdouble."
+        },
+        {
+            "start": 519.72,
+            "end": 521.72,
+            "text": " Next you can use boolean."
+        },
+        {
+            "start": 521.72,
+            "end": 523.72,
+            "text": " Next you can use short."
+        },
+        {
+            "start": 523.72,
+            "end": 525.72,
+            "text": " And nextlong can be used."
+        },
+        {
+            "start": 525.72,
+            "end": 528.72,
+            "text": " Whichever type of input we want to take, we can use the same type of function."
+        },
+        {
+            "start": 528.72,
+            "end": 534.72,
+            "text": " If you want to take simply double type data, we will write sc.nextdouble."
+        },
+        {
+            "start": 535.72,
+            "end": 539.72,
+            "text": " And we will store it in a double type variable."
+        },
+        {
+            "start": 539.72,
+            "end": 542.72,
+            "text": " I want you to do a little experimentation with this."
+        },
+        {
+            "start": 542.72,
+            "end": 546.72,
+            "text": " Try these last three with these three."
+        },
+        {
+            "start": 546.72,
+            "end": 550.72,
+            "text": " You are printing each value by taking input."
+        },
+        {
+            "start": 550.72,
+            "end": 552.72,
+            "text": " We will do some things ourselves."
+        },
+        {
+            "start": 552.72,
+            "end": 554.72,
+            "text": " A little error will come."
+        },
+        {
+            "start": 554.72,
+            "end": 556.72,
+            "text": " Then we will learn a little bit about what is Java programming."
+        },
+        {
+            "start": 556.72,
+            "end": 559.72,
+            "text": " And you have to try to solve the errors yourself."
+        },
+        {
+            "start": 559.72,
+            "end": 563.72,
+            "text": " Mostly the meaning of the errors is understood there."
+        },
+        {
+            "start": 563.72,
+            "end": 566.72,
+            "text": " And the best way to tell in any programming language."
+        },
+        {
+            "start": 566.72,
+            "end": 568.72,
+            "text": " If you have a small error."
+        },
+        {
+            "start": 568.72,
+            "end": 573.72,
+            "text": " Then simply copy that error and paste it on Google."
+        },
+        {
+            "start": 573.72,
+            "end": 579.72,
+            "text": " Google will tell us the best way to solve that error."
+        },
+        {
+            "start": 579.72,
+            "end": 583.72,
+            "text": " You will see a site in coding again and again."
+        },
+        {
+            "start": 583.72,
+            "end": 586.72,
+            "text": " Whenever you are googling things, you will be googling errors."
+        },
+        {
+            "start": 586.72,
+            "end": 588.72,
+            "text": " Its name is Stack Overflow."
+        },
+        {
+            "start": 589.72,
+            "end": 591.72,
+            "text": " This site is called Stack Overflow."
+        },
+        {
+            "start": 591.72,
+            "end": 594.72,
+            "text": " In which there are a lot of errors."
+        },
+        {
+            "start": 594.72,
+            "end": 596.72,
+            "text": " There are a lot of problems."
+        },
+        {
+            "start": 596.72,
+            "end": 600.72,
+            "text": " You will get solutions for them."
+        },
+        {
+            "start": 600.72,
+            "end": 602.72,
+            "text": " It is a very beautiful site."
+        },
+        {
+            "start": 602.72,
+            "end": 608.72,
+            "text": " Developers and engineers are solving the questions here."
+        },
+        {
+            "start": 608.72,
+            "end": 610.72,
+            "text": " You can post your queries for free."
+        },
+        {
+            "start": 610.72,
+            "end": 612.72,
+            "text": " People will help you."
+        },
+        {
+            "start": 612.72,
+            "end": 614.72,
+            "text": " You will get answers to your questions."
+        },
+        {
+            "start": 614.72,
+            "end": 616.72,
+            "text": " You will get solutions for errors."
+        },
+        {
+            "start": 616.72,
+            "end": 619.72,
+            "text": " And now whatever Java we are learning."
+        },
+        {
+            "start": 619.72,
+            "end": 622.72,
+            "text": " In the first 3-4 years of your programming."
+        },
+        {
+            "start": 622.72,
+            "end": 624.72,
+            "text": " Maybe you have an error."
+        },
+        {
+            "start": 624.72,
+            "end": 626.72,
+            "text": " Which no one posted on Stack Overflow."
+        },
+        {
+            "start": 626.72,
+            "end": 629.72,
+            "text": " Because everyone gets the same type of errors in coding."
+        },
+        {
+            "start": 629.72,
+            "end": 631.72,
+            "text": " Because there are machines."
+        },
+        {
+            "start": 631.72,
+            "end": 635.72,
+            "text": " We will miss things a lot."
+        },
+        {
+            "start": 635.72,
+            "end": 637.72,
+            "text": " So the same errors come."
+        },
+        {
+            "start": 637.72,
+            "end": 640.72,
+            "text": " You will get some solution."
+        },
+        {
+            "start": 640.72,
+            "end": 643.72,
+            "text": " When we go to Chrome and learn a little bit."
+        },
+        {
+            "start": 643.72,
+            "end": 647.72,
+            "text": " So all the errors, problems, and obstacles."
+        },
+        {
+            "start": 647.72,
+            "end": 649.72,
+            "text": " Do not worry while writing code."
+        },
+        {
+            "start": 649.72,
+            "end": 652.72,
+            "text": " They will teach us a lot about coding and programming."
+        }
+    ],
+    "full_text": " Next, we will talk about an important concept in Java, which is called input. We will talk about how to get input in Java. We have learned how to print output in Java, how to make variables, and what are the different data types to make variables. Now we will talk about how to get input from the user. For example, Google search asks us what we want to search. It is possible that we make a program or a calculator. In the calculator, we want to know what is the value of A and B. For that, we have to ask the user what value they want to give us. For that, the program will have to take input. To get input, we make an object of the scanner class. Like we have made a class, Java Basics, there is another class that exists. The name of this class is Scanner. For now, we will ignore who has made this scanner class and why. This scanner class is already made in Java. All its related functions are also made. We just have to write scanner sc=\"new scanner system.in\". In our code, we will write import java.util.star. These two lines are very simple. We will study them in detail later. I know I keep saying that we will study them later. But we will understand their meaning in the class of OOPS when we cover the basic concepts. So for now, there is no need to worry about these things. But you still want to know a little. So this is a package that we have imported. That is, there will be a package somewhere in Java that will have a lot of classes. For example, we have made a class, we have made another class, we have made 5-6 classes. We have written different types of code in it. And we have made a package by joining them. We have used a similar package. The name of that package is util. So we have imported all the things of the util package in our code. Now here we have made a scanner class in the package. We are making an object of it. What is an object? We will study about it later. As we used to write system.out, similarly for input, we have written system.in. And now to take any input, what do we have to write? sc.next So we will store this input in a string. Suppose we have given it a name, input is equal to. So whatever input comes, this object captures the input with the help of this function, which is named next. Whatever input comes from next, we have stored it in the string type variable. Here the name of our variable is input. And here because a curly brace was removed, we have put it. So whatever input will be captured from here in Java, it will be stored inside this input. Let's run it once. What did we pass? We have to pass a name. So I passed the name Tony. And my program is over. Why is it over? Because Tony came here and went to sc.next. Here my input went through sc.next and was stored in this input. But after that it was stored, where did I print it? So let's print it once. system.out.println input Now I run the code again. Now I have to enter Tony again. So I wrote tony and pressed enter. So what happened to me? Tony came to my screen and was printed again. How was it printed? First it would have been stored in the input. Then I output the value of the input. So the value in it, that is, Tony, was output on my screen. So we use this .next to capture any word. Now it is not necessary that I have to keep the name of this object sc. I can also keep the name of this object scanner. Some people can keep the name of this object as sc.n. But I like to keep it sc. You can keep the name of your scanner object as you like. So the work of the scanner object is to use different functions. Capture different data types and store it in a variable. So here it captured a string. But suppose I had to capture the whole name. Till now I had passed Tony. But this time I passed Tony Stark. That is, there is a first name and a last name. But when I entered and printed, only Tony was printed. Why is this? Because this function captures only up to the next line. As soon as you give space, it will ignore everything in front. So only Tony was stored in the input. If I had to store the whole name, then I had to use another function. Whose name is sc.nextline. So when you have to store spaces, we use nextline. So let's make a new string here. Name is equal to system.out.println name And we will comment out both these lines. So we commented them out. Now we will capture the whole name and then print it. So let's run the code again. And this time we will enter the whole name Tony Stark. We had to save this code and run it. We will enter the name Tony Stark again. So this time the whole string will be printed for us. In fact, if we want to write a sentence here. This is Shraddha teaching you Java. So this whole string will be stored. That is, if we have to take the whole sentence, then we will use nextline. If we have to take a single word input, then we can use next. Similarly, if I have to take a number input, then to take an integer input, I will use nextint. Like int number is equal to sc.nextint And then we can print this number. Let's do this too. Comment out. Save. Now run. So this time I have to enter a number. I entered 25. So 25 echoed back for me. 25 was input through nextint. And it was saved in the number. And then we got it printed. So the type of number we want to enter, the type of value we want to enter. We will have to change our functions accordingly. What are the functions? One is next for the word. Nextline is with spaces. If you want to take the whole paragraph, the whole sentence, the whole multi-word sentence. Nextint is for integer. Similarly, float is for floating value. Let's say we have to enter the price. Is equal to sc.nextfloat What is the method to write? Very easy way to remember. Next we know. The second word after that has the first letter capital. Float is float's F capital. Int is int's I capital. Line is line's L capital. And in this way we can print our price. Now we have entered. First we have to enter a number. After that we have to enter a floating value. Like 3.14 So again 3.14 echoed and came to us. Printed and came. Now how many types of input functions do we have? There are many input functions. Among these, the most basic next, nextline, nextint. We have read all three. These three are going to be used the most. After that, if you want to enter byte type data, you can use nextbyte. If you want to do float type, you can use nextfloat. If you want to do double type, you can use nextdouble. Next you can use boolean. Next you can use short. And nextlong can be used. Whichever type of input we want to take, we can use the same type of function. If you want to take simply double type data, we will write sc.nextdouble. And we will store it in a double type variable. I want you to do a little experimentation with this. Try these last three with these three. You are printing each value by taking input. We will do some things ourselves. A little error will come. Then we will learn a little bit about what is Java programming. And you have to try to solve the errors yourself. Mostly the meaning of the errors is understood there. And the best way to tell in any programming language. If you have a small error. Then simply copy that error and paste it on Google. Google will tell us the best way to solve that error. You will see a site in coding again and again. Whenever you are googling things, you will be googling errors. Its name is Stack Overflow. This site is called Stack Overflow. In which there are a lot of errors. There are a lot of problems. You will get solutions for them. It is a very beautiful site. Developers and engineers are solving the questions here. You can post your queries for free. People will help you. You will get answers to your questions. You will get solutions for errors. And now whatever Java we are learning. In the first 3-4 years of your programming. Maybe you have an error. Which no one posted on Stack Overflow. Because everyone gets the same type of errors in coding. Because there are machines. We will miss things a lot. So the same errors come. You will get some solution. When we go to Chrome and learn a little bit. So all the errors, problems, and obstacles. Do not worry while writing code. They will teach us a lot about coding and programming."
+}

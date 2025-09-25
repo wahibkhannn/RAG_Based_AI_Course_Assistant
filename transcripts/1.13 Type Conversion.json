@@ -1,0 +1,510 @@
+{
+    "chunks": [
+        {
+            "start": 0.0,
+            "end": 5.0,
+            "text": " Next we will talk about type conversion and type casting in Java"
+        },
+        {
+            "start": 5.0,
+            "end": 6.5,
+            "text": " What is type conversion?"
+        },
+        {
+            "start": 6.5,
+            "end": 14.5,
+            "text": " The basic meaning of type conversion is when we convert one type of data into another type of data"
+        },
+        {
+            "start": 14.5,
+            "end": 16.0,
+            "text": " When is this conversion?"
+        },
+        {
+            "start": 16.0,
+            "end": 19.5,
+            "text": " This conversion happens when our types are compatible"
+        },
+        {
+            "start": 19.5,
+            "end": 24.0,
+            "text": " That is, we can convert between int and float"
+        },
+        {
+            "start": 24.0,
+            "end": 28.0,
+            "text": " But we want to convert integer into boolean"
+        },
+        {
+            "start": 28.0,
+            "end": 31.0,
+            "text": " Such conversion is not possible in Java"
+        },
+        {
+            "start": 31.0,
+            "end": 34.0,
+            "text": " So the numbers are able to convert in numbers"
+        },
+        {
+            "start": 34.0,
+            "end": 37.0,
+            "text": " This is how conversion happens in compatible types"
+        },
+        {
+            "start": 37.0,
+            "end": 43.0,
+            "text": " And the second condition is that our destination type should be greater than the source type"
+        },
+        {
+            "start": 43.0,
+            "end": 45.0,
+            "text": " Let's understand the basic meaning of this"
+        },
+        {
+            "start": 45.0,
+            "end": 50.0,
+            "text": " Let's define a variable of integer type int a in which we are storing value 25"
+        },
+        {
+            "start": 50.0,
+            "end": 55.0,
+            "text": " Now we want to make a long type variable which is named b"
+        },
+        {
+            "start": 55.0,
+            "end": 57.0,
+            "text": " And assign a to it"
+        },
+        {
+            "start": 57.0,
+            "end": 61.0,
+            "text": " So we are trying to store a value in b in a similar way"
+        },
+        {
+            "start": 61.0,
+            "end": 66.0,
+            "text": " Now when we write this code and println system.out."
+        },
+        {
+            "start": 66.0,
+            "end": 70.0,
+            "text": " Let's save and run the value of b"
+        },
+        {
+            "start": 70.0,
+            "end": 71.0,
+            "text": " So what will happen for us?"
+        },
+        {
+            "start": 71.0,
+            "end": 75.0,
+            "text": " For us, 25 will be printed properly"
+        },
+        {
+            "start": 75.0,
+            "end": 78.0,
+            "text": " But if I reverse this thing here"
+        },
+        {
+            "start": 78.0,
+            "end": 82.0,
+            "text": " That is, I made a long type"
+        },
+        {
+            "start": 82.0,
+            "end": 84.0,
+            "text": " Long a is equal to 25"
+        },
+        {
+            "start": 84.0,
+            "end": 87.0,
+            "text": " And I made b integer type"
+        },
+        {
+            "start": 87.0,
+            "end": 91.0,
+            "text": " Now if I want to write int b is equal to a"
+        },
+        {
+            "start": 91.0,
+            "end": 93.0,
+            "text": " And I will print the value of b"
+        },
+        {
+            "start": 93.0,
+            "end": 97.0,
+            "text": " And if I save and run this, I will get an error"
+        },
+        {
+            "start": 97.0,
+            "end": 102.0,
+            "text": " Error says that conversion from long to int is not possible"
+        },
+        {
+            "start": 102.0,
+            "end": 108.0,
+            "text": " That is, Java allowed us to store integer in long"
+        },
+        {
+            "start": 108.0,
+            "end": 113.0,
+            "text": " But Java did not allow us to store long in integer"
+        },
+        {
+            "start": 113.0,
+            "end": 115.0,
+            "text": " What is the reason behind this?"
+        },
+        {
+            "start": 115.0,
+            "end": 120.0,
+            "text": " The reason behind this is that the size of long is greater than int in Java"
+        },
+        {
+            "start": 120.0,
+            "end": 123.0,
+            "text": " Like int is 4 bytes"
+        },
+        {
+            "start": 123.0,
+            "end": 128.0,
+            "text": " So if it is taking a memory of 4 bytes and we have stored a variable 25 in it"
+        },
+        {
+            "start": 128.0,
+            "end": 132.0,
+            "text": " So if we make a long type variable b"
+        },
+        {
+            "start": 132.0,
+            "end": 134.0,
+            "text": " So its size will be 8 bytes"
+        },
+        {
+            "start": 134.0,
+            "end": 138.0,
+            "text": " In which this 25 can be copied and saved directly"
+        },
+        {
+            "start": 138.0,
+            "end": 144.0,
+            "text": " So in scenario a, first of all, our type is compatible"
+        },
+        {
+            "start": 144.0,
+            "end": 149.0,
+            "text": " Compatible means 25 of integer and 25 of long"
+        },
+        {
+            "start": 149.0,
+            "end": 151.0,
+            "text": " These two are compatible, they are numbers"
+        },
+        {
+            "start": 151.0,
+            "end": 155.0,
+            "text": " Type conversion will be possible between these two"
+        },
+        {
+            "start": 155.0,
+            "end": 157.0,
+            "text": " Because it is satisfying the other condition"
+        },
+        {
+            "start": 157.0,
+            "end": 162.0,
+            "text": " The other condition is that the destination type should be bigger than the source type"
+        },
+        {
+            "start": 162.0,
+            "end": 164.0,
+            "text": " When we write this line"
+        },
+        {
+            "start": 164.0,
+            "end": 168.0,
+            "text": " Long b is equal to a"
+        },
+        {
+            "start": 168.0,
+            "end": 171.0,
+            "text": " Where a is equal to integer"
+        },
+        {
+            "start": 171.0,
+            "end": 175.0,
+            "text": " So here this is our source and this is our destination"
+        },
+        {
+            "start": 175.0,
+            "end": 179.0,
+            "text": " Because we want to store the source data in destination"
+        },
+        {
+            "start": 180.0,
+            "end": 184.0,
+            "text": " So the size of destination is 8 bytes"
+        },
+        {
+            "start": 184.0,
+            "end": 189.0,
+            "text": " It is bigger than the size of our source, that is, the size of the integer is 4 bytes"
+        },
+        {
+            "start": 189.0,
+            "end": 192.0,
+            "text": " This is why Java allows this"
+        },
+        {
+            "start": 192.0,
+            "end": 195.0,
+            "text": " When we write this line in Java"
+        },
+        {
+            "start": 195.0,
+            "end": 198.0,
+            "text": " So there will be no error and it will be executed without any error"
+        },
+        {
+            "start": 198.0,
+            "end": 201.0,
+            "text": " Because the first condition is also satisfied in it"
+        },
+        {
+            "start": 201.0,
+            "end": 203.0,
+            "text": " Because the types are compatible and numbers are there"
+        },
+        {
+            "start": 203.0,
+            "end": 205.0,
+            "text": " And the second condition is also satisfied"
+        },
+        {
+            "start": 205.0,
+            "end": 210.0,
+            "text": " Because the size of long is bigger than the size of the source"
+        },
+        {
+            "start": 210.0,
+            "end": 212.0,
+            "text": " That is, it is bigger than the size of the int"
+        },
+        {
+            "start": 212.0,
+            "end": 215.0,
+            "text": " But if we go to do the second thing here"
+        },
+        {
+            "start": 215.0,
+            "end": 219.0,
+            "text": " Which is that we have made a long type variable"
+        },
+        {
+            "start": 219.0,
+            "end": 223.0,
+            "text": " Whose size is 8 bytes and we have stored 25 in it"
+        },
+        {
+            "start": 223.0,
+            "end": 230.0,
+            "text": " And now we want to store this value in an integer type variable"
+        },
+        {
+            "start": 230.0,
+            "end": 233.0,
+            "text": " So in this, Java says that lossy conversion will be there"
+        },
+        {
+            "start": 233.0,
+            "end": 235.0,
+            "text": " What is lossy conversion?"
+        },
+        {
+            "start": 235.0,
+            "end": 239.0,
+            "text": " Such a conversion in which some of your data can be lost"
+        },
+        {
+            "start": 239.0,
+            "end": 244.0,
+            "text": " Because there will be more data in 8 bytes and less data will be stored in 4 bytes"
+        },
+        {
+            "start": 244.0,
+            "end": 248.0,
+            "text": " So when we go to store some data of 8 bytes in an integer"
+        },
+        {
+            "start": 248.0,
+            "end": 250.0,
+            "text": " It will not be stored there"
+        },
+        {
+            "start": 250.0,
+            "end": 254.0,
+            "text": " That is why this conversion is called lossy conversion"
+        },
+        {
+            "start": 254.0,
+            "end": 257.0,
+            "text": " And it will not give you its own Java"
+        },
+        {
+            "start": 257.0,
+            "end": 261.0,
+            "text": " So type conversion is the conversion that Java automatically does"
+        },
+        {
+            "start": 261.0,
+            "end": 263.0,
+            "text": " What types it has trialed"
+        },
+        {
+            "start": 263.0,
+            "end": 267.0,
+            "text": " If you want to store data in short, it is possible"
+        },
+        {
+            "start": 267.0,
+            "end": 271.0,
+            "text": " If you want to store short data in int, that is also possible"
+        },
+        {
+            "start": 271.0,
+            "end": 274.0,
+            "text": " If you want to do int in float that is also possible"
+        },
+        {
+            "start": 274.0,
+            "end": 277.0,
+            "text": " Float can be made out to be made out of long"
+        },
+        {
+            "start": 277.0,
+            "end": 280.0,
+            "text": " If you want to make a long double that is also possible"
+        },
+        {
+            "start": 280.0,
+            "end": 284.0,
+            "text": " Means its data can be stored only in the forward type"
+        },
+        {
+            "start": 284.0,
+            "end": 288.0,
+            "text": " Integer data can be stored only in the forward type"
+        },
+        {
+            "start": 288.0,
+            "end": 290.0,
+            "text": " Long data can be stored only in double"
+        },
+        {
+            "start": 290.0,
+            "end": 298.0,
+            "text": " No one can go to the back type because if we try to store data in the back type, our data will be lost."
+        },
+        {
+            "start": 298.0,
+            "end": 303.0,
+            "text": " So the type conversion in Java is also called widening conversion."
+        },
+        {
+            "start": 303.0,
+            "end": 310.0,
+            "text": " Because when we store the data of the integer type in long, then the data will have more space to settle down."
+        },
+        {
+            "start": 310.0,
+            "end": 314.0,
+            "text": " That's why your area has become wide for the integer type."
+        },
+        {
+            "start": 314.0,
+            "end": 316.0,
+            "text": " That's why it is also called widening conversion."
+        },
+        {
+            "start": 316.0,
+            "end": 319.0,
+            "text": " It is also called implicit conversion."
+        },
+        {
+            "start": 319.0,
+            "end": 322.0,
+            "text": " Implicit means that it becomes automatic in Java."
+        },
+        {
+            "start": 322.0,
+            "end": 327.0,
+            "text": " So if you hear any term, type conversion, widening conversion, implicit conversion,"
+        },
+        {
+            "start": 327.0,
+            "end": 338.0,
+            "text": " these are all the same type of conversion in which the value of the small data type is taken up and stored in the big and compatible data type."
+        },
+        {
+            "start": 338.0,
+            "end": 341.0,
+            "text": " We can take another example of this."
+        },
+        {
+            "start": 341.0,
+            "end": 345.0,
+            "text": " Suppose I made a scanner object."
+        },
+        {
+            "start": 345.0,
+            "end": 350.0,
+            "text": " sc is equal to new scanner system.in"
+        },
+        {
+            "start": 350.0,
+            "end": 354.0,
+            "text": " And here I took an integer value number."
+        },
+        {
+            "start": 354.0,
+            "end": 355.0,
+            "text": " But what did I scan?"
+        },
+        {
+            "start": 355.0,
+            "end": 364.0,
+            "text": " I scanned the next float and then I printed system.out.println number."
+        },
+        {
+            "start": 364.0,
+            "end": 372.0,
+            "text": " If I want to execute this thing, then Java will give me an error here because we cannot assign float to integer."
+        },
+        {
+            "start": 372.0,
+            "end": 380.0,
+            "text": " But if the thing goes wrong here, then I will take the input next int and then I will input the number."
+        },
+        {
+            "start": 380.0,
+            "end": 382.0,
+            "text": " So that Java will allow."
+        },
+        {
+            "start": 382.0,
+            "end": 385.0,
+            "text": " If I pass 16 here, then what did Java do?"
+        },
+        {
+            "start": 385.0,
+            "end": 390.0,
+            "text": " It made it float and converted it to 16.0."
+        },
+        {
+            "start": 390.0,
+            "end": 396.0,
+            "text": " This is called implicit or widening or type conversion in Java."
+        }
+    ],
+    "full_text": " Next we will talk about type conversion and type casting in Java What is type conversion? The basic meaning of type conversion is when we convert one type of data into another type of data When is this conversion? This conversion happens when our types are compatible That is, we can convert between int and float But we want to convert integer into boolean Such conversion is not possible in Java So the numbers are able to convert in numbers This is how conversion happens in compatible types And the second condition is that our destination type should be greater than the source type Let's understand the basic meaning of this Let's define a variable of integer type int a in which we are storing value 25 Now we want to make a long type variable which is named b And assign a to it So we are trying to store a value in b in a similar way Now when we write this code and println system.out. Let's save and run the value of b So what will happen for us? For us, 25 will be printed properly But if I reverse this thing here That is, I made a long type Long a is equal to 25 And I made b integer type Now if I want to write int b is equal to a And I will print the value of b And if I save and run this, I will get an error Error says that conversion from long to int is not possible That is, Java allowed us to store integer in long But Java did not allow us to store long in integer What is the reason behind this? The reason behind this is that the size of long is greater than int in Java Like int is 4 bytes So if it is taking a memory of 4 bytes and we have stored a variable 25 in it So if we make a long type variable b So its size will be 8 bytes In which this 25 can be copied and saved directly So in scenario a, first of all, our type is compatible Compatible means 25 of integer and 25 of long These two are compatible, they are numbers Type conversion will be possible between these two Because it is satisfying the other condition The other condition is that the destination type should be bigger than the source type When we write this line Long b is equal to a Where a is equal to integer So here this is our source and this is our destination Because we want to store the source data in destination So the size of destination is 8 bytes It is bigger than the size of our source, that is, the size of the integer is 4 bytes This is why Java allows this When we write this line in Java So there will be no error and it will be executed without any error Because the first condition is also satisfied in it Because the types are compatible and numbers are there And the second condition is also satisfied Because the size of long is bigger than the size of the source That is, it is bigger than the size of the int But if we go to do the second thing here Which is that we have made a long type variable Whose size is 8 bytes and we have stored 25 in it And now we want to store this value in an integer type variable So in this, Java says that lossy conversion will be there What is lossy conversion? Such a conversion in which some of your data can be lost Because there will be more data in 8 bytes and less data will be stored in 4 bytes So when we go to store some data of 8 bytes in an integer It will not be stored there That is why this conversion is called lossy conversion And it will not give you its own Java So type conversion is the conversion that Java automatically does What types it has trialed If you want to store data in short, it is possible If you want to store short data in int, that is also possible If you want to do int in float that is also possible Float can be made out to be made out of long If you want to make a long double that is also possible Means its data can be stored only in the forward type Integer data can be stored only in the forward type Long data can be stored only in double No one can go to the back type because if we try to store data in the back type, our data will be lost. So the type conversion in Java is also called widening conversion. Because when we store the data of the integer type in long, then the data will have more space to settle down. That's why your area has become wide for the integer type. That's why it is also called widening conversion. It is also called implicit conversion. Implicit means that it becomes automatic in Java. So if you hear any term, type conversion, widening conversion, implicit conversion, these are all the same type of conversion in which the value of the small data type is taken up and stored in the big and compatible data type. We can take another example of this. Suppose I made a scanner object. sc is equal to new scanner system.in And here I took an integer value number. But what did I scan? I scanned the next float and then I printed system.out.println number. If I want to execute this thing, then Java will give me an error here because we cannot assign float to integer. But if the thing goes wrong here, then I will take the input next int and then I will input the number. So that Java will allow. If I pass 16 here, then what did Java do? It made it float and converted it to 16.0. This is called implicit or widening or type conversion in Java."
+}

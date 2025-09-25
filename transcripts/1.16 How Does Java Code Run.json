@@ -1,0 +1,320 @@
+{
+    "chunks": [
+        {
+            "start": 0.0,
+            "end": 5.0,
+            "text": " Now in this class we are going to talk about how our java code actually runs."
+        },
+        {
+            "start": 5.0,
+            "end": 13.5,
+            "text": " If you remember, we had installed a software called JDK i.e. Java Development Kit in our system."
+        },
+        {
+            "start": 13.5,
+            "end": 20.0,
+            "text": " Now this Java Development Kit has a lot of development tools that are there to help us."
+        },
+        {
+            "start": 20.0,
+            "end": 21.5,
+            "text": " But we don't have to pay attention to them."
+        },
+        {
+            "start": 21.5,
+            "end": 23.5,
+            "text": " We have to pay attention to this JRE."
+        },
+        {
+            "start": 23.5,
+            "end": 33.0,
+            "text": " JRE is Java Runtime Environment."
+        },
+        {
+            "start": 33.0,
+            "end": 41.0,
+            "text": " This is a module of Java Development Kit which has a virtual machine and some libraries."
+        },
+        {
+            "start": 41.0,
+            "end": 43.0,
+            "text": " We don't have to get into their meaning."
+        },
+        {
+            "start": 43.0,
+            "end": 48.0,
+            "text": " We just have to visualize in this way that JRE is a subpart of Java Runtime Environment."
+        },
+        {
+            "start": 48.0,
+            "end": 52.0,
+            "text": " It has a lot of tools that are available for our help."
+        },
+        {
+            "start": 52.0,
+            "end": 56.0,
+            "text": " With the help of these tools, our java code runs."
+        },
+        {
+            "start": 56.0,
+            "end": 61.0,
+            "text": " If we see the sequence with which our java code runs, then what happens first?"
+        },
+        {
+            "start": 61.0,
+            "end": 65.0,
+            "text": " First of all, whatever code we write is saved in a file."
+        },
+        {
+            "start": 65.0,
+            "end": 69.0,
+            "text": " And to save it, we use .java extension."
+        },
+        {
+            "start": 69.0,
+            "end": 74.0,
+            "text": " Like we wrote the name of our file as javabasics.java."
+        },
+        {
+            "start": 74.0,
+            "end": 75.0,
+            "text": " So this is our file."
+        },
+        {
+            "start": 75.0,
+            "end": 78.0,
+            "text": " We also call this our source code."
+        },
+        {
+            "start": 78.0,
+            "end": 82.0,
+            "text": " Source code means the code that we have written like a programmer or a coder."
+        },
+        {
+            "start": 82.0,
+            "end": 84.0,
+            "text": " This is called a compiler."
+        },
+        {
+            "start": 84.0,
+            "end": 88.0,
+            "text": " Compiler is a program that is available in the Java Development Kit."
+        },
+        {
+            "start": 88.0,
+            "end": 92.0,
+            "text": " You can understand this compiler as a system or a black box."
+        },
+        {
+            "start": 92.0,
+            "end": 97.0,
+            "text": " Or you can think of it as a code that someone else wrote."
+        },
+        {
+            "start": 97.0,
+            "end": 100.0,
+            "text": " Now this code is given to you inbuilt in JDK."
+        },
+        {
+            "start": 100.0,
+            "end": 101.0,
+            "text": " What does this compiler do?"
+        },
+        {
+            "start": 101.0,
+            "end": 106.0,
+            "text": " This compiler takes the source code and converts it into byte code."
+        },
+        {
+            "start": 106.0,
+            "end": 109.0,
+            "text": " This is a changed form of this source code."
+        },
+        {
+            "start": 109.0,
+            "end": 111.0,
+            "text": " It just changes the form of the code."
+        },
+        {
+            "start": 111.0,
+            "end": 116.0,
+            "text": " Now with .java, a file of .class extension is also created in your system."
+        },
+        {
+            "start": 116.0,
+            "end": 118.0,
+            "text": " The file we call byte code."
+        },
+        {
+            "start": 118.0,
+            "end": 121.0,
+            "text": " The form of our code changes in byte code."
+        },
+        {
+            "start": 121.0,
+            "end": 125.0,
+            "text": " And after that, java virtual machine is also a system."
+        },
+        {
+            "start": 125.0,
+            "end": 126.0,
+            "text": " What does it do?"
+        },
+        {
+            "start": 126.0,
+            "end": 130.0,
+            "text": " It takes this byte code and converts it into native code."
+        },
+        {
+            "start": 130.0,
+            "end": 134.0,
+            "text": " Native code means if you are working on windows,"
+        },
+        {
+            "start": 134.0,
+            "end": 137.0,
+            "text": " then a different type of native code will be produced for you."
+        },
+        {
+            "start": 137.0,
+            "end": 140.0,
+            "text": " If we are working on mac, then a different type of native code."
+        },
+        {
+            "start": 140.0,
+            "end": 144.0,
+            "text": " If we are working on Linux operating system, then a different type of native code will be produced."
+        },
+        {
+            "start": 144.0,
+            "end": 146.0,
+            "text": " So whichever machine we are working on,"
+        },
+        {
+            "start": 146.0,
+            "end": 151.0,
+            "text": " according to that, this byte code will be converted into native code in a different way."
+        },
+        {
+            "start": 151.0,
+            "end": 155.0,
+            "text": " Because of this reason, Java is called a portable language."
+        },
+        {
+            "start": 155.0,
+            "end": 160.0,
+            "text": " Portable language means you can write Java code in any machine."
+        },
+        {
+            "start": 160.0,
+            "end": 163.0,
+            "text": " That is, you can write it in windows, mac, and linux."
+        },
+        {
+            "start": 163.0,
+            "end": 167.0,
+            "text": " But after writing that code, when it is converted into byte code,"
+        },
+        {
+            "start": 167.0,
+            "end": 169.0,
+            "text": " then it will run anywhere."
+        },
+        {
+            "start": 169.0,
+            "end": 171.0,
+            "text": " You can run it in another system."
+        },
+        {
+            "start": 171.0,
+            "end": 174.0,
+            "text": " For C++ code, this is not true."
+        },
+        {
+            "start": 174.0,
+            "end": 176.0,
+            "text": " That is why C++ is not a portable language."
+        },
+        {
+            "start": 176.0,
+            "end": 178.0,
+            "text": " But Java is a portable language."
+        },
+        {
+            "start": 178.0,
+            "end": 182.0,
+            "text": " Now the steps we have seen, when the source code is converted into byte code,"
+        },
+        {
+            "start": 182.0,
+            "end": 184.0,
+            "text": " we call it compilation."
+        },
+        {
+            "start": 184.0,
+            "end": 188.0,
+            "text": " The code is compiled, which is compiled by a compiler."
+        },
+        {
+            "start": 188.0,
+            "end": 191.0,
+            "text": " At this compilation stage, if there are some errors in the code,"
+        },
+        {
+            "start": 191.0,
+            "end": 195.0,
+            "text": " then the compiler tells us that you have made these errors, you should fix them."
+        },
+        {
+            "start": 195.0,
+            "end": 197.0,
+            "text": " So we fix it and run it again."
+        },
+        {
+            "start": 197.0,
+            "end": 201.0,
+            "text": " Once it is converted into byte code, then what happens?"
+        },
+        {
+            "start": 201.0,
+            "end": 205.0,
+            "text": " After that, there is execution, which is called Java virtual machine."
+        },
+        {
+            "start": 205.0,
+            "end": 208.0,
+            "text": " In this execution, this byte code is converted into native code."
+        },
+        {
+            "start": 208.0,
+            "end": 212.0,
+            "text": " Native code 0, 1, it is like your machine code,"
+        },
+        {
+            "start": 212.0,
+            "end": 215.0,
+            "text": " which only machines can understand, we cannot understand."
+        },
+        {
+            "start": 215.0,
+            "end": 218.0,
+            "text": " And after that, this code is executed."
+        },
+        {
+            "start": 218.0,
+            "end": 221.0,
+            "text": " So there are two stages behind running any code."
+        },
+        {
+            "start": 221.0,
+            "end": 224.0,
+            "text": " The first stage is our compilation stage."
+        },
+        {
+            "start": 224.0,
+            "end": 227.0,
+            "text": " The second stage is our execution stage."
+        }
+    ],
+    "full_text": " Now in this class we are going to talk about how our java code actually runs. If you remember, we had installed a software called JDK i.e. Java Development Kit in our system. Now this Java Development Kit has a lot of development tools that are there to help us. But we don't have to pay attention to them. We have to pay attention to this JRE. JRE is Java Runtime Environment. This is a module of Java Development Kit which has a virtual machine and some libraries. We don't have to get into their meaning. We just have to visualize in this way that JRE is a subpart of Java Runtime Environment. It has a lot of tools that are available for our help. With the help of these tools, our java code runs. If we see the sequence with which our java code runs, then what happens first? First of all, whatever code we write is saved in a file. And to save it, we use .java extension. Like we wrote the name of our file as javabasics.java. So this is our file. We also call this our source code. Source code means the code that we have written like a programmer or a coder. This is called a compiler. Compiler is a program that is available in the Java Development Kit. You can understand this compiler as a system or a black box. Or you can think of it as a code that someone else wrote. Now this code is given to you inbuilt in JDK. What does this compiler do? This compiler takes the source code and converts it into byte code. This is a changed form of this source code. It just changes the form of the code. Now with .java, a file of .class extension is also created in your system. The file we call byte code. The form of our code changes in byte code. And after that, java virtual machine is also a system. What does it do? It takes this byte code and converts it into native code. Native code means if you are working on windows, then a different type of native code will be produced for you. If we are working on mac, then a different type of native code. If we are working on Linux operating system, then a different type of native code will be produced. So whichever machine we are working on, according to that, this byte code will be converted into native code in a different way. Because of this reason, Java is called a portable language. Portable language means you can write Java code in any machine. That is, you can write it in windows, mac, and linux. But after writing that code, when it is converted into byte code, then it will run anywhere. You can run it in another system. For C++ code, this is not true. That is why C++ is not a portable language. But Java is a portable language. Now the steps we have seen, when the source code is converted into byte code, we call it compilation. The code is compiled, which is compiled by a compiler. At this compilation stage, if there are some errors in the code, then the compiler tells us that you have made these errors, you should fix them. So we fix it and run it again. Once it is converted into byte code, then what happens? After that, there is execution, which is called Java virtual machine. In this execution, this byte code is converted into native code. Native code 0, 1, it is like your machine code, which only machines can understand, we cannot understand. And after that, this code is executed. So there are two stages behind running any code. The first stage is our compilation stage. The second stage is our execution stage."
+}

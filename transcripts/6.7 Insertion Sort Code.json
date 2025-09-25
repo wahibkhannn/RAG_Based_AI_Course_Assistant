@@ -1,0 +1,440 @@
+{
+    "chunks": [
+        {
+            "start": 0.0,
+            "end": 2.32,
+            "text": " now for insertion sort, we will write a code"
+        },
+        {
+            "start": 2.32,
+            "end": 7.92,
+            "text": " so we will make a function public static void insertion sort"
+        },
+        {
+            "start": 7.92,
+            "end": 12.0,
+            "text": " in this, we will take our array as an argument"
+        },
+        {
+            "start": 12.0,
+            "end": 14.0,
+            "text": " first of all, let's talk about outer loop"
+        },
+        {
+            "start": 14.0,
+            "end": 17.0,
+            "text": " so how many elements we have to insert in the right place"
+        },
+        {
+            "start": 17.0,
+            "end": 21.0,
+            "text": " if we insert 4 elements from our 5 size array in the right place"
+        },
+        {
+            "start": 21.0,
+            "end": 22.6,
+            "text": " then our entire array will be sorted"
+        },
+        {
+            "start": 22.6,
+            "end": 26.6,
+            "text": " so basically we have to insert n-1 elements in the right place"
+        },
+        {
+            "start": 26.6,
+            "end": 37.6,
+            "text": " for int i equals 0, we will start from 0 and will take it to less than array.length-1"
+        },
+        {
+            "start": 37.6,
+            "end": 40.6,
+            "text": " now first of all, let's define our current element"
+        },
+        {
+            "start": 40.6,
+            "end": 42.6,
+            "text": " so we are starting with current"
+        },
+        {
+            "start": 42.6,
+            "end": 45.6,
+            "text": " from our ith element, i will become current"
+        },
+        {
+            "start": 45.6,
+            "end": 49.6,
+            "text": " in fact, we start our loop from 1"
+        },
+        {
+            "start": 49.6,
+            "end": 51.6,
+            "text": " then we will write our previous element"
+        },
+        {
+            "start": 51.6,
+            "end": 55.6,
+            "text": " now for current, previous element will become i-1"
+        },
+        {
+            "start": 55.6,
+            "end": 57.6,
+            "text": " and we will put a loop"
+        },
+        {
+            "start": 57.6,
+            "end": 60.6,
+            "text": " now we have to backtrack in our sorted part"
+        },
+        {
+            "start": 60.6,
+            "end": 64.6,
+            "text": " till our previous is not 0"
+        },
+        {
+            "start": 64.6,
+            "end": 66.6,
+            "text": " because we are doing comparison towards the back"
+        },
+        {
+            "start": 66.6,
+            "end": 70.6,
+            "text": " so till our previous is greater than or equal to 0"
+        },
+        {
+            "start": 70.6,
+            "end": 77.6,
+            "text": " and till our array of previous is greater than our array of current"
+        },
+        {
+            "start": 77.6,
+            "end": 81.6,
+            "text": " means till our previous element is greater than current element"
+        },
+        {
+            "start": 81.6,
+            "end": 83.6,
+            "text": " till then we have to push them towards the back"
+        },
+        {
+            "start": 83.6,
+            "end": 84.6,
+            "text": " how we will push them?"
+        },
+        {
+            "start": 84.6,
+            "end": 89.6,
+            "text": " array of previous plus 1 is equal to array of previous"
+        },
+        {
+            "start": 89.6,
+            "end": 95.6,
+            "text": " from here we have pushed our previous element to the next index"
+        },
+        {
+            "start": 95.6,
+            "end": 97.6,
+            "text": " if it is greater than current"
+        },
+        {
+            "start": 97.6,
+            "end": 100.6,
+            "text": " and after that we will do previous minus minus"
+        },
+        {
+            "start": 100.6,
+            "end": 105.6,
+            "text": " so from here, we have pushed our elements which were greater than current to the back"
+        },
+        {
+            "start": 105.6,
+            "end": 108.6,
+            "text": " and wherever we will get the right position to insert"
+        },
+        {
+            "start": 108.6,
+            "end": 111.6,
+            "text": " there we will insert"
+        },
+        {
+            "start": 111.6,
+            "end": 114.6,
+            "text": " from this loop, we are finding out"
+        },
+        {
+            "start": 114.6,
+            "end": 118.6,
+            "text": " finding out the correct position"
+        },
+        {
+            "start": 118.6,
+            "end": 121.6,
+            "text": " to insert"
+        },
+        {
+            "start": 121.6,
+            "end": 124.6,
+            "text": " and here finally we are inserting our element"
+        },
+        {
+            "start": 124.6,
+            "end": 126.6,
+            "text": " so for that we have to write"
+        },
+        {
+            "start": 126.6,
+            "end": 130.6,
+            "text": " for that we have to write array of previous plus 1"
+        },
+        {
+            "start": 130.6,
+            "end": 133.6,
+            "text": " is equal to our array of current"
+        },
+        {
+            "start": 133.6,
+            "end": 138.6,
+            "text": " i hope this line is clear that why we have done previous plus 1"
+        },
+        {
+            "start": 138.6,
+            "end": 140.6,
+            "text": " because every time we are doing previous minus minus"
+        },
+        {
+            "start": 140.6,
+            "end": 144.6,
+            "text": " it is possible that in some case our previous minus 1 is there"
+        },
+        {
+            "start": 144.6,
+            "end": 147.6,
+            "text": " or in some case, one index will be less than the right position"
+        },
+        {
+            "start": 147.6,
+            "end": 150.6,
+            "text": " you will see this while loop by dry running"
+        },
+        {
+            "start": 150.6,
+            "end": 153.6,
+            "text": " so you will see whenever you will get the correct position"
+        },
+        {
+            "start": 153.6,
+            "end": 157.6,
+            "text": " one position will be moved forward from your previous correct position"
+        },
+        {
+            "start": 157.6,
+            "end": 159.6,
+            "text": " so to bring it back to the right position"
+        },
+        {
+            "start": 159.6,
+            "end": 161.6,
+            "text": " here you have to do plus 1"
+        },
+        {
+            "start": 161.6,
+            "end": 164.6,
+            "text": " and assign current value to it"
+        },
+        {
+            "start": 164.6,
+            "end": 167.6,
+            "text": " so here our insertion sort is complete"
+        },
+        {
+            "start": 167.6,
+            "end": 170.6,
+            "text": " in main function, we will assign call to insertion sort"
+        },
+        {
+            "start": 170.6,
+            "end": 173.6,
+            "text": " insertion sort, let's save it"
+        },
+        {
+            "start": 173.6,
+            "end": 176.6,
+            "text": " now here you will notice one thing"
+        },
+        {
+            "start": 176.6,
+            "end": 179.6,
+            "text": " that we have not stored our current anywhere"
+        },
+        {
+            "start": 179.6,
+            "end": 181.6,
+            "text": " we have said that we will store it in temporary memory"
+        },
+        {
+            "start": 181.6,
+            "end": 183.6,
+            "text": " and we will place other big elements instead of it"
+        },
+        {
+            "start": 183.6,
+            "end": 186.6,
+            "text": " so to store it, we will make this current"
+        },
+        {
+            "start": 186.6,
+            "end": 189.6,
+            "text": " here as array of i"
+        },
+        {
+            "start": 189.6,
+            "end": 191.6,
+            "text": " so this current will become temporary memory"
+        },
+        {
+            "start": 191.6,
+            "end": 194.6,
+            "text": " which will store that element not index"
+        },
+        {
+            "start": 194.6,
+            "end": 196.6,
+            "text": " so every time when we will do comparison"
+        },
+        {
+            "start": 196.6,
+            "end": 198.6,
+            "text": " we will do it with this current"
+        },
+        {
+            "start": 198.6,
+            "end": 200.6,
+            "text": " and here also we will do current"
+        },
+        {
+            "start": 200.6,
+            "end": 203.6,
+            "text": " let's save it and now run"
+        },
+        {
+            "start": 203.6,
+            "end": 206.6,
+            "text": " so our array came in sorted fashion"
+        },
+        {
+            "start": 206.6,
+            "end": 210.6,
+            "text": " now if you want to convert this to descending instead of ascending"
+        },
+        {
+            "start": 210.6,
+            "end": 213.6,
+            "text": " so here we have to change this condition"
+        },
+        {
+            "start": 213.6,
+            "end": 215.6,
+            "text": " if we reverse this condition"
+        },
+        {
+            "start": 215.6,
+            "end": 218.6,
+            "text": " then we will get our array in descending order"
+        },
+        {
+            "start": 218.6,
+            "end": 220.6,
+            "text": " and if we talk about time complexity"
+        },
+        {
+            "start": 220.6,
+            "end": 222.6,
+            "text": " so this loop is running n times"
+        },
+        {
+            "start": 222.6,
+            "end": 224.6,
+            "text": " and if you observe effectively"
+        },
+        {
+            "start": 224.6,
+            "end": 227.6,
+            "text": " so inside loop will also be running n times"
+        },
+        {
+            "start": 227.6,
+            "end": 231.6,
+            "text": " so insertion sort's time complexity is big of n square"
+        },
+        {
+            "start": 231.6,
+            "end": 233.6,
+            "text": " so selection, bubble and insertion"
+        },
+        {
+            "start": 233.6,
+            "end": 236.6,
+            "text": " all three have time complexity of n square"
+        },
+        {
+            "start": 236.6,
+            "end": 238.6,
+            "text": " none of them are optimized"
+        },
+        {
+            "start": 238.6,
+            "end": 240.6,
+            "text": " but in interviews and in your college exams"
+        },
+        {
+            "start": 240.6,
+            "end": 243.6,
+            "text": " all three algorithms can be asked from you"
+        },
+        {
+            "start": 243.6,
+            "end": 245.6,
+            "text": " so we have to remember them"
+        },
+        {
+            "start": 245.6,
+            "end": 247.6,
+            "text": " that's why I have tried to use examples"
+        },
+        {
+            "start": 247.6,
+            "end": 249.6,
+            "text": " so that I have shown from insertion cards"
+        },
+        {
+            "start": 249.6,
+            "end": 251.6,
+            "text": " that how to remember logic"
+        },
+        {
+            "start": 251.6,
+            "end": 253.6,
+            "text": " I have shown from bubble"
+        },
+        {
+            "start": 253.6,
+            "end": 255.6,
+            "text": " that how to remember logic"
+        },
+        {
+            "start": 255.6,
+            "end": 257.6,
+            "text": " and selection sort is opposite to bubble sort"
+        },
+        {
+            "start": 257.6,
+            "end": 259.6,
+            "text": " and in that swaps are less"
+        },
+        {
+            "start": 259.6,
+            "end": 262.6,
+            "text": " so we are selecting smallest and pushing it forward"
+        }
+    ],
+    "full_text": " now for insertion sort, we will write a code so we will make a function public static void insertion sort in this, we will take our array as an argument first of all, let's talk about outer loop so how many elements we have to insert in the right place if we insert 4 elements from our 5 size array in the right place then our entire array will be sorted so basically we have to insert n-1 elements in the right place for int i equals 0, we will start from 0 and will take it to less than array.length-1 now first of all, let's define our current element so we are starting with current from our ith element, i will become current in fact, we start our loop from 1 then we will write our previous element now for current, previous element will become i-1 and we will put a loop now we have to backtrack in our sorted part till our previous is not 0 because we are doing comparison towards the back so till our previous is greater than or equal to 0 and till our array of previous is greater than our array of current means till our previous element is greater than current element till then we have to push them towards the back how we will push them? array of previous plus 1 is equal to array of previous from here we have pushed our previous element to the next index if it is greater than current and after that we will do previous minus minus so from here, we have pushed our elements which were greater than current to the back and wherever we will get the right position to insert there we will insert from this loop, we are finding out finding out the correct position to insert and here finally we are inserting our element so for that we have to write for that we have to write array of previous plus 1 is equal to our array of current i hope this line is clear that why we have done previous plus 1 because every time we are doing previous minus minus it is possible that in some case our previous minus 1 is there or in some case, one index will be less than the right position you will see this while loop by dry running so you will see whenever you will get the correct position one position will be moved forward from your previous correct position so to bring it back to the right position here you have to do plus 1 and assign current value to it so here our insertion sort is complete in main function, we will assign call to insertion sort insertion sort, let's save it now here you will notice one thing that we have not stored our current anywhere we have said that we will store it in temporary memory and we will place other big elements instead of it so to store it, we will make this current here as array of i so this current will become temporary memory which will store that element not index so every time when we will do comparison we will do it with this current and here also we will do current let's save it and now run so our array came in sorted fashion now if you want to convert this to descending instead of ascending so here we have to change this condition if we reverse this condition then we will get our array in descending order and if we talk about time complexity so this loop is running n times and if you observe effectively so inside loop will also be running n times so insertion sort's time complexity is big of n square so selection, bubble and insertion all three have time complexity of n square none of them are optimized but in interviews and in your college exams all three algorithms can be asked from you so we have to remember them that's why I have tried to use examples so that I have shown from insertion cards that how to remember logic I have shown from bubble that how to remember logic and selection sort is opposite to bubble sort and in that swaps are less so we are selecting smallest and pushing it forward"
+}

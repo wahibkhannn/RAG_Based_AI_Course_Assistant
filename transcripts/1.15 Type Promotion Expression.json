@@ -1,0 +1,1305 @@
+{
+    "chunks": [
+        {
+            "start": 0.0,
+            "end": 5.84,
+            "text": " Next we will talk about type promotion in Java when we use expressions"
+        },
+        {
+            "start": 5.84,
+            "end": 7.26,
+            "text": " What does it mean?"
+        },
+        {
+            "start": 7.26,
+            "end": 16.06,
+            "text": " Whenever there is an expression like A plus B multiplied by C divided by E"
+        },
+        {
+            "start": 16.06,
+            "end": 19.080000000000002,
+            "text": " We have written some expressions like this"
+        },
+        {
+            "start": 19.080000000000002,
+            "end": 23.04,
+            "text": " In which every variable has a different data type"
+        },
+        {
+            "start": 23.04,
+            "end": 31.740000000000002,
+            "text": " For example, this is an int, float, character and long"
+        },
+        {
+            "start": 31.740000000000002,
+            "end": 37.12,
+            "text": " So when there are expressions like this, there is a phenomenon called type promotion"
+        },
+        {
+            "start": 37.12,
+            "end": 39.120000000000005,
+            "text": " Which exists in Java"
+        },
+        {
+            "start": 39.120000000000005,
+            "end": 42.16,
+            "text": " Type promotion means there are two rules that follow"
+        },
+        {
+            "start": 42.16,
+            "end": 50.36,
+            "text": " First of all, Java automatically promotes the byte type, short type and character type"
+        },
+        {
+            "start": 50.36,
+            "end": 53.16,
+            "text": " It promotes all three types"
+        },
+        {
+            "start": 53.16,
+            "end": 58.42,
+            "text": " It increases their size and treats them like an integer"
+        },
+        {
+            "start": 58.42,
+            "end": 60.92,
+            "text": " If you have written an expression"
+        },
+        {
+            "start": 60.92,
+            "end": 67.62,
+            "text": " For example, you have defined character A is equal to A and short B is equal to 50"
+        },
+        {
+            "start": 67.62,
+            "end": 69.62,
+            "text": " Now you have written A plus B"
+        },
+        {
+            "start": 69.62,
+            "end": 74.7,
+            "text": " So in this A plus B, first of all it will convert the character into an integer"
+        },
+        {
+            "start": 74.7,
+            "end": 78.36,
+            "text": " And then it will convert B into an integer"
+        },
+        {
+            "start": 78.36,
+            "end": 81.46,
+            "text": " And after that, their sum will be calculated"
+        },
+        {
+            "start": 81.46,
+            "end": 84.94,
+            "text": " So the first rule of type promotion in expressions says"
+        },
+        {
+            "start": 84.94,
+            "end": 89.76,
+            "text": " That whatever byte, short or character type data you have in an expression"
+        },
+        {
+            "start": 89.76,
+            "end": 93.36,
+            "text": " It will convert it into an integer"
+        },
+        {
+            "start": 93.36,
+            "end": 96.02,
+            "text": " Let's see a real life example of this"
+        },
+        {
+            "start": 96.02,
+            "end": 100.82,
+            "text": " For example, you have written character A is equal to A"
+        },
+        {
+            "start": 100.82,
+            "end": 104.78,
+            "text": " And second we have written character B is equal to B"
+        },
+        {
+            "start": 104.78,
+            "end": 109.74,
+            "text": " So if we want to print system.out.println"
+        },
+        {
+            "start": 109.74,
+            "end": 111.74,
+            "text": " And I write B minus A"
+        },
+        {
+            "start": 111.74,
+            "end": 112.88,
+            "text": " So what will be the result?"
+        },
+        {
+            "start": 112.88,
+            "end": 114.88,
+            "text": " The result should be 1"
+        },
+        {
+            "start": 114.88,
+            "end": 116.0,
+            "text": " Why should it be 1?"
+        },
+        {
+            "start": 116.0,
+            "end": 118.72,
+            "text": " Because first B will convert into an integer"
+        },
+        {
+            "start": 118.72,
+            "end": 120.96000000000001,
+            "text": " And then A will convert into an integer"
+        },
+        {
+            "start": 120.96000000000001,
+            "end": 125.4,
+            "text": " And the value of B minus A should be the difference between them"
+        },
+        {
+            "start": 125.4,
+            "end": 128.84,
+            "text": " Now we know what is the integer form of B"
+        },
+        {
+            "start": 128.84,
+            "end": 130.84,
+            "text": " Let's print this"
+        },
+        {
+            "start": 131.1,
+            "end": 133.1,
+            "text": " By typecasting in integer"
+        },
+        {
+            "start": 133.1,
+            "end": 135.1,
+            "text": " The integer form of B"
+        },
+        {
+            "start": 135.1,
+            "end": 137.86,
+            "text": " And after that, the integer form of A"
+        },
+        {
+            "start": 137.86,
+            "end": 142.98000000000002,
+            "text": " If B is converted into an integer, then its value will be 98"
+        },
+        {
+            "start": 142.98000000000002,
+            "end": 146.42000000000002,
+            "text": " If A is converted into an integer, then its value will be 97"
+        },
+        {
+            "start": 146.42000000000002,
+            "end": 148.66,
+            "text": " And when I did B minus A"
+        },
+        {
+            "start": 148.66,
+            "end": 149.66,
+            "text": " So what happened?"
+        },
+        {
+            "start": 149.66,
+            "end": 151.18,
+            "text": " B was converted into an integer"
+        },
+        {
+            "start": 151.18,
+            "end": 154.1,
+            "text": " Java automatically converted A into an integer"
+        },
+        {
+            "start": 154.1,
+            "end": 158.9,
+            "text": " And the result of both of these was 98 minus 97 is equal to 1"
+        },
+        {
+            "start": 158.92000000000002,
+            "end": 161.4,
+            "text": " So Java printed integer 1"
+        },
+        {
+            "start": 161.4,
+            "end": 166.96,
+            "text": " If I say system.out.println is equal to A"
+        },
+        {
+            "start": 166.96,
+            "end": 168.96,
+            "text": " So Java will not promote A"
+        },
+        {
+            "start": 168.96,
+            "end": 170.96,
+            "text": " What will print A?"
+        },
+        {
+            "start": 170.96,
+            "end": 172.96,
+            "text": " It will print A as A"
+        },
+        {
+            "start": 172.96,
+            "end": 176.4,
+            "text": " Type promotions are only done with expressions"
+        },
+        {
+            "start": 176.4,
+            "end": 180.16,
+            "text": " Where plus, minus, multiply, and other operations are done"
+        },
+        {
+            "start": 180.16,
+            "end": 184.48000000000002,
+            "text": " When you will write a normal variable, then type promotion will not be done"
+        },
+        {
+            "start": 184.48000000000002,
+            "end": 186.48000000000002,
+            "text": " We can see this in other ways"
+        },
+        {
+            "start": 186.78,
+            "end": 188.78,
+            "text": " For example, if I write here"
+        },
+        {
+            "start": 188.78,
+            "end": 191.89999999999998,
+            "text": " char c is equal to A minus B"
+        },
+        {
+            "start": 191.89999999999998,
+            "end": 193.89999999999998,
+            "text": " So what will happen here?"
+        },
+        {
+            "start": 193.89999999999998,
+            "end": 195.89999999999998,
+            "text": " Let's comment out this"
+        },
+        {
+            "start": 195.89999999999998,
+            "end": 197.89999999999998,
+            "text": " Save this and run it again"
+        },
+        {
+            "start": 197.89999999999998,
+            "end": 199.89999999999998,
+            "text": " So here an error is printed"
+        },
+        {
+            "start": 199.89999999999998,
+            "end": 204.45999999999998,
+            "text": " The error is that you are converting from integer to character"
+        },
+        {
+            "start": 204.45999999999998,
+            "end": 207.29999999999998,
+            "text": " It is saying that A minus B is an integer"
+        },
+        {
+            "start": 207.29999999999998,
+            "end": 209.29999999999998,
+            "text": " And C is a character"
+        },
+        {
+            "start": 209.29999999999998,
+            "end": 211.29999999999998,
+            "text": " So you cannot convert from integer to character"
+        },
+        {
+            "start": 211.29999999999998,
+            "end": 213.98,
+            "text": " Let's take another example here"
+        },
+        {
+            "start": 214.2,
+            "end": 217.32,
+            "text": " For example, we made a short type data"
+        },
+        {
+            "start": 217.32,
+            "end": 219.32,
+            "text": " A is equal to 5"
+        },
+        {
+            "start": 219.32,
+            "end": 221.32,
+            "text": " Then we made a byte type data"
+        },
+        {
+            "start": 221.32,
+            "end": 223.32,
+            "text": " B is equal to 25"
+        },
+        {
+            "start": 223.32,
+            "end": 225.32,
+            "text": " Then we took a character"
+        },
+        {
+            "start": 225.32,
+            "end": 227.32,
+            "text": " C is equal to C"
+        },
+        {
+            "start": 227.32,
+            "end": 229.32,
+            "text": " Now what are we trying to do?"
+        },
+        {
+            "start": 229.32,
+            "end": 231.32,
+            "text": " Now we are trying to print this in a data"
+        },
+        {
+            "start": 231.32,
+            "end": 233.32,
+            "text": " Let's say we want a final output"
+        },
+        {
+            "start": 233.32,
+            "end": 235.32,
+            "text": " Byte Bt is equal to A plus B plus C"
+        },
+        {
+            "start": 235.32,
+            "end": 237.32,
+            "text": " And if I want to run this"
+        },
+        {
+            "start": 237.32,
+            "end": 239.32,
+            "text": " It will give me an output"
+        },
+        {
+            "start": 239.32,
+            "end": 241.32,
+            "text": " That it is converting from integer to byte"
+        },
+        {
+            "start": 241.32,
+            "end": 245.32,
+            "text": " It will give me an output that it is not possible to convert from integer to byte"
+        },
+        {
+            "start": 245.32,
+            "end": 247.32,
+            "text": " When you see that there is no int in this"
+        },
+        {
+            "start": 247.32,
+            "end": 249.32,
+            "text": " The first A is short"
+        },
+        {
+            "start": 249.32,
+            "end": 251.32,
+            "text": " B is byte"
+        },
+        {
+            "start": 251.32,
+            "end": 253.32,
+            "text": " C is character"
+        },
+        {
+            "start": 253.32,
+            "end": 255.32,
+            "text": " Bt is byte"
+        },
+        {
+            "start": 255.32,
+            "end": 257.32,
+            "text": " A, B, C are of different types"
+        },
+        {
+            "start": 257.32,
+            "end": 259.32,
+            "text": " But it is saying that it is not possible to convert from int to byte"
+        },
+        {
+            "start": 259.32,
+            "end": 263.32,
+            "text": " Because it converted everything in integer"
+        },
+        {
+            "start": 263.32,
+            "end": 267.32,
+            "text": " But still if we want to do lossy conversion"
+        },
+        {
+            "start": 267.32,
+            "end": 269.32,
+            "text": " Then we will typecast this"
+        },
+        {
+            "start": 269.32,
+            "end": 271.32,
+            "text": " Everything is possible by typecasting"
+        },
+        {
+            "start": 271.32,
+            "end": 275.32,
+            "text": " By typecasting, we converted the integer value that Java calculated into byte"
+        },
+        {
+            "start": 275.32,
+            "end": 277.32,
+            "text": " And by converting it into byte"
+        },
+        {
+            "start": 277.32,
+            "end": 279.32,
+            "text": " We will get a strange answer"
+        },
+        {
+            "start": 279.32,
+            "end": 281.32,
+            "text": " Which we can print"
+        },
+        {
+            "start": 281.32,
+            "end": 283.32,
+            "text": " Now the answer that I will print"
+        },
+        {
+            "start": 283.32,
+            "end": 285.32,
+            "text": " It will not make any sense"
+        },
+        {
+            "start": 285.32,
+            "end": 287.32,
+            "text": " It will just exist"
+        },
+        {
+            "start": 287.32,
+            "end": 289.32,
+            "text": " So it is a minus 127 answer"
+        },
+        {
+            "start": 289.32,
+            "end": 291.32,
+            "text": " The second rule of type promotion in expressions says"
+        },
+        {
+            "start": 291.32,
+            "end": 293.32,
+            "text": " If in any expression"
+        },
+        {
+            "start": 293.32,
+            "end": 297.32,
+            "text": " There is a long, float or double"
+        },
+        {
+            "start": 297.32,
+            "end": 299.32,
+            "text": " Then the whole expression"
+        },
+        {
+            "start": 299.32,
+            "end": 305.32,
+            "text": " Will convert into long, float or double"
+        },
+        {
+            "start": 305.32,
+            "end": 311.32,
+            "text": " Means if the largest possible data type is long in any expression"
+        },
+        {
+            "start": 311.32,
+            "end": 315.32,
+            "text": " Then all the other data types will also convert into long"
+        },
+        {
+            "start": 315.32,
+            "end": 317.32,
+            "text": " If the largest possible data type is float"
+        },
+        {
+            "start": 317.32,
+            "end": 319.32,
+            "text": " Then all of them will convert into float"
+        },
+        {
+            "start": 319.32,
+            "end": 321.32,
+            "text": " If the largest possible data type is double"
+        },
+        {
+            "start": 321.32,
+            "end": 323.32,
+            "text": " Then all of them will convert into double"
+        },
+        {
+            "start": 323.32,
+            "end": 325.32,
+            "text": " Let's see the example"
+        },
+        {
+            "start": 325.32,
+            "end": 327.32,
+            "text": " The example is"
+        },
+        {
+            "start": 327.32,
+            "end": 329.32,
+            "text": " I took an integer A"
+        },
+        {
+            "start": 329.32,
+            "end": 331.32,
+            "text": " In which I assigned value 10"
+        },
+        {
+            "start": 331.32,
+            "end": 333.32,
+            "text": " After that I took a floating value B"
+        },
+        {
+            "start": 333.32,
+            "end": 337.32,
+            "text": " In which I assigned value 20.25 F"
+        },
+        {
+            "start": 337.32,
+            "end": 341.32,
+            "text": " After that I took a long"
+        },
+        {
+            "start": 341.32,
+            "end": 345.32,
+            "text": " In which I assigned value 25 C"
+        },
+        {
+            "start": 345.32,
+            "end": 351.32,
+            "text": " And after that I took a double value D is equal to 30"
+        },
+        {
+            "start": 351.32,
+            "end": 355.32,
+            "text": " Now if I try to calculate the sum of all four"
+        },
+        {
+            "start": 355.32,
+            "end": 357.32,
+            "text": " Here it will come"
+        },
+        {
+            "start": 357.32,
+            "end": 359.32,
+            "text": " Double answer is equal to"
+        },
+        {
+            "start": 359.32,
+            "end": 363.32,
+            "text": " A plus B plus C plus D"
+        },
+        {
+            "start": 363.32,
+            "end": 365.32,
+            "text": " If I save this"
+        },
+        {
+            "start": 365.32,
+            "end": 369.32,
+            "text": " And after that I print the value of my answer"
+        },
+        {
+            "start": 369.32,
+            "end": 371.32,
+            "text": " So the final value that will be printed for me"
+        },
+        {
+            "start": 371.32,
+            "end": 373.32,
+            "text": " Will be printed with a decimal"
+        },
+        {
+            "start": 373.32,
+            "end": 375.32,
+            "text": " What did this line ultimately do?"
+        },
+        {
+            "start": 375.32,
+            "end": 377.32,
+            "text": " A which was an integer value"
+        },
+        {
+            "start": 377.32,
+            "end": 379.32,
+            "text": " Was converted into double"
+        },
+        {
+            "start": 379.32,
+            "end": 381.32,
+            "text": " B which was a float value"
+        },
+        {
+            "start": 381.32,
+            "end": 383.32,
+            "text": " Was converted into double"
+        },
+        {
+            "start": 383.32,
+            "end": 385.32,
+            "text": " C which was a long value"
+        },
+        {
+            "start": 385.32,
+            "end": 387.32,
+            "text": " Was converted into double"
+        },
+        {
+            "start": 387.32,
+            "end": 389.32,
+            "text": " And D was already double"
+        },
+        {
+            "start": 389.32,
+            "end": 391.32,
+            "text": " First the sum of all four double values was calculated"
+        },
+        {
+            "start": 391.32,
+            "end": 393.32,
+            "text": " Then it was assigned in the answer"
+        },
+        {
+            "start": 393.32,
+            "end": 395.32,
+            "text": " How can we check if double was calculated?"
+        },
+        {
+            "start": 395.32,
+            "end": 399.32,
+            "text": " Here if I make the answer an integer"
+        },
+        {
+            "start": 399.32,
+            "end": 403.32,
+            "text": " And after that I try to solve the same question"
+        },
+        {
+            "start": 403.32,
+            "end": 405.32,
+            "text": " Then the error will come"
+        },
+        {
+            "start": 405.32,
+            "end": 409.32,
+            "text": " You are trying to convert this into double to int"
+        },
+        {
+            "start": 409.32,
+            "end": 411.32,
+            "text": " Right side is saying that double is double"
+        },
+        {
+            "start": 411.32,
+            "end": 413.32,
+            "text": " Left side is saying that you are assigning double to int"
+        },
+        {
+            "start": 413.32,
+            "end": 419.32,
+            "text": " Means right side has converted all four variables into double"
+        },
+        {
+            "start": 419.32,
+            "end": 423.32,
+            "text": " So this is the second type of type promotion in Java"
+        },
+        {
+            "start": 423.32,
+            "end": 425.32,
+            "text": " Both type promotion are very important"
+        },
+        {
+            "start": 425.32,
+            "end": 427.32,
+            "text": " Because they are used in different scenarios"
+        },
+        {
+            "start": 427.32,
+            "end": 431.32,
+            "text": " The shortest and sweetest way to remember this is"
+        },
+        {
+            "start": 431.32,
+            "end": 433.32,
+            "text": " The short character which are small data types"
+        },
+        {
+            "start": 433.32,
+            "end": 435.32,
+            "text": " Are made into integers"
+        },
+        {
+            "start": 435.32,
+            "end": 437.32,
+            "text": " And long float double"
+        },
+        {
+            "start": 437.32,
+            "end": 439.32,
+            "text": " Which is the biggest of all four"
+        },
+        {
+            "start": 439.32,
+            "end": 441.32,
+            "text": " Means it is very logical"
+        },
+        {
+            "start": 441.32,
+            "end": 443.32,
+            "text": " The biggest value in the expression"
+        },
+        {
+            "start": 443.32,
+            "end": 445.32,
+            "text": " The biggest data type"
+        },
+        {
+            "start": 445.32,
+            "end": 447.32,
+            "text": " Will be converted into that"
+        },
+        {
+            "start": 447.32,
+            "end": 449.32,
+            "text": " So that the final answer"
+        },
+        {
+            "start": 449.32,
+            "end": 451.32,
+            "text": " No data is lost"
+        },
+        {
+            "start": 451.32,
+            "end": 453.32,
+            "text": " If I visualize this a little more"
+        },
+        {
+            "start": 453.32,
+            "end": 455.32,
+            "text": " What are we talking about?"
+        },
+        {
+            "start": 455.32,
+            "end": 457.32,
+            "text": " We are talking about three buckets"
+        },
+        {
+            "start": 457.32,
+            "end": 459.32,
+            "text": " One bucket which is a little big"
+        },
+        {
+            "start": 459.32,
+            "end": 461.32,
+            "text": " And has more water"
+        },
+        {
+            "start": 461.32,
+            "end": 463.32,
+            "text": " One bucket which is smaller"
+        },
+        {
+            "start": 463.32,
+            "end": 465.32,
+            "text": " And has less water"
+        },
+        {
+            "start": 465.32,
+            "end": 467.32,
+            "text": " One bucket which has glass"
+        },
+        {
+            "start": 467.32,
+            "end": 469.32,
+            "text": " And has less water"
+        },
+        {
+            "start": 469.32,
+            "end": 473.32,
+            "text": " And where can you put the water of these three?"
+        },
+        {
+            "start": 473.32,
+            "end": 477.32,
+            "text": " Obviously, the water of three can be mixed in the big bucket"
+        },
+        {
+            "start": 477.32,
+            "end": 481.32,
+            "text": " It will not happen that you will put the size of the glass"
+        },
+        {
+            "start": 481.32,
+            "end": 483.32,
+            "text": " And the water of three will be mixed in it"
+        },
+        {
+            "start": 483.32,
+            "end": 485.32,
+            "text": " It is not possible"
+        },
+        {
+            "start": 485.32,
+            "end": 487.32,
+            "text": " We take the largest possible container of expression"
+        },
+        {
+            "start": 487.32,
+            "end": 489.32,
+            "text": " Means the largest bucket of these three"
+        },
+        {
+            "start": 489.32,
+            "end": 491.32,
+            "text": " We have to keep the size of the largest bucket"
+        },
+        {
+            "start": 491.32,
+            "end": 493.32,
+            "text": " So that there is a small possibility"
+        },
+        {
+            "start": 493.32,
+            "end": 495.32,
+            "text": " That the water of three can come in the big bucket"
+        },
+        {
+            "start": 495.32,
+            "end": 497.32,
+            "text": " This is the same logic which is applied in java"
+        },
+        {
+            "start": 497.32,
+            "end": 499.32,
+            "text": " Because java is also written by programmers"
+        },
+        {
+            "start": 499.32,
+            "end": 501.32,
+            "text": " So the same human logic is applied in any language"
+        },
+        {
+            "start": 501.32,
+            "end": 503.32,
+            "text": " Now let's see an example in type conversion"
+        },
+        {
+            "start": 503.32,
+            "end": 505.32,
+            "text": " In the example, we have defined a byte type variable"
+        },
+        {
+            "start": 505.32,
+            "end": 507.32,
+            "text": " Byte b is equal to 5"
+        },
+        {
+            "start": 507.32,
+            "end": 509.32,
+            "text": " And the type of the variable is"
+        },
+        {
+            "start": 509.32,
+            "end": 511.32,
+            "text": " A"
+        },
+        {
+            "start": 511.32,
+            "end": 513.3199999999999,
+            "text": " And the type of the variable is"
+        },
+        {
+            "start": 513.3199999999999,
+            "end": 515.3199999999999,
+            "text": " A"
+        },
+        {
+            "start": 515.32,
+            "end": 517.32,
+            "text": " And the type of the variable is"
+        },
+        {
+            "start": 517.32,
+            "end": 519.32,
+            "text": " A"
+        },
+        {
+            "start": 519.32,
+            "end": 521.32,
+            "text": " Now what we are doing is"
+        },
+        {
+            "start": 521.32,
+            "end": 523.32,
+            "text": " We are assigning b multiplied by 2"
+        },
+        {
+            "start": 523.32,
+            "end": 525.32,
+            "text": " In b"
+        },
+        {
+            "start": 525.32,
+            "end": 527.32,
+            "text": " Means we are assigning b value"
+        },
+        {
+            "start": 527.32,
+            "end": 529.32,
+            "text": " By multiplying by 2"
+        },
+        {
+            "start": 529.32,
+            "end": 531.32,
+            "text": " And assigning it in b"
+        },
+        {
+            "start": 531.32,
+            "end": 533.32,
+            "text": " Either you write this"
+        },
+        {
+            "start": 533.32,
+            "end": 535.32,
+            "text": " Or a new variable"
+        },
+        {
+            "start": 535.32,
+            "end": 537.32,
+            "text": " Byte a is equal to"
+        },
+        {
+            "start": 537.32,
+            "end": 539.32,
+            "text": " b into 2"
+        },
+        {
+            "start": 539.32,
+            "end": 541.32,
+            "text": " Even if we write this statement, it is not wrong"
+        },
+        {
+            "start": 541.32,
+            "end": 543.32,
+            "text": " But according to java"
+        },
+        {
+            "start": 543.32,
+            "end": 545.32,
+            "text": " This statement is also wrong"
+        },
+        {
+            "start": 545.32,
+            "end": 547.32,
+            "text": " And we can't do this also"
+        },
+        {
+            "start": 547.32,
+            "end": 549.32,
+            "text": " Why we can't do this?"
+        },
+        {
+            "start": 549.32,
+            "end": 551.32,
+            "text": " Because the size of the byte is"
+        },
+        {
+            "start": 551.32,
+            "end": 553.32,
+            "text": " Minus 128 to plus 127"
+        },
+        {
+            "start": 553.32,
+            "end": 555.32,
+            "text": " Obviously"
+        },
+        {
+            "start": 555.32,
+            "end": 557.32,
+            "text": " The value of b was 5 into 2"
+        },
+        {
+            "start": 557.32,
+            "end": 559.32,
+            "text": " What should we assign to this?"
+        },
+        {
+            "start": 559.32,
+            "end": 561.32,
+            "text": " We should assign 10 to this"
+        },
+        {
+            "start": 561.32,
+            "end": 563.32,
+            "text": " So does 10 lie in this range?"
+        },
+        {
+            "start": 563.32,
+            "end": 565.32,
+            "text": " Yes it lies in this range"
+        },
+        {
+            "start": 565.32,
+            "end": 567.32,
+            "text": " Then why java will give an error?"
+        },
+        {
+            "start": 567.32,
+            "end": 569.32,
+            "text": " Because"
+        },
+        {
+            "start": 569.32,
+            "end": 571.32,
+            "text": " This b and this 2"
+        },
+        {
+            "start": 571.32,
+            "end": 573.32,
+            "text": " If multiply is given between these two"
+        },
+        {
+            "start": 573.32,
+            "end": 575.32,
+            "text": " Then it becomes an expression"
+        },
+        {
+            "start": 575.32,
+            "end": 577.32,
+            "text": " And java has done a type promotion"
+        },
+        {
+            "start": 577.32,
+            "end": 579.32,
+            "text": " Java will automatically make this b"
+        },
+        {
+            "start": 579.32,
+            "end": 581.32,
+            "text": " An integer"
+        },
+        {
+            "start": 581.32,
+            "end": 583.32,
+            "text": " So this 10 will not be a byte 10"
+        },
+        {
+            "start": 583.32,
+            "end": 585.32,
+            "text": " It will be an integer 10"
+        },
+        {
+            "start": 585.32,
+            "end": 587.32,
+            "text": " And java will feel that"
+        },
+        {
+            "start": 587.32,
+            "end": 589.32,
+            "text": " Your useful information will be lost"
+        },
+        {
+            "start": 589.32,
+            "end": 591.32,
+            "text": " Let's see this in code"
+        },
+        {
+            "start": 591.32,
+            "end": 593.32,
+            "text": " If I write here byte b is equal to 5"
+        },
+        {
+            "start": 593.32,
+            "end": 595.32,
+            "text": " And now I will try"
+        },
+        {
+            "start": 595.32,
+            "end": 597.32,
+            "text": " Byte a is equal to"
+        },
+        {
+            "start": 597.32,
+            "end": 599.32,
+            "text": " b multiplied by 2"
+        },
+        {
+            "start": 599.32,
+            "end": 601.32,
+            "text": " And finally"
+        },
+        {
+            "start": 601.32,
+            "end": 603.32,
+            "text": " I have to print my a"
+        },
+        {
+            "start": 603.32,
+            "end": 605.32,
+            "text": " If I try to run this"
+        },
+        {
+            "start": 605.32,
+            "end": 607.32,
+            "text": " Then I will get an error"
+        },
+        {
+            "start": 607.32,
+            "end": 609.32,
+            "text": " Error is saying that"
+        },
+        {
+            "start": 609.32,
+            "end": 611.32,
+            "text": " Conversion of byte is not allowed from integer"
+        },
+        {
+            "start": 611.32,
+            "end": 613.32,
+            "text": " Means it converted b into integer"
+        },
+        {
+            "start": 613.32,
+            "end": 615.32,
+            "text": " Now it is saying that here"
+        },
+        {
+            "start": 615.32,
+            "end": 617.32,
+            "text": " Integer is 10, how will you store it in byte?"
+        },
+        {
+            "start": 617.32,
+            "end": 619.32,
+            "text": " So it is a small data structure"
+        },
+        {
+            "start": 619.32,
+            "end": 621.32,
+            "text": " So for this"
+        },
+        {
+            "start": 621.32,
+            "end": 623.32,
+            "text": " We have to do it separately"
+        },
+        {
+            "start": 623.32,
+            "end": 625.32,
+            "text": " Type cast this entire thing"
+        },
+        {
+            "start": 625.32,
+            "end": 627.32,
+            "text": " To byte"
+        },
+        {
+            "start": 627.32,
+            "end": 629.32,
+            "text": " If we do it separately then it will be simple"
+        },
+        {
+            "start": 629.32,
+            "end": 631.32,
+            "text": " Let's clear this"
+        },
+        {
+            "start": 631.32,
+            "end": 633.32,
+            "text": " Let's type cast this entire expression"
+        },
+        {
+            "start": 633.32,
+            "end": 635.32,
+            "text": " And now what happened"
+        },
+        {
+            "start": 635.32,
+            "end": 637.32,
+            "text": " Now value will be assigned"
+        },
+        {
+            "start": 637.32,
+            "end": 639.32,
+            "text": " Means b multiplied by 2 will be 10"
+        },
+        {
+            "start": 639.32,
+            "end": 641.32,
+            "text": " 10 of integer will be type cast"
+        },
+        {
+            "start": 641.32,
+            "end": 643.32,
+            "text": " In byte"
+        },
+        {
+            "start": 643.32,
+            "end": 645.32,
+            "text": " So now byte 10 will be printed for us"
+        },
+        {
+            "start": 645.32,
+            "end": 647.32,
+            "text": " On screen"
+        },
+        {
+            "start": 647.32,
+            "end": 649.32,
+            "text": " So first statement was wrong"
+        },
+        {
+            "start": 649.32,
+            "end": 651.32,
+            "text": " Second statement will be correct"
+        },
+        {
+            "start": 651.32,
+            "end": 653.32,
+            "text": " In which we will type cast"
+        },
+        {
+            "start": 653.32,
+            "end": 655.32,
+            "text": " So even though logically there was no mistake"
+        },
+        {
+            "start": 655.32,
+            "end": 657.32,
+            "text": " But in java"
+        },
+        {
+            "start": 657.32,
+            "end": 659.32,
+            "text": " Type promotion happens"
+        },
+        {
+            "start": 659.32,
+            "end": 661.32,
+            "text": " Because of that"
+        },
+        {
+            "start": 661.32,
+            "end": 663.32,
+            "text": " This statement gives us an error"
+        }
+    ],
+    "full_text": " Next we will talk about type promotion in Java when we use expressions What does it mean? Whenever there is an expression like A plus B multiplied by C divided by E We have written some expressions like this In which every variable has a different data type For example, this is an int, float, character and long So when there are expressions like this, there is a phenomenon called type promotion Which exists in Java Type promotion means there are two rules that follow First of all, Java automatically promotes the byte type, short type and character type It promotes all three types It increases their size and treats them like an integer If you have written an expression For example, you have defined character A is equal to A and short B is equal to 50 Now you have written A plus B So in this A plus B, first of all it will convert the character into an integer And then it will convert B into an integer And after that, their sum will be calculated So the first rule of type promotion in expressions says That whatever byte, short or character type data you have in an expression It will convert it into an integer Let's see a real life example of this For example, you have written character A is equal to A And second we have written character B is equal to B So if we want to print system.out.println And I write B minus A So what will be the result? The result should be 1 Why should it be 1? Because first B will convert into an integer And then A will convert into an integer And the value of B minus A should be the difference between them Now we know what is the integer form of B Let's print this By typecasting in integer The integer form of B And after that, the integer form of A If B is converted into an integer, then its value will be 98 If A is converted into an integer, then its value will be 97 And when I did B minus A So what happened? B was converted into an integer Java automatically converted A into an integer And the result of both of these was 98 minus 97 is equal to 1 So Java printed integer 1 If I say system.out.println is equal to A So Java will not promote A What will print A? It will print A as A Type promotions are only done with expressions Where plus, minus, multiply, and other operations are done When you will write a normal variable, then type promotion will not be done We can see this in other ways For example, if I write here char c is equal to A minus B So what will happen here? Let's comment out this Save this and run it again So here an error is printed The error is that you are converting from integer to character It is saying that A minus B is an integer And C is a character So you cannot convert from integer to character Let's take another example here For example, we made a short type data A is equal to 5 Then we made a byte type data B is equal to 25 Then we took a character C is equal to C Now what are we trying to do? Now we are trying to print this in a data Let's say we want a final output Byte Bt is equal to A plus B plus C And if I want to run this It will give me an output That it is converting from integer to byte It will give me an output that it is not possible to convert from integer to byte When you see that there is no int in this The first A is short B is byte C is character Bt is byte A, B, C are of different types But it is saying that it is not possible to convert from int to byte Because it converted everything in integer But still if we want to do lossy conversion Then we will typecast this Everything is possible by typecasting By typecasting, we converted the integer value that Java calculated into byte And by converting it into byte We will get a strange answer Which we can print Now the answer that I will print It will not make any sense It will just exist So it is a minus 127 answer The second rule of type promotion in expressions says If in any expression There is a long, float or double Then the whole expression Will convert into long, float or double Means if the largest possible data type is long in any expression Then all the other data types will also convert into long If the largest possible data type is float Then all of them will convert into float If the largest possible data type is double Then all of them will convert into double Let's see the example The example is I took an integer A In which I assigned value 10 After that I took a floating value B In which I assigned value 20.25 F After that I took a long In which I assigned value 25 C And after that I took a double value D is equal to 30 Now if I try to calculate the sum of all four Here it will come Double answer is equal to A plus B plus C plus D If I save this And after that I print the value of my answer So the final value that will be printed for me Will be printed with a decimal What did this line ultimately do? A which was an integer value Was converted into double B which was a float value Was converted into double C which was a long value Was converted into double And D was already double First the sum of all four double values was calculated Then it was assigned in the answer How can we check if double was calculated? Here if I make the answer an integer And after that I try to solve the same question Then the error will come You are trying to convert this into double to int Right side is saying that double is double Left side is saying that you are assigning double to int Means right side has converted all four variables into double So this is the second type of type promotion in Java Both type promotion are very important Because they are used in different scenarios The shortest and sweetest way to remember this is The short character which are small data types Are made into integers And long float double Which is the biggest of all four Means it is very logical The biggest value in the expression The biggest data type Will be converted into that So that the final answer No data is lost If I visualize this a little more What are we talking about? We are talking about three buckets One bucket which is a little big And has more water One bucket which is smaller And has less water One bucket which has glass And has less water And where can you put the water of these three? Obviously, the water of three can be mixed in the big bucket It will not happen that you will put the size of the glass And the water of three will be mixed in it It is not possible We take the largest possible container of expression Means the largest bucket of these three We have to keep the size of the largest bucket So that there is a small possibility That the water of three can come in the big bucket This is the same logic which is applied in java Because java is also written by programmers So the same human logic is applied in any language Now let's see an example in type conversion In the example, we have defined a byte type variable Byte b is equal to 5 And the type of the variable is A And the type of the variable is A And the type of the variable is A Now what we are doing is We are assigning b multiplied by 2 In b Means we are assigning b value By multiplying by 2 And assigning it in b Either you write this Or a new variable Byte a is equal to b into 2 Even if we write this statement, it is not wrong But according to java This statement is also wrong And we can't do this also Why we can't do this? Because the size of the byte is Minus 128 to plus 127 Obviously The value of b was 5 into 2 What should we assign to this? We should assign 10 to this So does 10 lie in this range? Yes it lies in this range Then why java will give an error? Because This b and this 2 If multiply is given between these two Then it becomes an expression And java has done a type promotion Java will automatically make this b An integer So this 10 will not be a byte 10 It will be an integer 10 And java will feel that Your useful information will be lost Let's see this in code If I write here byte b is equal to 5 And now I will try Byte a is equal to b multiplied by 2 And finally I have to print my a If I try to run this Then I will get an error Error is saying that Conversion of byte is not allowed from integer Means it converted b into integer Now it is saying that here Integer is 10, how will you store it in byte? So it is a small data structure So for this We have to do it separately Type cast this entire thing To byte If we do it separately then it will be simple Let's clear this Let's type cast this entire expression And now what happened Now value will be assigned Means b multiplied by 2 will be 10 10 of integer will be type cast In byte So now byte 10 will be printed for us On screen So first statement was wrong Second statement will be correct In which we will type cast So even though logically there was no mistake But in java Type promotion happens Because of that This statement gives us an error"
+}

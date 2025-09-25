@@ -1,0 +1,375 @@
+{
+    "chunks": [
+        {
+            "start": 0.0,
+            "end": 2.2,
+            "text": " Now let's talk about selection sort."
+        },
+        {
+            "start": 2.2,
+            "end": 6.08,
+            "text": " The idea behind selection sort is that we will be given an array."
+        },
+        {
+            "start": 6.08,
+            "end": 12.98,
+            "text": " From this array, we have to find the smallest element and push it at the beginning of the array."
+        },
+        {
+            "start": 12.98,
+            "end": 18.96,
+            "text": " Then we have to find a bigger element and push it again at the beginning of the array."
+        },
+        {
+            "start": 18.96,
+            "end": 24.22,
+            "text": " Then we have to find a bigger element and push it again at the beginning of the array."
+        },
+        {
+            "start": 24.22,
+            "end": 27.439999999999998,
+            "text": " The idea is a little opposite to bubble sort."
+        },
+        {
+            "start": 27.439999999999998,
+            "end": 32.44,
+            "text": " Earlier we were pushing the big one at the end, this time we are pushing the small one from behind."
+        },
+        {
+            "start": 32.44,
+            "end": 36.12,
+            "text": " Pick the smallest from unsorted and put it at the beginning."
+        },
+        {
+            "start": 36.12,
+            "end": 39.6,
+            "text": " But this time the alternative elements will not be swapped."
+        },
+        {
+            "start": 39.6,
+            "end": 46.16,
+            "text": " After each other, we noticed that there were many unnecessary swaps."
+        },
+        {
+            "start": 46.16,
+            "end": 51.36,
+            "text": " If you want to push the largest element at the back, then first remove the largest element and push it at the back in the same swap."
+        },
+        {
+            "start": 51.36,
+            "end": 54.16,
+            "text": " So this is what we implement in selection sort."
+        },
+        {
+            "start": 54.16,
+            "end": 58.56,
+            "text": " We remove the smallest and swap it at the same time."
+        },
+        {
+            "start": 58.56,
+            "end": 60.16,
+            "text": " We will not swap it again and again."
+        },
+        {
+            "start": 60.16,
+            "end": 62.32,
+            "text": " Let's understand its implementation a little more."
+        },
+        {
+            "start": 62.32,
+            "end": 66.03999999999999,
+            "text": " Let's assume that we have been given elements 5, 4, 1, 3, and 2."
+        },
+        {
+            "start": 66.03999999999999,
+            "end": 70.84,
+            "text": " Now let's assume that this is our unsorted array."
+        },
+        {
+            "start": 70.84,
+            "end": 73.32,
+            "text": " Now we have to remove the smallest from the unsorted array."
+        },
+        {
+            "start": 73.32,
+            "end": 74.64,
+            "text": " So what is the smallest from this?"
+        },
+        {
+            "start": 74.64,
+            "end": 76.12,
+            "text": " The smallest we have is 1."
+        },
+        {
+            "start": 76.16000000000001,
+            "end": 78.16000000000001,
+            "text": " So we pushed 1 at the beginning."
+        },
+        {
+            "start": 78.16000000000001,
+            "end": 82.88000000000001,
+            "text": " And the unsorted array that we have is 5, 4, 3, and 2."
+        },
+        {
+            "start": 82.88000000000001,
+            "end": 85.72,
+            "text": " After that, we will remove the second smallest from this."
+        },
+        {
+            "start": 85.72,
+            "end": 87.72,
+            "text": " The second smallest is 2."
+        },
+        {
+            "start": 87.72,
+            "end": 92.16,
+            "text": " Now we will push 2 at the beginning, but after 1."
+        },
+        {
+            "start": 92.16,
+            "end": 95.64,
+            "text": " 1, 2, and then the remaining elements are 5, 4, and 3."
+        },
+        {
+            "start": 95.64,
+            "end": 99.04,
+            "text": " After this, the next smallest element is 3."
+        },
+        {
+            "start": 99.04,
+            "end": 101.4,
+            "text": " So we pushed it at the beginning after 2."
+        },
+        {
+            "start": 101.4,
+            "end": 104.4,
+            "text": " And in the unsorted part, we have 5 and 4."
+        },
+        {
+            "start": 104.44000000000001,
+            "end": 108.72,
+            "text": " So the highlighted part is our unsorted part."
+        },
+        {
+            "start": 108.72,
+            "end": 113.52000000000001,
+            "text": " And every time we are removing the smallest from the unsorted part and putting it in the sorted part."
+        },
+        {
+            "start": 113.52000000000001,
+            "end": 116.68,
+            "text": " This is the sorted part, this is the sorted part, and this is the sorted part."
+        },
+        {
+            "start": 116.68,
+            "end": 119.64,
+            "text": " Next, we will remove 4 from this."
+        },
+        {
+            "start": 119.64,
+            "end": 122.32000000000001,
+            "text": " So we will push 4 in the sorted part."
+        },
+        {
+            "start": 122.32000000000001,
+            "end": 124.96000000000001,
+            "text": " And finally we have 5 in the unsorted part."
+        },
+        {
+            "start": 124.96000000000001,
+            "end": 128.52,
+            "text": " For which we do not need to push any comparison or anything."
+        },
+        {
+            "start": 128.52,
+            "end": 131.32,
+            "text": " Because the last element is already left and the small ones have been pushed ahead."
+        },
+        {
+            "start": 131.32,
+            "end": 133.32,
+            "text": " So it is the largest element possible."
+        },
+        {
+            "start": 133.64,
+            "end": 136.12,
+            "text": " Now let's talk a little about time complexity."
+        },
+        {
+            "start": 136.12,
+            "end": 138.12,
+            "text": " Or let's talk about implementation."
+        },
+        {
+            "start": 138.12,
+            "end": 142.92,
+            "text": " Now the array at the beginning was a big unsorted array in itself."
+        },
+        {
+            "start": 142.92,
+            "end": 146.84,
+            "text": " And from this unsorted array, we pushed 1 forward."
+        },
+        {
+            "start": 146.84,
+            "end": 148.84,
+            "text": " So what was the way to push it?"
+        },
+        {
+            "start": 148.84,
+            "end": 152.84,
+            "text": " What we did was run a loop from start to end."
+        },
+        {
+            "start": 152.84,
+            "end": 158.51999999999998,
+            "text": " And in this entire loop, we kept comparing how we can remove the smallest element from it."
+        },
+        {
+            "start": 158.68,
+            "end": 162.68,
+            "text": " So we had a problem in the array where we removed the smallest and largest number."
+        },
+        {
+            "start": 162.68,
+            "end": 164.68,
+            "text": " We have to use the same algorithm."
+        },
+        {
+            "start": 164.68,
+            "end": 166.68,
+            "text": " There is no algorithm."
+        },
+        {
+            "start": 166.68,
+            "end": 168.68,
+            "text": " We will create a simple variable, the smallest."
+        },
+        {
+            "start": 168.68,
+            "end": 170.68,
+            "text": " We will initialize it with the maximum value."
+        },
+        {
+            "start": 170.68,
+            "end": 172.68,
+            "text": " We will compare it with everyone."
+        },
+        {
+            "start": 172.68,
+            "end": 174.68,
+            "text": " Wherever we get smaller than that, we will push it forward."
+        },
+        {
+            "start": 174.68,
+            "end": 176.68,
+            "text": " We have to do a simple thing."
+        },
+        {
+            "start": 176.68,
+            "end": 178.68,
+            "text": " For that we can apply a loop."
+        },
+        {
+            "start": 178.68,
+            "end": 180.68,
+            "text": " What will the outer loop do?"
+        },
+        {
+            "start": 180.68,
+            "end": 182.68,
+            "text": " We have to count turns in the outer loop."
+        },
+        {
+            "start": 182.68,
+            "end": 186.68,
+            "text": " We removed one smallest, the second smallest, the third, the fourth, and the fifth."
+        },
+        {
+            "start": 186.84,
+            "end": 190.84,
+            "text": " So our outer loop will run from i is equal to 0 to n minus 2."
+        },
+        {
+            "start": 190.84,
+            "end": 192.84,
+            "text": " Because we don't need to compare in the last."
+        },
+        {
+            "start": 192.84,
+            "end": 194.84,
+            "text": " And what will we do in the inner loop?"
+        },
+        {
+            "start": 194.84,
+            "end": 196.84,
+            "text": " We will make the smallest here."
+        },
+        {
+            "start": 196.84,
+            "end": 198.84,
+            "text": " We will initialize the smallest with the maximum."
+        },
+        {
+            "start": 198.84,
+            "end": 200.84,
+            "text": " So it will be easier to compare the smallest value with this."
+        },
+        {
+            "start": 200.84,
+            "end": 204.84,
+            "text": " Then the inner loop will run from j is equal to i plus 1 to n minus 1."
+        },
+        {
+            "start": 204.84,
+            "end": 208.84,
+            "text": " I hope this thing is clear that why j is equal to i plus 1."
+        },
+        {
+            "start": 208.84,
+            "end": 212.84,
+            "text": " Because till i, we have to count turns in the outer loop."
+        },
+        {
+            "start": 213.0,
+            "end": 215.0,
+            "text": " Why j is equal to i plus 1?"
+        },
+        {
+            "start": 215.0,
+            "end": 219.0,
+            "text": " Because till i, we have the sorted part."
+        },
+        {
+            "start": 219.0,
+            "end": 223.0,
+            "text": " And the unsorted part starts from i plus 1."
+        },
+        {
+            "start": 223.0,
+            "end": 225.0,
+            "text": " So we will start all the comparisons from there."
+        },
+        {
+            "start": 225.0,
+            "end": 229.0,
+            "text": " So this shows the start of our unsorted array."
+        },
+        {
+            "start": 231.0,
+            "end": 233.0,
+            "text": " And what we will do with this?"
+        },
+        {
+            "start": 233.0,
+            "end": 237.0,
+            "text": " We will push the smallest value or minimum value in the beginning."
+        },
+        {
+            "start": 237.0,
+            "end": 239.0,
+            "text": " So for this also, we will write the code and understand."
+        }
+    ],
+    "full_text": " Now let's talk about selection sort. The idea behind selection sort is that we will be given an array. From this array, we have to find the smallest element and push it at the beginning of the array. Then we have to find a bigger element and push it again at the beginning of the array. Then we have to find a bigger element and push it again at the beginning of the array. The idea is a little opposite to bubble sort. Earlier we were pushing the big one at the end, this time we are pushing the small one from behind. Pick the smallest from unsorted and put it at the beginning. But this time the alternative elements will not be swapped. After each other, we noticed that there were many unnecessary swaps. If you want to push the largest element at the back, then first remove the largest element and push it at the back in the same swap. So this is what we implement in selection sort. We remove the smallest and swap it at the same time. We will not swap it again and again. Let's understand its implementation a little more. Let's assume that we have been given elements 5, 4, 1, 3, and 2. Now let's assume that this is our unsorted array. Now we have to remove the smallest from the unsorted array. So what is the smallest from this? The smallest we have is 1. So we pushed 1 at the beginning. And the unsorted array that we have is 5, 4, 3, and 2. After that, we will remove the second smallest from this. The second smallest is 2. Now we will push 2 at the beginning, but after 1. 1, 2, and then the remaining elements are 5, 4, and 3. After this, the next smallest element is 3. So we pushed it at the beginning after 2. And in the unsorted part, we have 5 and 4. So the highlighted part is our unsorted part. And every time we are removing the smallest from the unsorted part and putting it in the sorted part. This is the sorted part, this is the sorted part, and this is the sorted part. Next, we will remove 4 from this. So we will push 4 in the sorted part. And finally we have 5 in the unsorted part. For which we do not need to push any comparison or anything. Because the last element is already left and the small ones have been pushed ahead. So it is the largest element possible. Now let's talk a little about time complexity. Or let's talk about implementation. Now the array at the beginning was a big unsorted array in itself. And from this unsorted array, we pushed 1 forward. So what was the way to push it? What we did was run a loop from start to end. And in this entire loop, we kept comparing how we can remove the smallest element from it. So we had a problem in the array where we removed the smallest and largest number. We have to use the same algorithm. There is no algorithm. We will create a simple variable, the smallest. We will initialize it with the maximum value. We will compare it with everyone. Wherever we get smaller than that, we will push it forward. We have to do a simple thing. For that we can apply a loop. What will the outer loop do? We have to count turns in the outer loop. We removed one smallest, the second smallest, the third, the fourth, and the fifth. So our outer loop will run from i is equal to 0 to n minus 2. Because we don't need to compare in the last. And what will we do in the inner loop? We will make the smallest here. We will initialize the smallest with the maximum. So it will be easier to compare the smallest value with this. Then the inner loop will run from j is equal to i plus 1 to n minus 1. I hope this thing is clear that why j is equal to i plus 1. Because till i, we have to count turns in the outer loop. Why j is equal to i plus 1? Because till i, we have the sorted part. And the unsorted part starts from i plus 1. So we will start all the comparisons from there. So this shows the start of our unsorted array. And what we will do with this? We will push the smallest value or minimum value in the beginning. So for this also, we will write the code and understand."
+}
