@@ -1,0 +1,565 @@
+{
+    "chunks": [
+        {
+            "start": 0.0,
+            "end": 3.08,
+            "text": " Now let's talk about typecasting in Java."
+        },
+        {
+            "start": 3.08,
+            "end": 7.72,
+            "text": " Typecasting is a conversion that Java does not allow."
+        },
+        {
+            "start": 7.72,
+            "end": 9.72,
+            "text": " So we force it."
+        },
+        {
+            "start": 9.72,
+            "end": 16.240000000000002,
+            "text": " We are trying to reduce such values and Java is telling us that your data will be lost."
+        },
+        {
+            "start": 16.240000000000002,
+            "end": 20.080000000000002,
+            "text": " But still we want to assign those values to new variables."
+        },
+        {
+            "start": 20.080000000000002,
+            "end": 23.6,
+            "text": " So we call that type of conversion typecasting."
+        },
+        {
+            "start": 23.6,
+            "end": 30.32,
+            "text": " For example, if we have made a float type variable, float a is equal to 25.0."
+        },
+        {
+            "start": 30.32,
+            "end": 35.6,
+            "text": " Now we are trying to write int b is equal to a."
+        },
+        {
+            "start": 35.6,
+            "end": 41.120000000000005,
+            "text": " We are trying to convert the floating type variable into an integer."
+        },
+        {
+            "start": 41.120000000000005,
+            "end": 44.88,
+            "text": " In this case, Java will not allow us to do this conversion."
+        },
+        {
+            "start": 44.88,
+            "end": 50.160000000000004,
+            "text": " Why not? Because its decimal points will not be able to transfer in the integer."
+        },
+        {
+            "start": 50.16,
+            "end": 53.919999999999995,
+            "text": " So the data will be lost."
+        },
+        {
+            "start": 53.919999999999995,
+            "end": 59.67999999999999,
+            "text": " So we will forcefully make our float value into an integer value."
+        },
+        {
+            "start": 59.67999999999999,
+            "end": 64.39999999999999,
+            "text": " For that we have to write this line."
+        },
+        {
+            "start": 64.39999999999999,
+            "end": 66.64,
+            "text": " Int b is equal to."
+        },
+        {
+            "start": 66.64,
+            "end": 69.52,
+            "text": " Here we will write the type in which we want to cast."
+        },
+        {
+            "start": 69.52,
+            "end": 70.64,
+            "text": " Int a."
+        },
+        {
+            "start": 70.64,
+            "end": 74.08,
+            "text": " So in this line Java will give an error but will allow this line."
+        },
+        {
+            "start": 74.08,
+            "end": 78.24,
+            "text": " Because here we are trying to typecast in integer."
+        },
+        {
+            "start": 78.32,
+            "end": 83.36,
+            "text": " Here we are telling Java that we know that the data will be lost but we still want to convert."
+        },
+        {
+            "start": 83.36,
+            "end": 88.32,
+            "text": " Let's execute these two lines and see how typecasting works."
+        },
+        {
+            "start": 88.32,
+            "end": 91.19999999999999,
+            "text": " Let's leave the line as it is."
+        },
+        {
+            "start": 91.19999999999999,
+            "end": 97.28,
+            "text": " We will make a floating variable a is equal to 25.0."
+        },
+        {
+            "start": 97.28,
+            "end": 103.91999999999999,
+            "text": " In fact, let's write 25.12 so that we know that there is a valid value after our decimal."
+        },
+        {
+            "start": 104.32000000000001,
+            "end": 106.88,
+            "text": " We are trying to make this into an integer."
+        },
+        {
+            "start": 106.88,
+            "end": 109.44,
+            "text": " Int b is equal to a."
+        },
+        {
+            "start": 109.44,
+            "end": 114.32000000000001,
+            "text": " So when we run this int b is equal to a, it will give us an error."
+        },
+        {
+            "start": 114.32000000000001,
+            "end": 120.4,
+            "text": " And will say that possibly lossy conversion is happening in float from double."
+        },
+        {
+            "start": 120.4,
+            "end": 122.48,
+            "text": " Now let's write f here."
+        },
+        {
+            "start": 122.48,
+            "end": 126.24000000000001,
+            "text": " Because it is taking double, so it is not allowing conversion."
+        },
+        {
+            "start": 126.24000000000001,
+            "end": 128.24,
+            "text": " So here we wrote float."
+        },
+        {
+            "start": 128.24,
+            "end": 130.48000000000002,
+            "text": " Let's run it again."
+        },
+        {
+            "start": 130.72,
+            "end": 135.67999999999998,
+            "text": " Here we will get an error that possibly lossy conversion is happening from float to int."
+        },
+        {
+            "start": 135.67999999999998,
+            "end": 138.95999999999998,
+            "text": " That you are trying to convert float to int."
+        },
+        {
+            "start": 138.95999999999998,
+            "end": 143.83999999999997,
+            "text": " But we will tell Java that it doesn't matter and we have to convert to int."
+        },
+        {
+            "start": 143.83999999999997,
+            "end": 146.07999999999998,
+            "text": " And what will happen after writing this statement?"
+        },
+        {
+            "start": 146.07999999999998,
+            "end": 148.39999999999998,
+            "text": " After writing this statement, there is no error now."
+        },
+        {
+            "start": 148.39999999999998,
+            "end": 150.0,
+            "text": " Code was successfully run."
+        },
+        {
+            "start": 150.0,
+            "end": 154.56,
+            "text": " And now if we want to run and see what the value of b is."
+        },
+        {
+            "start": 154.56,
+            "end": 156.56,
+            "text": " So here we will write b."
+        },
+        {
+            "start": 157.28,
+            "end": 163.6,
+            "text": " So our floating value 25.12 has been converted to int."
+        },
+        {
+            "start": 163.6,
+            "end": 165.6,
+            "text": " What happened to typecasting?"
+        },
+        {
+            "start": 165.6,
+            "end": 171.28,
+            "text": " Typecasting removed the whole decimal part and only kept the integer portion."
+        },
+        {
+            "start": 171.28,
+            "end": 178.88,
+            "text": " If I had taken 25.9999 here, it would not have rounded off to 26."
+        },
+        {
+            "start": 178.88,
+            "end": 182.64000000000001,
+            "text": " It would have removed all the decimals and taken 25."
+        },
+        {
+            "start": 182.72,
+            "end": 186.79999999999998,
+            "text": " So we should never assume that it will be rounded off like math."
+        },
+        {
+            "start": 186.79999999999998,
+            "end": 188.79999999999998,
+            "text": " There is no rounding off in coding."
+        },
+        {
+            "start": 188.79999999999998,
+            "end": 192.39999999999998,
+            "text": " What always happens is that all the values after the decimal are removed."
+        },
+        {
+            "start": 192.39999999999998,
+            "end": 196.48,
+            "text": " What we did here is that all the values after the decimal were 0.99."
+        },
+        {
+            "start": 196.48,
+            "end": 198.48,
+            "text": " This could have been important data."
+        },
+        {
+            "start": 198.48,
+            "end": 200.95999999999998,
+            "text": " It could have been our CGPA data."
+        },
+        {
+            "start": 200.95999999999998,
+            "end": 204.72,
+            "text": " For example, let's take a real example."
+        },
+        {
+            "start": 204.72,
+            "end": 210.64,
+            "text": " Our floating type marks have been scored 99.999."
+        },
+        {
+            "start": 210.95999999999998,
+            "end": 215.76,
+            "text": " And after that we are making a variable called marks2."
+        },
+        {
+            "start": 215.76,
+            "end": 220.48,
+            "text": " In which we have typecasted our marks in integer."
+        },
+        {
+            "start": 220.48,
+            "end": 223.27999999999997,
+            "text": " Now because of this we will have a huge loss."
+        },
+        {
+            "start": 223.27999999999997,
+            "end": 226.55999999999997,
+            "text": " And the class toppers will be able to understand this loss very well."
+        },
+        {
+            "start": 226.55999999999997,
+            "end": 227.83999999999997,
+            "text": " How will they understand?"
+        },
+        {
+            "start": 227.83999999999997,
+            "end": 234.07999999999998,
+            "text": " That their 99.99 which we call as 100 out of 100."
+        },
+        {
+            "start": 234.07999999999998,
+            "end": 236.07999999999998,
+            "text": " Now what happened instead of that?"
+        },
+        {
+            "start": 236.07999999999998,
+            "end": 239.6,
+            "text": " They lost their whole marks and it became 99."
+        },
+        {
+            "start": 239.68,
+            "end": 246.64,
+            "text": " So this 0.99 could be very important data which we have lost."
+        },
+        {
+            "start": 246.64,
+            "end": 250.16,
+            "text": " But in some cases it may not be very important data."
+        },
+        {
+            "start": 250.16,
+            "end": 255.6,
+            "text": " For example, let's take a simple number which we are trying to convert to a number 2."
+        },
+        {
+            "start": 255.6,
+            "end": 257.04,
+            "text": " So what will happen in that case?"
+        },
+        {
+            "start": 257.04,
+            "end": 262.64,
+            "text": " In that case we are not losing any extra or important information."
+        },
+        {
+            "start": 262.64,
+            "end": 268.24,
+            "text": " So if there is a 99 print in that case, we did not lose any of the 99 data."
+        },
+        {
+            "start": 268.32,
+            "end": 270.32,
+            "text": " So we can send this thing."
+        },
+        {
+            "start": 270.32,
+            "end": 275.28000000000003,
+            "text": " So we have to define it ourselves in typecasting that we are not losing our important data."
+        },
+        {
+            "start": 275.28000000000003,
+            "end": 278.64,
+            "text": " And if we are not losing then we can typecast our data."
+        },
+        {
+            "start": 278.64,
+            "end": 283.6,
+            "text": " Now just like we used to call type conversion as implicit conversion or widening conversion."
+        },
+        {
+            "start": 283.6,
+            "end": 286.32,
+            "text": " Similarly, what do we call typecasting?"
+        },
+        {
+            "start": 286.32,
+            "end": 288.72,
+            "text": " We call it narrowing conversion."
+        },
+        {
+            "start": 288.72,
+            "end": 293.76,
+            "text": " That is, it makes things smaller and stores data in small data containers."
+        },
+        {
+            "start": 293.76,
+            "end": 297.44,
+            "text": " Or we can call it explicit conversion."
+        },
+        {
+            "start": 297.44,
+            "end": 301.44,
+            "text": " Explicit means the thing which we have done forcefully out of our way."
+        },
+        {
+            "start": 301.44,
+            "end": 305.92,
+            "text": " Now let's see one more special thing related to type conversion in our characters."
+        },
+        {
+            "start": 305.92,
+            "end": 309.28,
+            "text": " If I take a character, character ch is equal to a."
+        },
+        {
+            "start": 309.28,
+            "end": 313.84,
+            "text": " And I try to convert this type to a number n."
+        },
+        {
+            "start": 313.84,
+            "end": 315.84,
+            "text": " Here I write number only."
+        },
+        {
+            "start": 315.84,
+            "end": 317.6,
+            "text": " It is an integer type number."
+        },
+        {
+            "start": 317.6,
+            "end": 319.12,
+            "text": " I want to convert this."
+        },
+        {
+            "start": 319.12,
+            "end": 323.44,
+            "text": " I want to store the value of the character in an integer."
+        },
+        {
+            "start": 324.16,
+            "end": 329.2,
+            "text": " So in this case, will I get an error or my program will run successfully?"
+        },
+        {
+            "start": 329.2,
+            "end": 331.2,
+            "text": " We are going to see that."
+        },
+        {
+            "start": 331.2,
+            "end": 333.2,
+            "text": " So we are printing the number."
+        },
+        {
+            "start": 333.2,
+            "end": 335.2,
+            "text": " And now we will run our number."
+        },
+        {
+            "start": 335.2,
+            "end": 336.4,
+            "text": " So what was printed?"
+        },
+        {
+            "start": 336.4,
+            "end": 338.4,
+            "text": " For me it was printed 97."
+        },
+        {
+            "start": 338.4,
+            "end": 344.56,
+            "text": " So in Java, type conversion is possible whenever we want to convert a character to a number."
+        },
+        {
+            "start": 344.56,
+            "end": 349.04,
+            "text": " So whatever our characters are, there is a number associated with them in Java."
+        },
+        {
+            "start": 349.04,
+            "end": 351.68,
+            "text": " Based on this, we will solve many problems later."
+        },
+        {
+            "start": 351.76,
+            "end": 356.48,
+            "text": " When we try to manipulate the characters and convert them to numbers."
+        },
+        {
+            "start": 356.48,
+            "end": 358.48,
+            "text": " For example, if there is only one place here."
+        },
+        {
+            "start": 358.48,
+            "end": 360.48,
+            "text": " Let's say there is a b."
+        },
+        {
+            "start": 360.48,
+            "end": 362.48,
+            "text": " Let's take another character."
+        },
+        {
+            "start": 362.48,
+            "end": 364.48,
+            "text": " In fact, ch2."
+        },
+        {
+            "start": 364.48,
+            "end": 366.48,
+            "text": " In which we store b."
+        },
+        {
+            "start": 366.48,
+            "end": 368.48,
+            "text": " And now what we will do is, let's take number 2."
+        },
+        {
+            "start": 368.48,
+            "end": 372.48,
+            "text": " In which we are storing the conversion of ch2."
+        },
+        {
+            "start": 372.48,
+            "end": 376.96000000000004,
+            "text": " And now if I print the value of number 2."
+        },
+        {
+            "start": 376.96000000000004,
+            "end": 380.8,
+            "text": " So what will happen is, it will be next to the value of number 1."
+        },
+        {
+            "start": 380.88,
+            "end": 384.72,
+            "text": " That is, number 1 is 97 and number 2 is 98."
+        },
+        {
+            "start": 384.72,
+            "end": 390.8,
+            "text": " Similarly, if you observe, then the value of character c will be 99."
+        },
+        {
+            "start": 390.8,
+            "end": 393.44,
+            "text": " The value of character d is 100."
+        },
+        {
+            "start": 393.44,
+            "end": 396.16,
+            "text": " The value of character e is 101."
+        },
+        {
+            "start": 396.16,
+            "end": 398.16,
+            "text": " And in the same way, we keep going to z."
+        },
+        {
+            "start": 398.16,
+            "end": 401.44,
+            "text": " In fact, if you print the value of capital A."
+        },
+        {
+            "start": 401.44,
+            "end": 403.44,
+            "text": " And if you keep increasing it one by one."
+        },
+        {
+            "start": 403.44,
+            "end": 405.92,
+            "text": " Then the value of the characters will also increase one by one."
+        },
+        {
+            "start": 405.92,
+            "end": 407.92,
+            "text": " So there is a series like this."
+        },
+        {
+            "start": 407.92,
+            "end": 409.92,
+            "text": " Continuous series that the characters follow."
+        }
+    ],
+    "full_text": " Now let's talk about typecasting in Java. Typecasting is a conversion that Java does not allow. So we force it. We are trying to reduce such values and Java is telling us that your data will be lost. But still we want to assign those values to new variables. So we call that type of conversion typecasting. For example, if we have made a float type variable, float a is equal to 25.0. Now we are trying to write int b is equal to a. We are trying to convert the floating type variable into an integer. In this case, Java will not allow us to do this conversion. Why not? Because its decimal points will not be able to transfer in the integer. So the data will be lost. So we will forcefully make our float value into an integer value. For that we have to write this line. Int b is equal to. Here we will write the type in which we want to cast. Int a. So in this line Java will give an error but will allow this line. Because here we are trying to typecast in integer. Here we are telling Java that we know that the data will be lost but we still want to convert. Let's execute these two lines and see how typecasting works. Let's leave the line as it is. We will make a floating variable a is equal to 25.0. In fact, let's write 25.12 so that we know that there is a valid value after our decimal. We are trying to make this into an integer. Int b is equal to a. So when we run this int b is equal to a, it will give us an error. And will say that possibly lossy conversion is happening in float from double. Now let's write f here. Because it is taking double, so it is not allowing conversion. So here we wrote float. Let's run it again. Here we will get an error that possibly lossy conversion is happening from float to int. That you are trying to convert float to int. But we will tell Java that it doesn't matter and we have to convert to int. And what will happen after writing this statement? After writing this statement, there is no error now. Code was successfully run. And now if we want to run and see what the value of b is. So here we will write b. So our floating value 25.12 has been converted to int. What happened to typecasting? Typecasting removed the whole decimal part and only kept the integer portion. If I had taken 25.9999 here, it would not have rounded off to 26. It would have removed all the decimals and taken 25. So we should never assume that it will be rounded off like math. There is no rounding off in coding. What always happens is that all the values after the decimal are removed. What we did here is that all the values after the decimal were 0.99. This could have been important data. It could have been our CGPA data. For example, let's take a real example. Our floating type marks have been scored 99.999. And after that we are making a variable called marks2. In which we have typecasted our marks in integer. Now because of this we will have a huge loss. And the class toppers will be able to understand this loss very well. How will they understand? That their 99.99 which we call as 100 out of 100. Now what happened instead of that? They lost their whole marks and it became 99. So this 0.99 could be very important data which we have lost. But in some cases it may not be very important data. For example, let's take a simple number which we are trying to convert to a number 2. So what will happen in that case? In that case we are not losing any extra or important information. So if there is a 99 print in that case, we did not lose any of the 99 data. So we can send this thing. So we have to define it ourselves in typecasting that we are not losing our important data. And if we are not losing then we can typecast our data. Now just like we used to call type conversion as implicit conversion or widening conversion. Similarly, what do we call typecasting? We call it narrowing conversion. That is, it makes things smaller and stores data in small data containers. Or we can call it explicit conversion. Explicit means the thing which we have done forcefully out of our way. Now let's see one more special thing related to type conversion in our characters. If I take a character, character ch is equal to a. And I try to convert this type to a number n. Here I write number only. It is an integer type number. I want to convert this. I want to store the value of the character in an integer. So in this case, will I get an error or my program will run successfully? We are going to see that. So we are printing the number. And now we will run our number. So what was printed? For me it was printed 97. So in Java, type conversion is possible whenever we want to convert a character to a number. So whatever our characters are, there is a number associated with them in Java. Based on this, we will solve many problems later. When we try to manipulate the characters and convert them to numbers. For example, if there is only one place here. Let's say there is a b. Let's take another character. In fact, ch2. In which we store b. And now what we will do is, let's take number 2. In which we are storing the conversion of ch2. And now if I print the value of number 2. So what will happen is, it will be next to the value of number 1. That is, number 1 is 97 and number 2 is 98. Similarly, if you observe, then the value of character c will be 99. The value of character d is 100. The value of character e is 101. And in the same way, we keep going to z. In fact, if you print the value of capital A. And if you keep increasing it one by one. Then the value of the characters will also increase one by one. So there is a series like this. Continuous series that the characters follow."
+}

@@ -1,0 +1,615 @@
+{
+    "chunks": [
+        {
+            "start": 0.0,
+            "end": 4.2,
+            "text": " Now we are going to talk about another special function which is called counting sort."
+        },
+        {
+            "start": 4.2,
+            "end": 10.200000000000001,
+            "text": " Now counting sort is usually used where the numbers we want to sort are not very big."
+        },
+        {
+            "start": 10.200000000000001,
+            "end": 15.200000000000001,
+            "text": " Like student marks can be, now we know that marks will come in the range of 1 to 100."
+        },
+        {
+            "start": 15.200000000000001,
+            "end": 19.2,
+            "text": " Or if your roll numbers are small, means there are only 30 students in the class."
+        },
+        {
+            "start": 19.2,
+            "end": 21.7,
+            "text": " And roll number 1, 2, 3, 4, 5 are like this."
+        },
+        {
+            "start": 21.7,
+            "end": 24.2,
+            "text": " So we can sort things there."
+        },
+        {
+            "start": 24.4,
+            "end": 30.4,
+            "text": " So the range of numbers, like from minimum number to maximum number,"
+        },
+        {
+            "start": 30.4,
+            "end": 33.4,
+            "text": " here we will consider only positive numbers."
+        },
+        {
+            "start": 33.4,
+            "end": 37.9,
+            "text": " The range from minimum to maximum, if that range is small,"
+        },
+        {
+            "start": 37.9,
+            "end": 40.9,
+            "text": " then we can apply counting sort there."
+        },
+        {
+            "start": 40.9,
+            "end": 43.9,
+            "text": " In fact, counting sort will be so efficient in such cases that"
+        },
+        {
+            "start": 43.9,
+            "end": 46.9,
+            "text": " in some cases your linear time complexity can come."
+        },
+        {
+            "start": 46.9,
+            "end": 51.9,
+            "text": " Means n log n is considered to be very superior because it is the lowest in the worst case."
+        },
+        {
+            "start": 52.1,
+            "end": 57.1,
+            "text": " But in some cases, your near to end time complexity can come"
+        },
+        {
+            "start": 57.1,
+            "end": 59.1,
+            "text": " if you get a very good case."
+        },
+        {
+            "start": 59.1,
+            "end": 63.1,
+            "text": " So for counting sort, we have taken the example of this array."
+        },
+        {
+            "start": 63.1,
+            "end": 67.1,
+            "text": " In this, the minimum element is 1 and the maximum element is 7."
+        },
+        {
+            "start": 67.1,
+            "end": 70.1,
+            "text": " So here the range is very small."
+        },
+        {
+            "start": 70.1,
+            "end": 74.1,
+            "text": " We will say that we have a total of 7 numbers."
+        },
+        {
+            "start": 74.1,
+            "end": 76.1,
+            "text": " We are taking the range of 7 numbers."
+        },
+        {
+            "start": 76.1,
+            "end": 79.1,
+            "text": " So for counting sort, we make a count array."
+        },
+        {
+            "start": 79.3,
+            "end": 82.3,
+            "text": " In the count array, we will keep the same number of partitions"
+        },
+        {
+            "start": 82.3,
+            "end": 85.3,
+            "text": " as in the original array."
+        },
+        {
+            "start": 85.3,
+            "end": 88.3,
+            "text": " We will name it count."
+        },
+        {
+            "start": 88.3,
+            "end": 94.3,
+            "text": " So here, on every index, we will store the frequency of our numbers."
+        },
+        {
+            "start": 94.3,
+            "end": 99.3,
+            "text": " Frequency means which number will come how many times, we will store that."
+        },
+        {
+            "start": 99.3,
+            "end": 102.3,
+            "text": " Like we will start traversing this array one by one."
+        },
+        {
+            "start": 102.3,
+            "end": 104.3,
+            "text": " We got 1."
+        },
+        {
+            "start": 104.3,
+            "end": 106.3,
+            "text": " So what did we do in 1? We stored 1."
+        },
+        {
+            "start": 106.3,
+            "end": 108.3,
+            "text": " Then we got 4, so we stored 1 in 4."
+        },
+        {
+            "start": 108.5,
+            "end": 110.5,
+            "text": " Then we got 1."
+        },
+        {
+            "start": 110.5,
+            "end": 112.5,
+            "text": " So we updated this 1 and made it 2."
+        },
+        {
+            "start": 112.5,
+            "end": 116.5,
+            "text": " This count array is counting which number is how many times."
+        },
+        {
+            "start": 116.5,
+            "end": 120.5,
+            "text": " It counts the frequency, which number is how many times."
+        },
+        {
+            "start": 120.5,
+            "end": 122.5,
+            "text": " Then we got 3, so we made it 1."
+        },
+        {
+            "start": 122.5,
+            "end": 124.5,
+            "text": " On 2, we got 2, so we made it 1."
+        },
+        {
+            "start": 124.5,
+            "end": 128.5,
+            "text": " On 4, we got 4, so we increased it from 1 to 2."
+        },
+        {
+            "start": 128.5,
+            "end": 130.5,
+            "text": " On 3, we increased it from 3 to 1 and made it 2."
+        },
+        {
+            "start": 130.5,
+            "end": 132.5,
+            "text": " And on 7, we made it 1."
+        },
+        {
+            "start": 132.5,
+            "end": 134.5,
+            "text": " What are we going to write in the other places?"
+        },
+        {
+            "start": 134.5,
+            "end": 136.5,
+            "text": " By default, we will have 0 in the other places."
+        },
+        {
+            "start": 136.7,
+            "end": 138.7,
+            "text": " Because these numbers don't exist."
+        },
+        {
+            "start": 138.7,
+            "end": 140.7,
+            "text": " Now if we want to sort,"
+        },
+        {
+            "start": 140.7,
+            "end": 142.7,
+            "text": " we will go back to the original array."
+        },
+        {
+            "start": 142.7,
+            "end": 144.7,
+            "text": " Let's take this as our original array."
+        },
+        {
+            "start": 144.7,
+            "end": 146.7,
+            "text": " We will go back to this array."
+        },
+        {
+            "start": 146.7,
+            "end": 148.7,
+            "text": " And in this array,"
+        },
+        {
+            "start": 148.7,
+            "end": 150.7,
+            "text": " first of all, 1 was stored."
+        },
+        {
+            "start": 150.7,
+            "end": 152.7,
+            "text": " Now we will start traversing this array one by one."
+        },
+        {
+            "start": 152.7,
+            "end": 154.7,
+            "text": " So what elements were stored in our original array?"
+        },
+        {
+            "start": 154.7,
+            "end": 156.7,
+            "text": " We had 1, then 4, then 1, then 3, then 2, then 4, then 3, and then 7."
+        },
+        {
+            "start": 156.89999999999998,
+            "end": 158.89999999999998,
+            "text": " Now we will replace the old numbers"
+        },
+        {
+            "start": 158.89999999999998,
+            "end": 160.89999999999998,
+            "text": " by counting from here."
+        },
+        {
+            "start": 160.89999999999998,
+            "end": 162.89999999999998,
+            "text": " So first of all, we are at 0."
+        },
+        {
+            "start": 162.89999999999998,
+            "end": 164.89999999999998,
+            "text": " The count is 0, so we can't bring any change here."
+        },
+        {
+            "start": 164.89999999999998,
+            "end": 166.89999999999998,
+            "text": " Then we will come to 1."
+        },
+        {
+            "start": 166.89999999999998,
+            "end": 168.89999999999998,
+            "text": " We have 2 in 1."
+        },
+        {
+            "start": 168.89999999999998,
+            "end": 170.89999999999998,
+            "text": " That means there were 2 1s in our original array."
+        },
+        {
+            "start": 170.89999999999998,
+            "end": 172.89999999999998,
+            "text": " So what we will do is"
+        },
+        {
+            "start": 172.89999999999998,
+            "end": 174.89999999999998,
+            "text": " we will put 1 in the first position."
+        },
+        {
+            "start": 174.89999999999998,
+            "end": 176.89999999999998,
+            "text": " We will decrease its count by 1."
+        },
+        {
+            "start": 176.89999999999998,
+            "end": 178.89999999999998,
+            "text": " Then we will put 1 in the next position as well."
+        },
+        {
+            "start": 178.89999999999998,
+            "end": 180.89999999999998,
+            "text": " And then we will start counting from here."
+        },
+        {
+            "start": 180.89999999999998,
+            "end": 182.89999999999998,
+            "text": " So we will start counting from here."
+        },
+        {
+            "start": 182.89999999999998,
+            "end": 184.89999999999998,
+            "text": " So we will start counting from here."
+        },
+        {
+            "start": 185.1,
+            "end": 187.1,
+            "text": " Then we will put 1 in the next position as well."
+        },
+        {
+            "start": 187.1,
+            "end": 189.1,
+            "text": " And we will decrease its count to 0."
+        },
+        {
+            "start": 189.1,
+            "end": 191.1,
+            "text": " Then we will come to 2."
+        },
+        {
+            "start": 191.1,
+            "end": 193.1,
+            "text": " Now we have 1 stored in 2."
+        },
+        {
+            "start": 193.1,
+            "end": 195.1,
+            "text": " So we will put 2 here."
+        },
+        {
+            "start": 195.1,
+            "end": 197.1,
+            "text": " And we will decrease its count to 0."
+        },
+        {
+            "start": 197.1,
+            "end": 199.1,
+            "text": " Then we will come to 3."
+        },
+        {
+            "start": 199.1,
+            "end": 201.1,
+            "text": " The count is 2."
+        },
+        {
+            "start": 201.1,
+            "end": 203.1,
+            "text": " So we will decrease the count by 1."
+        },
+        {
+            "start": 203.1,
+            "end": 205.1,
+            "text": " And we will write 3 here."
+        },
+        {
+            "start": 205.1,
+            "end": 207.1,
+            "text": " And then there is another 3."
+        },
+        {
+            "start": 207.1,
+            "end": 209.1,
+            "text": " So we will remove its count from here and write 3 instead of 2."
+        },
+        {
+            "start": 209.1,
+            "end": 211.1,
+            "text": " Then we will come to 4."
+        },
+        {
+            "start": 211.1,
+            "end": 213.1,
+            "text": " We will decrease its count by 1."
+        },
+        {
+            "start": 213.29999999999998,
+            "end": 215.29999999999998,
+            "text": " Then we will cut it and write 4."
+        },
+        {
+            "start": 215.29999999999998,
+            "end": 217.29999999999998,
+            "text": " Then we will decrease its count to 0."
+        },
+        {
+            "start": 217.29999999999998,
+            "end": 219.29999999999998,
+            "text": " And we will cut it and write 4."
+        },
+        {
+            "start": 219.29999999999998,
+            "end": 221.29999999999998,
+            "text": " Then we will go to 5 and its count is 0."
+        },
+        {
+            "start": 221.29999999999998,
+            "end": 223.29999999999998,
+            "text": " Then we will go to 6 and its count is 0."
+        },
+        {
+            "start": 223.29999999999998,
+            "end": 225.29999999999998,
+            "text": " Then we will cut it and write 1."
+        },
+        {
+            "start": 225.29999999999998,
+            "end": 227.29999999999998,
+            "text": " And we will get 0 instead of 7."
+        },
+        {
+            "start": 227.29999999999998,
+            "end": 229.29999999999998,
+            "text": " And finally when we will notice"
+        },
+        {
+            "start": 229.29999999999998,
+            "end": 231.29999999999998,
+            "text": " then our final array will be a sorted array"
+        },
+        {
+            "start": 231.29999999999998,
+            "end": 233.29999999999998,
+            "text": " in which the numbers are arranged in ascending order."
+        },
+        {
+            "start": 233.29999999999998,
+            "end": 235.29999999999998,
+            "text": " So what we did is"
+        },
+        {
+            "start": 235.29999999999998,
+            "end": 237.29999999999998,
+            "text": " we stored the frequency of each number in the count array."
+        },
+        {
+            "start": 237.29999999999998,
+            "end": 239.29999999999998,
+            "text": " Then we will traverse the count array."
+        },
+        {
+            "start": 239.29999999999998,
+            "end": 241.29999999999998,
+            "text": " We will keep all the numbers in the original array."
+        },
+        {
+            "start": 241.5,
+            "end": 243.5,
+            "text": " And we will replace them in the same way."
+        },
+        {
+            "start": 243.5,
+            "end": 245.5,
+            "text": " Now if we talk about the time complexity of this code"
+        },
+        {
+            "start": 245.5,
+            "end": 247.5,
+            "text": " then how will we write the code here?"
+        },
+        {
+            "start": 247.5,
+            "end": 249.5,
+            "text": " We will run the outer loop"
+        },
+        {
+            "start": 249.5,
+            "end": 251.5,
+            "text": " for the first time from 0 to n."
+        },
+        {
+            "start": 251.5,
+            "end": 253.5,
+            "text": " In this loop"
+        },
+        {
+            "start": 253.5,
+            "end": 255.5,
+            "text": " we will count the frequency."
+        },
+        {
+            "start": 255.5,
+            "end": 257.5,
+            "text": " Then we will run"
+        },
+        {
+            "start": 257.5,
+            "end": 259.5,
+            "text": " another loop"
+        },
+        {
+            "start": 259.5,
+            "end": 261.5,
+            "text": " which will go from i equal to 0"
+        },
+        {
+            "start": 261.5,
+            "end": 263.5,
+            "text": " to maximum number."
+        },
+        {
+            "start": 263.5,
+            "end": 265.5,
+            "text": " Or to our range."
+        },
+        {
+            "start": 265.5,
+            "end": 267.5,
+            "text": " What is the range in this?"
+        },
+        {
+            "start": 267.5,
+            "end": 269.5,
+            "text": " In this, the range is 7."
+        },
+        {
+            "start": 269.7,
+            "end": 271.7,
+            "text": " So the maximum number is 7."
+        },
+        {
+            "start": 271.7,
+            "end": 273.7,
+            "text": " So the size of the count array is 7."
+        },
+        {
+            "start": 273.7,
+            "end": 275.7,
+            "text": " The size of this array is 8."
+        },
+        {
+            "start": 275.7,
+            "end": 277.7,
+            "text": " So we will form two loops."
+        },
+        {
+            "start": 277.7,
+            "end": 279.7,
+            "text": " This will be our first loop"
+        },
+        {
+            "start": 279.7,
+            "end": 281.7,
+            "text": " from which we will count the frequency."
+        },
+        {
+            "start": 281.7,
+            "end": 283.7,
+            "text": " And the second loop from which we will do the sorting."
+        },
+        {
+            "start": 283.7,
+            "end": 285.7,
+            "text": " So the time complexity will be big of n plus"
+        },
+        {
+            "start": 285.7,
+            "end": 287.7,
+            "text": " our range."
+        },
+        {
+            "start": 287.7,
+            "end": 289.7,
+            "text": " So the bigger the number"
+        },
+        {
+            "start": 289.7,
+            "end": 291.7,
+            "text": " the proportional time complexity will be."
+        },
+        {
+            "start": 291.7,
+            "end": 293.7,
+            "text": " So in the cases where the range is small"
+        },
+        {
+            "start": 293.7,
+            "end": 295.7,
+            "text": " that is our largest number will be small"
+        },
+        {
+            "start": 295.7,
+            "end": 297.7,
+            "text": " Here 7 is considered to be a very small number."
+        },
+        {
+            "start": 297.7,
+            "end": 299.9,
+            "text": " So in that case, it will give us a linear time complexity."
+        }
+    ],
+    "full_text": " Now we are going to talk about another special function which is called counting sort. Now counting sort is usually used where the numbers we want to sort are not very big. Like student marks can be, now we know that marks will come in the range of 1 to 100. Or if your roll numbers are small, means there are only 30 students in the class. And roll number 1, 2, 3, 4, 5 are like this. So we can sort things there. So the range of numbers, like from minimum number to maximum number, here we will consider only positive numbers. The range from minimum to maximum, if that range is small, then we can apply counting sort there. In fact, counting sort will be so efficient in such cases that in some cases your linear time complexity can come. Means n log n is considered to be very superior because it is the lowest in the worst case. But in some cases, your near to end time complexity can come if you get a very good case. So for counting sort, we have taken the example of this array. In this, the minimum element is 1 and the maximum element is 7. So here the range is very small. We will say that we have a total of 7 numbers. We are taking the range of 7 numbers. So for counting sort, we make a count array. In the count array, we will keep the same number of partitions as in the original array. We will name it count. So here, on every index, we will store the frequency of our numbers. Frequency means which number will come how many times, we will store that. Like we will start traversing this array one by one. We got 1. So what did we do in 1? We stored 1. Then we got 4, so we stored 1 in 4. Then we got 1. So we updated this 1 and made it 2. This count array is counting which number is how many times. It counts the frequency, which number is how many times. Then we got 3, so we made it 1. On 2, we got 2, so we made it 1. On 4, we got 4, so we increased it from 1 to 2. On 3, we increased it from 3 to 1 and made it 2. And on 7, we made it 1. What are we going to write in the other places? By default, we will have 0 in the other places. Because these numbers don't exist. Now if we want to sort, we will go back to the original array. Let's take this as our original array. We will go back to this array. And in this array, first of all, 1 was stored. Now we will start traversing this array one by one. So what elements were stored in our original array? We had 1, then 4, then 1, then 3, then 2, then 4, then 3, and then 7. Now we will replace the old numbers by counting from here. So first of all, we are at 0. The count is 0, so we can't bring any change here. Then we will come to 1. We have 2 in 1. That means there were 2 1s in our original array. So what we will do is we will put 1 in the first position. We will decrease its count by 1. Then we will put 1 in the next position as well. And then we will start counting from here. So we will start counting from here. So we will start counting from here. Then we will put 1 in the next position as well. And we will decrease its count to 0. Then we will come to 2. Now we have 1 stored in 2. So we will put 2 here. And we will decrease its count to 0. Then we will come to 3. The count is 2. So we will decrease the count by 1. And we will write 3 here. And then there is another 3. So we will remove its count from here and write 3 instead of 2. Then we will come to 4. We will decrease its count by 1. Then we will cut it and write 4. Then we will decrease its count to 0. And we will cut it and write 4. Then we will go to 5 and its count is 0. Then we will go to 6 and its count is 0. Then we will cut it and write 1. And we will get 0 instead of 7. And finally when we will notice then our final array will be a sorted array in which the numbers are arranged in ascending order. So what we did is we stored the frequency of each number in the count array. Then we will traverse the count array. We will keep all the numbers in the original array. And we will replace them in the same way. Now if we talk about the time complexity of this code then how will we write the code here? We will run the outer loop for the first time from 0 to n. In this loop we will count the frequency. Then we will run another loop which will go from i equal to 0 to maximum number. Or to our range. What is the range in this? In this, the range is 7. So the maximum number is 7. So the size of the count array is 7. The size of this array is 8. So we will form two loops. This will be our first loop from which we will count the frequency. And the second loop from which we will do the sorting. So the time complexity will be big of n plus our range. So the bigger the number the proportional time complexity will be. So in the cases where the range is small that is our largest number will be small Here 7 is considered to be a very small number. So in that case, it will give us a linear time complexity."
+}

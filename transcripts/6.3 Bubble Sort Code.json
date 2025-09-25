@@ -1,0 +1,445 @@
+{
+    "chunks": [
+        {
+            "start": 0.0,
+            "end": 4.64,
+            "text": " First of all, we have made a basic sorting class and we have our main function in it"
+        },
+        {
+            "start": 4.64,
+            "end": 11.8,
+            "text": " Now let's make another function here called public static void bubble sort"
+        },
+        {
+            "start": 11.8,
+            "end": 15.64,
+            "text": " Now we will take an integer array as an argument"
+        },
+        {
+            "start": 15.64,
+            "end": 20.36,
+            "text": " First of all, we know what we have to do in bubble sort, we will put an outer loop for turns"
+        },
+        {
+            "start": 20.36,
+            "end": 24.04,
+            "text": " The value of turns will start from 0 and how long will the value of turns go?"
+        },
+        {
+            "start": 24.04,
+            "end": 32.16,
+            "text": " This will go till less than array.length-1 and turns++"
+        },
+        {
+            "start": 32.16,
+            "end": 38.4,
+            "text": " In fact, we will give it a name of turn, turn number 0, turn number 1, turn number 2"
+        },
+        {
+            "start": 38.4,
+            "end": 41.84,
+            "text": " So in this way, our turns will go from 0 to 3"
+        },
+        {
+            "start": 41.84,
+            "end": 45.68,
+            "text": " And after that we make an inner loop for j is equal to 0"
+        },
+        {
+            "start": 45.68,
+            "end": 56.84,
+            "text": " This loop will go till j is less than array.length-1-turn and j++"
+        },
+        {
+            "start": 56.84,
+            "end": 63.96,
+            "text": " Now it should have gone till minus 2 but because we have put a sign less than, so it is minus 1 in both"
+        },
+        {
+            "start": 63.96,
+            "end": 69.72,
+            "text": " But if you go somewhere else and explore on some website, the process remains the same"
+        },
+        {
+            "start": 69.72,
+            "end": 74.76,
+            "text": " We push the largest element back, but in some code you will find differences where you will put equal to"
+        },
+        {
+            "start": 74.88000000000001,
+            "end": 76.88000000000001,
+            "text": " And here you will put 2"
+        },
+        {
+            "start": 76.88000000000001,
+            "end": 81.76,
+            "text": " So don't worry about that, all these changes are at the code level of implementing the algorithm"
+        },
+        {
+            "start": 81.76,
+            "end": 85.52000000000001,
+            "text": " There are some differences depending on how people want to write the loop"
+        },
+        {
+            "start": 85.52000000000001,
+            "end": 90.32000000000001,
+            "text": " Now internally what we are doing is that we have to swap every adjacent element"
+        },
+        {
+            "start": 90.32000000000001,
+            "end": 97.2,
+            "text": " If array of j is greater than array of j plus 1"
+        },
+        {
+            "start": 97.2,
+            "end": 104.0,
+            "text": " So here we have to check that our current element is bigger than our next element"
+        },
+        {
+            "start": 104.04,
+            "end": 110.12,
+            "text": " If I am bigger than my next element, then I should go further back in the line because I am a larger bubble"
+        },
+        {
+            "start": 110.12,
+            "end": 112.84,
+            "text": " In that case, we will swap"
+        },
+        {
+            "start": 112.84,
+            "end": 117.96000000000001,
+            "text": " To swap, first make a temporary variable in which array of j will come"
+        },
+        {
+            "start": 117.96000000000001,
+            "end": 125.8,
+            "text": " Now array of j is equal to array of j plus 1 and array of j plus 1 is equal to our temporary"
+        },
+        {
+            "start": 125.8,
+            "end": 131.76,
+            "text": " So in this way, swapping will happen of two adjacent elements, which is one after the other"
+        },
+        {
+            "start": 131.92,
+            "end": 136.44,
+            "text": " And some students must be thinking that why am I explaining such a basic algorithm in such detail"
+        },
+        {
+            "start": 136.44,
+            "end": 140.64,
+            "text": " Because we are the first algorithm in sorting"
+        },
+        {
+            "start": 140.64,
+            "end": 146.28,
+            "text": " So I want to explain this in detail, I am teaching you how to implement the algorithm"
+        },
+        {
+            "start": 146.28,
+            "end": 150.48,
+            "text": " How did they come up with the algorithm and how did it get into your mind"
+        },
+        {
+            "start": 150.48,
+            "end": 156.12,
+            "text": " Because bubble sort, insertion sort, selection sort are such algorithms that you are not using anywhere"
+        },
+        {
+            "start": 156.12,
+            "end": 158.84,
+            "text": " But the interviewer will ask you to explain these three"
+        },
+        {
+            "start": 158.92000000000002,
+            "end": 161.96,
+            "text": " So at that time you should know the logic behind these three"
+        },
+        {
+            "start": 161.96,
+            "end": 166.12,
+            "text": " And in fact, you should remember that's why I am using the word bubble again and again"
+        },
+        {
+            "start": 166.12,
+            "end": 169.84,
+            "text": " So we have the implementation of the whole code"
+        },
+        {
+            "start": 169.84,
+            "end": 174.52,
+            "text": " Now let's make another function here to print the array"
+        },
+        {
+            "start": 174.52,
+            "end": 177.88,
+            "text": " public static void print arr"
+        },
+        {
+            "start": 177.88,
+            "end": 180.84,
+            "text": " Here our array as an argument will come"
+        },
+        {
+            "start": 180.84,
+            "end": 187.96,
+            "text": " for int i equals 0, i less than array.length, i plus plus"
+        },
+        {
+            "start": 189.16,
+            "end": 192.12,
+            "text": " system.out.print"
+        },
+        {
+            "start": 192.12,
+            "end": 195.36,
+            "text": " Here we will print arr of i"
+        },
+        {
+            "start": 195.36,
+            "end": 198.6,
+            "text": " And this is our next line"
+        },
+        {
+            "start": 198.6,
+            "end": 202.52,
+            "text": " So in the main function, we have made the same array as we have discussed"
+        },
+        {
+            "start": 202.52,
+            "end": 206.12,
+            "text": " First of all, we will call bubble sort, we have passed the array in bubble sort"
+        },
+        {
+            "start": 206.12,
+            "end": 208.52,
+            "text": " Then we will print our array"
+        },
+        {
+            "start": 208.52,
+            "end": 211.96,
+            "text": " So let's save this and run it"
+        },
+        {
+            "start": 211.96,
+            "end": 219.48000000000002,
+            "text": " So we have a sorted array which is 1,2,3,4,5"
+        },
+        {
+            "start": 219.48000000000002,
+            "end": 224.52,
+            "text": " I hope this part is completely clear in which we have implemented bubble sort"
+        },
+        {
+            "start": 224.52,
+            "end": 227.96,
+            "text": " In fact, let's discuss it a little more so that it sits in the brain"
+        },
+        {
+            "start": 227.96,
+            "end": 232.76000000000002,
+            "text": " We have written some such things in our code, some such lines"
+        },
+        {
+            "start": 232.76000000000002,
+            "end": 237.56,
+            "text": " In which we talked about turns above, we talked about j below and then finally we did swap"
+        },
+        {
+            "start": 237.88,
+            "end": 240.36,
+            "text": " Now if we analyze the outer loop"
+        },
+        {
+            "start": 240.36,
+            "end": 243.48,
+            "text": " So the outer loop is running n times"
+        },
+        {
+            "start": 243.48,
+            "end": 248.68,
+            "text": " Inner loop is running n minus 1 minus turns time"
+        },
+        {
+            "start": 248.68,
+            "end": 256.6,
+            "text": " So if we look at it roughly, the time complexity of these two loops will be big O of n square"
+        },
+        {
+            "start": 256.6,
+            "end": 262.12,
+            "text": " So this is the algorithm of n square, we will not call it a very optimized algorithm in terms of sorting"
+        },
+        {
+            "start": 262.12,
+            "end": 265.16,
+            "text": " Because there are many faster algorithms than this"
+        },
+        {
+            "start": 265.24,
+            "end": 270.92,
+            "text": " But because this is a very basic thing to understand and it is also asked in many places"
+        },
+        {
+            "start": 270.92,
+            "end": 276.68,
+            "text": " Because you should know that if there are 6 different types of popular algorithms in sorting"
+        },
+        {
+            "start": 276.68,
+            "end": 280.92,
+            "text": " So which are they and why some algorithm is good and why some algorithm is bad"
+        },
+        {
+            "start": 280.92,
+            "end": 284.52000000000004,
+            "text": " And in this, I would like to give you one more thing as a homework problem"
+        },
+        {
+            "start": 284.52000000000004,
+            "end": 288.52000000000004,
+            "text": " Now assume that an array has been given in the beginning 1,2,3,4,5"
+        },
+        {
+            "start": 288.52000000000004,
+            "end": 291.24,
+            "text": " Now this array is already sorted"
+        },
+        {
+            "start": 291.32,
+            "end": 297.0,
+            "text": " So in this sorted array case also, the time complexity that will come here in this bubble sort"
+        },
+        {
+            "start": 297.0,
+            "end": 299.0,
+            "text": " That will be big O of n square only"
+        },
+        {
+            "start": 299.0,
+            "end": 301.8,
+            "text": " Even though this is not the worst case, we will call it the best case"
+        },
+        {
+            "start": 301.8,
+            "end": 302.92,
+            "text": " Why will we call it the best case?"
+        },
+        {
+            "start": 302.92,
+            "end": 306.28000000000003,
+            "text": " Because the array is already sorted, we should not have to do any work"
+        },
+        {
+            "start": 306.28000000000003,
+            "end": 309.8,
+            "text": " But in this also, the time complexity that will come will be n square"
+        },
+        {
+            "start": 309.8,
+            "end": 312.68,
+            "text": " Because the outer loop will run and the inner loop will run"
+        },
+        {
+            "start": 312.68,
+            "end": 315.16,
+            "text": " And all these conditions will be checked again and again"
+        },
+        {
+            "start": 315.16,
+            "end": 317.16,
+            "text": " But there is a way to avoid this"
+        },
+        {
+            "start": 317.16,
+            "end": 322.44,
+            "text": " And the way is that you check in the first time or in fact, you check how many swaps are there in every time"
+        },
+        {
+            "start": 322.44,
+            "end": 324.44,
+            "text": " You make a variable outside"
+        },
+        {
+            "start": 324.44,
+            "end": 326.44,
+            "text": " Swaps is equal to 0"
+        },
+        {
+            "start": 326.44,
+            "end": 328.76000000000005,
+            "text": " We have to initialize it here"
+        },
+        {
+            "start": 328.76000000000005,
+            "end": 331.16,
+            "text": " In the beginning of this inner loop"
+        },
+        {
+            "start": 331.16,
+            "end": 334.92,
+            "text": " And then count that whenever we are swapping, we should make it plus plus"
+        },
+        {
+            "start": 334.92,
+            "end": 339.72,
+            "text": " And if after one iteration, if your swap did not increase by even one number"
+        },
+        {
+            "start": 339.72,
+            "end": 341.96000000000004,
+            "text": " Then it means that our array was already sorted"
+        },
+        {
+            "start": 341.96000000000004,
+            "end": 345.8,
+            "text": " If the array is already sorted, then there is no need to swap in your code"
+        },
+        {
+            "start": 345.88,
+            "end": 348.36,
+            "text": " If the array is not sorted, then you will have to swap"
+        },
+        {
+            "start": 348.36,
+            "end": 350.36,
+            "text": " So this swap thing"
+        },
+        {
+            "start": 350.36,
+            "end": 356.68,
+            "text": " If you did not understand, then I hope that you will try to understand it by rewinding it a little more"
+        },
+        {
+            "start": 356.68,
+            "end": 359.48,
+            "text": " And try to write its code yourself"
+        },
+        {
+            "start": 359.48,
+            "end": 361.48,
+            "text": " For a sorted array"
+        },
+        {
+            "start": 361.48,
+            "end": 363.48,
+            "text": " For this sorted array"
+        },
+        {
+            "start": 363.48,
+            "end": 367.72,
+            "text": " For bubble sort, how can you write an optimized bubble sort code"
+        },
+        {
+            "start": 367.72,
+            "end": 372.52,
+            "text": " And the time complexity that should come in that optimized code should be big of n"
+        },
+        {
+            "start": 372.52,
+            "end": 374.52,
+            "text": " So you have to try for this"
+        }
+    ],
+    "full_text": " First of all, we have made a basic sorting class and we have our main function in it Now let's make another function here called public static void bubble sort Now we will take an integer array as an argument First of all, we know what we have to do in bubble sort, we will put an outer loop for turns The value of turns will start from 0 and how long will the value of turns go? This will go till less than array.length-1 and turns++ In fact, we will give it a name of turn, turn number 0, turn number 1, turn number 2 So in this way, our turns will go from 0 to 3 And after that we make an inner loop for j is equal to 0 This loop will go till j is less than array.length-1-turn and j++ Now it should have gone till minus 2 but because we have put a sign less than, so it is minus 1 in both But if you go somewhere else and explore on some website, the process remains the same We push the largest element back, but in some code you will find differences where you will put equal to And here you will put 2 So don't worry about that, all these changes are at the code level of implementing the algorithm There are some differences depending on how people want to write the loop Now internally what we are doing is that we have to swap every adjacent element If array of j is greater than array of j plus 1 So here we have to check that our current element is bigger than our next element If I am bigger than my next element, then I should go further back in the line because I am a larger bubble In that case, we will swap To swap, first make a temporary variable in which array of j will come Now array of j is equal to array of j plus 1 and array of j plus 1 is equal to our temporary So in this way, swapping will happen of two adjacent elements, which is one after the other And some students must be thinking that why am I explaining such a basic algorithm in such detail Because we are the first algorithm in sorting So I want to explain this in detail, I am teaching you how to implement the algorithm How did they come up with the algorithm and how did it get into your mind Because bubble sort, insertion sort, selection sort are such algorithms that you are not using anywhere But the interviewer will ask you to explain these three So at that time you should know the logic behind these three And in fact, you should remember that's why I am using the word bubble again and again So we have the implementation of the whole code Now let's make another function here to print the array public static void print arr Here our array as an argument will come for int i equals 0, i less than array.length, i plus plus system.out.print Here we will print arr of i And this is our next line So in the main function, we have made the same array as we have discussed First of all, we will call bubble sort, we have passed the array in bubble sort Then we will print our array So let's save this and run it So we have a sorted array which is 1,2,3,4,5 I hope this part is completely clear in which we have implemented bubble sort In fact, let's discuss it a little more so that it sits in the brain We have written some such things in our code, some such lines In which we talked about turns above, we talked about j below and then finally we did swap Now if we analyze the outer loop So the outer loop is running n times Inner loop is running n minus 1 minus turns time So if we look at it roughly, the time complexity of these two loops will be big O of n square So this is the algorithm of n square, we will not call it a very optimized algorithm in terms of sorting Because there are many faster algorithms than this But because this is a very basic thing to understand and it is also asked in many places Because you should know that if there are 6 different types of popular algorithms in sorting So which are they and why some algorithm is good and why some algorithm is bad And in this, I would like to give you one more thing as a homework problem Now assume that an array has been given in the beginning 1,2,3,4,5 Now this array is already sorted So in this sorted array case also, the time complexity that will come here in this bubble sort That will be big O of n square only Even though this is not the worst case, we will call it the best case Why will we call it the best case? Because the array is already sorted, we should not have to do any work But in this also, the time complexity that will come will be n square Because the outer loop will run and the inner loop will run And all these conditions will be checked again and again But there is a way to avoid this And the way is that you check in the first time or in fact, you check how many swaps are there in every time You make a variable outside Swaps is equal to 0 We have to initialize it here In the beginning of this inner loop And then count that whenever we are swapping, we should make it plus plus And if after one iteration, if your swap did not increase by even one number Then it means that our array was already sorted If the array is already sorted, then there is no need to swap in your code If the array is not sorted, then you will have to swap So this swap thing If you did not understand, then I hope that you will try to understand it by rewinding it a little more And try to write its code yourself For a sorted array For this sorted array For bubble sort, how can you write an optimized bubble sort code And the time complexity that should come in that optimized code should be big of n So you have to try for this"
+}

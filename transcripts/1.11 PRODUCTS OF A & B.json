@@ -1,0 +1,150 @@
+{
+    "chunks": [
+        {
+            "start": 0.0,
+            "end": 5.36,
+            "text": " Next question is what is product of A and B?"
+        },
+        {
+            "start": 5.36,
+            "end": 9.36,
+            "text": " A multiplied by B"
+        },
+        {
+            "start": 9.36,
+            "end": 12.16,
+            "text": " So how to calculate product of two numbers?"
+        },
+        {
+            "start": 12.16,
+            "end": 18.48,
+            "text": " Like math has sum and product, same way Java has sum and product"
+        },
+        {
+            "start": 18.48,
+            "end": 22.88,
+            "text": " Here instead of multiplying we put asterisk in Java"
+        },
+        {
+            "start": 22.88,
+            "end": 27.68,
+            "text": " So first we have to make our scanner object"
+        },
+        {
+            "start": 28.08,
+            "end": 36.0,
+            "text": " Then we will take input A using sc.next int"
+        },
+        {
+            "start": 36.0,
+            "end": 42.88,
+            "text": " Then we will take input B using sc.next int"
+        },
+        {
+            "start": 42.88,
+            "end": 47.760000000000005,
+            "text": " Then we will take product of both of them and make a variable"
+        },
+        {
+            "start": 47.760000000000005,
+            "end": 52.879999999999995,
+            "text": " Integer type of product is equal to A multiplied by B"
+        },
+        {
+            "start": 52.96,
+            "end": 58.0,
+            "text": " And finally we will print the value of our product"
+        },
+        {
+            "start": 58.0,
+            "end": 62.160000000000004,
+            "text": " So we have to write the same code as we wrote for sum"
+        },
+        {
+            "start": 62.160000000000004,
+            "end": 65.2,
+            "text": " Here instead of sum we will take product"
+        },
+        {
+            "start": 65.2,
+            "end": 70.32000000000001,
+            "text": " And instead of plus we will write multiply and print the same product"
+        },
+        {
+            "start": 70.32000000000001,
+            "end": 72.48,
+            "text": " Now let's write code directly for this"
+        },
+        {
+            "start": 72.48,
+            "end": 76.0,
+            "text": " In fact, let's change our old code"
+        },
+        {
+            "start": 76.0,
+            "end": 79.44,
+            "text": " For us, the scanner line will be constant"
+        },
+        {
+            "start": 79.44,
+            "end": 82.56,
+            "text": " We have to take input A and B"
+        },
+        {
+            "start": 82.56,
+            "end": 85.36,
+            "text": " But this time we don't have to calculate sum"
+        },
+        {
+            "start": 85.36,
+            "end": 91.68,
+            "text": " This time we have to do int product is equal to A multiplied by B"
+        },
+        {
+            "start": 91.68,
+            "end": 95.60000000000001,
+            "text": " So this is the same asterisk sign which we used earlier"
+        },
+        {
+            "start": 95.60000000000001,
+            "end": 98.4,
+            "text": " As soon as we use this, we get the product"
+        },
+        {
+            "start": 98.4,
+            "end": 100.80000000000001,
+            "text": " Means A multiplied by B will be calculated first"
+        },
+        {
+            "start": 100.80000000000001,
+            "end": 104.0,
+            "text": " And then it will be stored in the product"
+        },
+        {
+            "start": 104.0,
+            "end": 107.36,
+            "text": " And now we will print the product"
+        },
+        {
+            "start": 107.36,
+            "end": 111.68,
+            "text": " So let's save it and run it"
+        },
+        {
+            "start": 112.64,
+            "end": 115.92,
+            "text": " So first of all, we enter A, we enter 10"
+        },
+        {
+            "start": 115.92,
+            "end": 118.16000000000001,
+            "text": " We enter B, we enter 5"
+        },
+        {
+            "start": 118.16000000000001,
+            "end": 122.72000000000001,
+            "text": " And what is the product? 10 multiplied by 5 which is equal to 50"
+        }
+    ],
+    "full_text": " Next question is what is product of A and B? A multiplied by B So how to calculate product of two numbers? Like math has sum and product, same way Java has sum and product Here instead of multiplying we put asterisk in Java So first we have to make our scanner object Then we will take input A using sc.next int Then we will take input B using sc.next int Then we will take product of both of them and make a variable Integer type of product is equal to A multiplied by B And finally we will print the value of our product So we have to write the same code as we wrote for sum Here instead of sum we will take product And instead of plus we will write multiply and print the same product Now let's write code directly for this In fact, let's change our old code For us, the scanner line will be constant We have to take input A and B But this time we don't have to calculate sum This time we have to do int product is equal to A multiplied by B So this is the same asterisk sign which we used earlier As soon as we use this, we get the product Means A multiplied by B will be calculated first And then it will be stored in the product And now we will print the product So let's save it and run it So first of all, we enter A, we enter 10 We enter B, we enter 5 And what is the product? 10 multiplied by 5 which is equal to 50"
+}

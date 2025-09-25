@@ -1,0 +1,245 @@
+{
+    "chunks": [
+        {
+            "start": 0.0,
+            "end": 4.0,
+            "text": " Hi everyone, today we are going to write our first code in java"
+        },
+        {
+            "start": 4.0,
+            "end": 10.0,
+            "text": " and to write this code we will use a code editor called visual studio code"
+        },
+        {
+            "start": 10.0,
+            "end": 12.0,
+            "text": " Now what is a code editor?"
+        },
+        {
+            "start": 12.0,
+            "end": 16.0,
+            "text": " Like we used to study any subject, we used to study math, so where did we solve its notes?"
+        },
+        {
+            "start": 16.0,
+            "end": 22.0,
+            "text": " In the notebook, we used to study science, so we used to make science notes and write it in the notebook"
+        },
+        {
+            "start": 22.0,
+            "end": 27.0,
+            "text": " So to write such code, we need a software which is our code editor"
+        },
+        {
+            "start": 27.0,
+            "end": 35.0,
+            "text": " Now in the market, there are many code editors available like visual studio code, intelliJ, eclipse and many more"
+        },
+        {
+            "start": 35.0,
+            "end": 41.0,
+            "text": " If you want, you can use any code editor for this course where java is run or written"
+        },
+        {
+            "start": 41.0,
+            "end": 46.0,
+            "text": " If you don't want to install any software, then there are many online code editors available"
+        },
+        {
+            "start": 46.0,
+            "end": 52.0,
+            "text": " For how to install them, we have given some helpful bonus links, videos"
+        },
+        {
+            "start": 52.0,
+            "end": 57.0,
+            "text": " plus we have given some code editors names which are very popular in the market"
+        },
+        {
+            "start": 57.0,
+            "end": 63.0,
+            "text": " Now all the code editors we have told you are free of cost, means we don't have to pay anything to use them"
+        },
+        {
+            "start": 63.0,
+            "end": 67.0,
+            "text": " So running and practicing java is completely free"
+        },
+        {
+            "start": 67.0,
+            "end": 70.0,
+            "text": " Now we are going to start our first java code"
+        },
+        {
+            "start": 70.0,
+            "end": 74.0,
+            "text": " So you must be seeing this on the screen, the opening window of visual studio code"
+        },
+        {
+            "start": 74.0,
+            "end": 79.0,
+            "text": " Here I can see some extra files, this is not happening in your VS code"
+        },
+        {
+            "start": 79.0,
+            "end": 85.0,
+            "text": " Why it is not happening? Because I have already written a lot of code in my VS code, so I can see those files slowly"
+        },
+        {
+            "start": 85.0,
+            "end": 90.0,
+            "text": " But if you have just opened it, then the welcome screen will be completely empty"
+        },
+        {
+            "start": 90.0,
+            "end": 94.0,
+            "text": " But here there will be an option of start, and below it will be a new file"
+        },
+        {
+            "start": 94.0,
+            "end": 97.0,
+            "text": " From the new file, we can create a new file"
+        },
+        {
+            "start": 97.0,
+            "end": 101.0,
+            "text": " So a new file has been created in our VS code"
+        },
+        {
+            "start": 101.0,
+            "end": 105.0,
+            "text": " And before writing anything in this file, we will save this file"
+        },
+        {
+            "start": 106.0,
+            "end": 109.0,
+            "text": " To save the file in a computer, we have pressed ctrl s"
+        },
+        {
+            "start": 109.0,
+            "end": 112.0,
+            "text": " We are going to save this file on the desktop"
+        },
+        {
+            "start": 112.0,
+            "end": 119.0,
+            "text": " We will create a new folder, we will name it javaprogramminglanguage"
+        },
+        {
+            "start": 119.0,
+            "end": 127.0,
+            "text": " We have created the folder, and we will name it javabasics.java"
+        },
+        {
+            "start": 127.0,
+            "end": 132.0,
+            "text": " Now we have taken the name of our file javabasics, and what extension we have given to it?"
+        },
+        {
+            "start": 132.0,
+            "end": 134.0,
+            "text": " We have given an extension .java"
+        },
+        {
+            "start": 134.0,
+            "end": 136.0,
+            "text": " Now what is extension?"
+        },
+        {
+            "start": 136.0,
+            "end": 141.0,
+            "text": " Whenever we save a file in our computer, there is always a dot something in the name of that file"
+        },
+        {
+            "start": 141.0,
+            "end": 146.0,
+            "text": " You must have noticed that if you have run a laptop or computer in childhood, then there were .txt files"
+        },
+        {
+            "start": 146.0,
+            "end": 153.0,
+            "text": " So that is our most basic text file, where we write only the sentences of English, paragraphs, etc."
+        },
+        {
+            "start": 153.0,
+            "end": 159.0,
+            "text": " Similarly, if you want to make a java file, then after the name of the file, you will always have to add .java"
+        },
+        {
+            "start": 159.0,
+            "end": 164.0,
+            "text": " So that the computer knows, your compiler knows that this is a java file"
+        },
+        {
+            "start": 164.0,
+            "end": 168.0,
+            "text": " Similarly, if you create a file in C++, then you write .cpp"
+        },
+        {
+            "start": 168.0,
+            "end": 170.0,
+            "text": " If you create a file in C, then you write .c"
+        },
+        {
+            "start": 170.0,
+            "end": 173.0,
+            "text": " If you create a file in Python, then you write .py"
+        },
+        {
+            "start": 173.0,
+            "end": 176.0,
+            "text": " If you create a file in HTML, then you write .html"
+        },
+        {
+            "start": 176.0,
+            "end": 181.0,
+            "text": " Similarly, every file has its own extension, which tells us what is actually in this file"
+        },
+        {
+            "start": 181.0,
+            "end": 186.0,
+            "text": " So in this file, we have a lot of java code, which we are going to write"
+        },
+        {
+            "start": 186.0,
+            "end": 189.0,
+            "text": " So here we have written .java and we will save it"
+        },
+        {
+            "start": 189.0,
+            "end": 193.0,
+            "text": " As soon as we save it, this location came that where is this file"
+        },
+        {
+            "start": 193.0,
+            "end": 200.0,
+            "text": " This file is saved in a folder called java programming language on our desktop by going to our users"
+        },
+        {
+            "start": 200.0,
+            "end": 203.0,
+            "text": " Let's see how it was actually created"
+        },
+        {
+            "start": 203.0,
+            "end": 206.0,
+            "text": " Here is our folder java programming language"
+        },
+        {
+            "start": 206.0,
+            "end": 211.0,
+            "text": " And if you notice in it, then a file has come from the name javabasics.java"
+        },
+        {
+            "start": 211.0,
+            "end": 213.0,
+            "text": " We have created this file"
+        },
+        {
+            "start": 213.0,
+            "end": 215.0,
+            "text": " Now let's come back to our editor"
+        }
+    ],
+    "full_text": " Hi everyone, today we are going to write our first code in java and to write this code we will use a code editor called visual studio code Now what is a code editor? Like we used to study any subject, we used to study math, so where did we solve its notes? In the notebook, we used to study science, so we used to make science notes and write it in the notebook So to write such code, we need a software which is our code editor Now in the market, there are many code editors available like visual studio code, intelliJ, eclipse and many more If you want, you can use any code editor for this course where java is run or written If you don't want to install any software, then there are many online code editors available For how to install them, we have given some helpful bonus links, videos plus we have given some code editors names which are very popular in the market Now all the code editors we have told you are free of cost, means we don't have to pay anything to use them So running and practicing java is completely free Now we are going to start our first java code So you must be seeing this on the screen, the opening window of visual studio code Here I can see some extra files, this is not happening in your VS code Why it is not happening? Because I have already written a lot of code in my VS code, so I can see those files slowly But if you have just opened it, then the welcome screen will be completely empty But here there will be an option of start, and below it will be a new file From the new file, we can create a new file So a new file has been created in our VS code And before writing anything in this file, we will save this file To save the file in a computer, we have pressed ctrl s We are going to save this file on the desktop We will create a new folder, we will name it javaprogramminglanguage We have created the folder, and we will name it javabasics.java Now we have taken the name of our file javabasics, and what extension we have given to it? We have given an extension .java Now what is extension? Whenever we save a file in our computer, there is always a dot something in the name of that file You must have noticed that if you have run a laptop or computer in childhood, then there were .txt files So that is our most basic text file, where we write only the sentences of English, paragraphs, etc. Similarly, if you want to make a java file, then after the name of the file, you will always have to add .java So that the computer knows, your compiler knows that this is a java file Similarly, if you create a file in C++, then you write .cpp If you create a file in C, then you write .c If you create a file in Python, then you write .py If you create a file in HTML, then you write .html Similarly, every file has its own extension, which tells us what is actually in this file So in this file, we have a lot of java code, which we are going to write So here we have written .java and we will save it As soon as we save it, this location came that where is this file This file is saved in a folder called java programming language on our desktop by going to our users Let's see how it was actually created Here is our folder java programming language And if you notice in it, then a file has come from the name javabasics.java We have created this file Now let's come back to our editor"
+}

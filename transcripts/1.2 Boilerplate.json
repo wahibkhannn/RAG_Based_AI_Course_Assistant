@@ -1,0 +1,470 @@
+{
+    "chunks": [
+        {
+            "start": 0.0,
+            "end": 4.48,
+            "text": " First of all, we define a class in our java file"
+        },
+        {
+            "start": 4.48,
+            "end": 11.46,
+            "text": " In our first lecture, we will hear many strange words"
+        },
+        {
+            "start": 11.46,
+            "end": 13.96,
+            "text": " which we may not understand now"
+        },
+        {
+            "start": 13.96,
+            "end": 16.62,
+            "text": " but as soon as we do 5-10 lectures"
+        },
+        {
+            "start": 16.62,
+            "end": 19.04,
+            "text": " and finally read the concept of OOPS"
+        },
+        {
+            "start": 19.04,
+            "end": 21.88,
+            "text": " OOPS means Object Oriented Programming Systems"
+        },
+        {
+            "start": 21.88,
+            "end": 26.240000000000002,
+            "text": " This will look like a topic in your last chapters"
+        },
+        {
+            "start": 26.24,
+            "end": 34.42,
+            "text": " When we will read this, we will understand the meaning of the words"
+        },
+        {
+            "start": 34.42,
+            "end": 38.08,
+            "text": " So, in the first class, we will not focus on the meaning"
+        },
+        {
+            "start": 38.08,
+            "end": 40.64,
+            "text": " We will focus on the working of the words"
+        },
+        {
+            "start": 40.64,
+            "end": 44.599999999999994,
+            "text": " that we are able to execute a code"
+        },
+        {
+            "start": 44.599999999999994,
+            "end": 49.06,
+            "text": " We will understand the meaning of the code with time"
+        },
+        {
+            "start": 49.06,
+            "end": 53.44,
+            "text": " But the most important thing in coding is to keep your motivation"
+        },
+        {
+            "start": 53.44,
+            "end": 57.099999999999994,
+            "text": " and the second most important thing is to keep fun"
+        },
+        {
+            "start": 57.099999999999994,
+            "end": 60.86,
+            "text": " We do not want to kill off fun in the first class"
+        },
+        {
+            "start": 60.86,
+            "end": 63.739999999999995,
+            "text": " So, we will have some complex words for now"
+        },
+        {
+            "start": 63.739999999999995,
+            "end": 65.98,
+            "text": " We may not understand the meaning of the words"
+        },
+        {
+            "start": 65.98,
+            "end": 67.38,
+            "text": " It may not be clear"
+        },
+        {
+            "start": 67.38,
+            "end": 68.08,
+            "text": " So, it is okay"
+        },
+        {
+            "start": 68.08,
+            "end": 68.98,
+            "text": " We just have to be patient"
+        },
+        {
+            "start": 68.98,
+            "end": 72.58,
+            "text": " In the later classes, they have been discussed in great detail"
+        },
+        {
+            "start": 72.58,
+            "end": 78.7,
+            "text": " So, first of all, we define a class to write all the code"
+        },
+        {
+            "start": 78.7,
+            "end": 84.0,
+            "text": " Public, Class, Java, Basics"
+        },
+        {
+            "start": 84.0,
+            "end": 87.60000000000001,
+            "text": " Now, what is a class?"
+        },
+        {
+            "start": 87.60000000000001,
+            "end": 91.44,
+            "text": " We have heard about a classroom in colleges and schools"
+        },
+        {
+            "start": 91.44,
+            "end": 95.62,
+            "text": " where all the students are sitting and all the work is done in the class"
+        },
+        {
+            "start": 95.62,
+            "end": 98.62,
+            "text": " Similarly, in Java, there is a class"
+        },
+        {
+            "start": 98.62,
+            "end": 101.06,
+            "text": " in which we write all the code"
+        },
+        {
+            "start": 101.06,
+            "end": 104.36,
+            "text": " and all the code work is done in the class"
+        },
+        {
+            "start": 104.36,
+            "end": 106.10000000000001,
+            "text": " So, we have to visualize it like that"
+        },
+        {
+            "start": 106.10000000000001,
+            "end": 108.4,
+            "text": " There is a class where all the work has to be done"
+        },
+        {
+            "start": 108.60000000000001,
+            "end": 111.46000000000001,
+            "text": " So, we have made a public class for the class"
+        },
+        {
+            "start": 111.46000000000001,
+            "end": 114.0,
+            "text": " We will discuss the meaning of public later"
+        },
+        {
+            "start": 114.0,
+            "end": 116.7,
+            "text": " For now, public means what everyone can see"
+        },
+        {
+            "start": 116.7,
+            "end": 117.9,
+            "text": " So, public class"
+        },
+        {
+            "start": 117.9,
+            "end": 119.04,
+            "text": " And what is the name of the class?"
+        },
+        {
+            "start": 119.04,
+            "end": 121.04,
+            "text": " We have named the class as Java Basics"
+        },
+        {
+            "start": 121.04,
+            "end": 125.24000000000001,
+            "text": " In Java, the name of the class and the name of the file should be the same"
+        },
+        {
+            "start": 125.24000000000001,
+            "end": 130.92000000000002,
+            "text": " That is, the name of our public class and the name of the file we have made from .java"
+        },
+        {
+            "start": 130.92000000000002,
+            "end": 132.58,
+            "text": " should always be the same"
+        },
+        {
+            "start": 132.58,
+            "end": 135.72,
+            "text": " In this class, we will define a function"
+        },
+        {
+            "start": 136.04,
+            "end": 139.28,
+            "text": " Public, Static, Void, Main"
+        },
+        {
+            "start": 139.28,
+            "end": 141.48,
+            "text": " The strange words that we hear"
+        },
+        {
+            "start": 141.48,
+            "end": 145.12,
+            "text": " Public, Class, Main, Static, Void"
+        },
+        {
+            "start": 145.12,
+            "end": 147.32,
+            "text": " We do not have to worry about them at all"
+        },
+        {
+            "start": 147.32,
+            "end": 150.86,
+            "text": " String, Arguments"
+        },
+        {
+            "start": 150.86,
+            "end": 155.66,
+            "text": " Now, I have said 6-7 alien level words"
+        },
+        {
+            "start": 155.66,
+            "end": 158.14,
+            "text": " But, to explain it very easily"
+        },
+        {
+            "start": 158.14,
+            "end": 159.5,
+            "text": " So, this is a function"
+        },
+        {
+            "start": 159.5,
+            "end": 161.9,
+            "text": " We can understand a function as a magic button"
+        },
+        {
+            "start": 161.9,
+            "end": 165.4,
+            "text": " A magic button that happens when you press it"
+        },
+        {
+            "start": 165.62,
+            "end": 167.26000000000002,
+            "text": " So, this is a function"
+        },
+        {
+            "start": 167.26000000000002,
+            "end": 168.26000000000002,
+            "text": " A magic button"
+        },
+        {
+            "start": 168.26000000000002,
+            "end": 169.92000000000002,
+            "text": " whose name is Main"
+        },
+        {
+            "start": 169.92000000000002,
+            "end": 175.16,
+            "text": " Now, the main function is the first thing that a Java compiler finds"
+        },
+        {
+            "start": 175.16,
+            "end": 177.5,
+            "text": " whenever it has to execute the Java code"
+        },
+        {
+            "start": 177.5,
+            "end": 179.5,
+            "text": " It is such a small thing"
+        },
+        {
+            "start": 179.5,
+            "end": 181.5,
+            "text": " We will discuss it in detail later"
+        },
+        {
+            "start": 181.5,
+            "end": 184.24,
+            "text": " This much code of Java"
+        },
+        {
+            "start": 184.24,
+            "end": 186.04000000000002,
+            "text": " Let's save it once"
+        },
+        {
+            "start": 186.04000000000002,
+            "end": 188.54000000000002,
+            "text": " You can write any program of Java"
+        },
+        {
+            "start": 188.54000000000002,
+            "end": 190.14000000000001,
+            "text": " Write it in any code editor"
+        },
+        {
+            "start": 190.14000000000001,
+            "end": 191.48000000000002,
+            "text": " Write it anywhere"
+        },
+        {
+            "start": 191.48000000000002,
+            "end": 194.58,
+            "text": " You will always have to write this much code"
+        },
+        {
+            "start": 194.66000000000003,
+            "end": 197.4,
+            "text": " That means you have to define a public class"
+        },
+        {
+            "start": 197.4,
+            "end": 200.94000000000003,
+            "text": " Along with that, we have to make a main function"
+        },
+        {
+            "start": 200.94000000000003,
+            "end": 202.10000000000002,
+            "text": " These are two things"
+        },
+        {
+            "start": 202.10000000000002,
+            "end": 203.84,
+            "text": " Public class and main function"
+        },
+        {
+            "start": 203.84,
+            "end": 206.08,
+            "text": " Which we always have to make"
+        },
+        {
+            "start": 206.08,
+            "end": 208.08,
+            "text": " whenever we have to write a Java code"
+        },
+        {
+            "start": 208.08,
+            "end": 209.44,
+            "text": " And this code"
+        },
+        {
+            "start": 209.44,
+            "end": 212.32000000000002,
+            "text": " I mean, such a code that we always have to write"
+        },
+        {
+            "start": 212.32000000000002,
+            "end": 215.32000000000002,
+            "text": " We call it Boilerplate code"
+        },
+        {
+            "start": 215.32000000000002,
+            "end": 216.68,
+            "text": " Boilerplate means"
+        },
+        {
+            "start": 216.68,
+            "end": 218.18,
+            "text": " Which will be written every time"
+        },
+        {
+            "start": 218.18,
+            "end": 219.56,
+            "text": " Which is a template"
+        },
+        {
+            "start": 219.56,
+            "end": 222.22000000000003,
+            "text": " So, this is a template of a Java code"
+        },
+        {
+            "start": 222.22000000000003,
+            "end": 224.0,
+            "text": " And all the lines that we are going to write"
+        },
+        {
+            "start": 224.02,
+            "end": 226.42,
+            "text": " All the codes that we will personally type"
+        },
+        {
+            "start": 226.42,
+            "end": 228.82,
+            "text": " All that will come in this main function"
+        },
+        {
+            "start": 228.82,
+            "end": 230.82,
+            "text": " That means we are defining a magic button"
+        },
+        {
+            "start": 230.82,
+            "end": 232.82,
+            "text": " In which we are going to do the magic of our code"
+        },
+        {
+            "start": 232.82,
+            "end": 234.82,
+            "text": " All these lines"
+        },
+        {
+            "start": 234.82,
+            "end": 236.82,
+            "text": " In this much space"
+        },
+        {
+            "start": 236.82,
+            "end": 239.82,
+            "text": " Means, in between this curly brace and this curly brace"
+        },
+        {
+            "start": 239.82,
+            "end": 241.82,
+            "text": " Whatever lines we will write"
+        },
+        {
+            "start": 241.82,
+            "end": 243.82,
+            "text": " That will be our code"
+        },
+        {
+            "start": 243.82,
+            "end": 245.82,
+            "text": " So, for now"
+        },
+        {
+            "start": 245.82,
+            "end": 248.5,
+            "text": " Already, the heavy code that we write from the beginning"
+        },
+        {
+            "start": 248.5,
+            "end": 250.5,
+            "text": " We will not discuss the meaning of it much"
+        },
+        {
+            "start": 250.5,
+            "end": 252.5,
+            "text": " Why is it there?"
+        },
+        {
+            "start": 253.0,
+            "end": 255.0,
+            "text": " We will not take much tension about it"
+        },
+        {
+            "start": 255.0,
+            "end": 258.0,
+            "text": " Boilerplate code will be seen again and again"
+        }
+    ],
+    "full_text": " First of all, we define a class in our java file In our first lecture, we will hear many strange words which we may not understand now but as soon as we do 5-10 lectures and finally read the concept of OOPS OOPS means Object Oriented Programming Systems This will look like a topic in your last chapters When we will read this, we will understand the meaning of the words So, in the first class, we will not focus on the meaning We will focus on the working of the words that we are able to execute a code We will understand the meaning of the code with time But the most important thing in coding is to keep your motivation and the second most important thing is to keep fun We do not want to kill off fun in the first class So, we will have some complex words for now We may not understand the meaning of the words It may not be clear So, it is okay We just have to be patient In the later classes, they have been discussed in great detail So, first of all, we define a class to write all the code Public, Class, Java, Basics Now, what is a class? We have heard about a classroom in colleges and schools where all the students are sitting and all the work is done in the class Similarly, in Java, there is a class in which we write all the code and all the code work is done in the class So, we have to visualize it like that There is a class where all the work has to be done So, we have made a public class for the class We will discuss the meaning of public later For now, public means what everyone can see So, public class And what is the name of the class? We have named the class as Java Basics In Java, the name of the class and the name of the file should be the same That is, the name of our public class and the name of the file we have made from .java should always be the same In this class, we will define a function Public, Static, Void, Main The strange words that we hear Public, Class, Main, Static, Void We do not have to worry about them at all String, Arguments Now, I have said 6-7 alien level words But, to explain it very easily So, this is a function We can understand a function as a magic button A magic button that happens when you press it So, this is a function A magic button whose name is Main Now, the main function is the first thing that a Java compiler finds whenever it has to execute the Java code It is such a small thing We will discuss it in detail later This much code of Java Let's save it once You can write any program of Java Write it in any code editor Write it anywhere You will always have to write this much code That means you have to define a public class Along with that, we have to make a main function These are two things Public class and main function Which we always have to make whenever we have to write a Java code And this code I mean, such a code that we always have to write We call it Boilerplate code Boilerplate means Which will be written every time Which is a template So, this is a template of a Java code And all the lines that we are going to write All the codes that we will personally type All that will come in this main function That means we are defining a magic button In which we are going to do the magic of our code All these lines In this much space Means, in between this curly brace and this curly brace Whatever lines we will write That will be our code So, for now Already, the heavy code that we write from the beginning We will not discuss the meaning of it much Why is it there? We will not take much tension about it Boilerplate code will be seen again and again"
+}

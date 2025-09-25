@@ -1,0 +1,350 @@
+{
+    "chunks": [
+        {
+            "start": 0.0,
+            "end": 3.7,
+            "text": " The next sorting technique we are going to talk about is Insertion Sort."
+        },
+        {
+            "start": 3.7,
+            "end": 7.5,
+            "text": " The inspiration for insertion sort comes from our cards."
+        },
+        {
+            "start": 7.5,
+            "end": 13.0,
+            "text": " So, if you have played with your siblings in your childhood or played any other cards,"
+        },
+        {
+            "start": 13.0,
+            "end": 18.0,
+            "text": " then what usually happens in cards is that when we get new cards to deal with,"
+        },
+        {
+            "start": 18.0,
+            "end": 22.0,
+            "text": " we try to arrange them in sorted order like 1, 2, 3, 4, 5, 6."
+        },
+        {
+            "start": 22.0,
+            "end": 25.0,
+            "text": " So, imagine that we have got some cards in this order."
+        },
+        {
+            "start": 25.0,
+            "end": 35.0,
+            "text": " First, we got 1, then we got 3, then we got 5 and now we get a new card whose number is 4."
+        },
+        {
+            "start": 35.0,
+            "end": 37.0,
+            "text": " So, we will try to insert it here."
+        },
+        {
+            "start": 37.0,
+            "end": 43.0,
+            "text": " We have already made a sorted part of ours, in which we are inserting a new card in the correct position."
+        },
+        {
+            "start": 43.0,
+            "end": 50.0,
+            "text": " So, with this type of technique, we get inspiration from our insertion sort,"
+        },
+        {
+            "start": 50.0,
+            "end": 54.5,
+            "text": " whose idea is that you pick an element from the unsorted part."
+        },
+        {
+            "start": 54.5,
+            "end": 56.5,
+            "text": " This is your unsorted part."
+        },
+        {
+            "start": 56.5,
+            "end": 61.5,
+            "text": " We have to pick an element from here and place it in the right position in the sorted part."
+        },
+        {
+            "start": 61.5,
+            "end": 67.5,
+            "text": " This is our sorted part and we have to bring our element here and place it in the right place."
+        },
+        {
+            "start": 67.5,
+            "end": 70.5,
+            "text": " This is actually called implementing it."
+        },
+        {
+            "start": 70.5,
+            "end": 76.5,
+            "text": " So, let's assume that this is our sorted part and this much part is our unsorted part."
+        },
+        {
+            "start": 76.5,
+            "end": 82.5,
+            "text": " So, the first step is to pick the first element of the unsorted part and insert it in the sorted part."
+        },
+        {
+            "start": 82.5,
+            "end": 86.5,
+            "text": " For example, we are going to pick 4 from here and insert it in the sorted part."
+        },
+        {
+            "start": 86.5,
+            "end": 89.5,
+            "text": " So, we have 5 positions in the array."
+        },
+        {
+            "start": 89.5,
+            "end": 92.5,
+            "text": " So, this 2, 3, 1 will remain like this."
+        },
+        {
+            "start": 92.5,
+            "end": 95.5,
+            "text": " The first step is to compare 4 and 5."
+        },
+        {
+            "start": 95.5,
+            "end": 97.5,
+            "text": " If 5 is bigger than 4, then we will push it forward."
+        },
+        {
+            "start": 97.5,
+            "end": 99.5,
+            "text": " We will push it in the place of 5."
+        },
+        {
+            "start": 99.5,
+            "end": 104.5,
+            "text": " Till then, we are assuming that we have stored 4 in a temporary memory, in a temporary variable."
+        },
+        {
+            "start": 104.5,
+            "end": 107.5,
+            "text": " And now we will see that nothing happened here, the space is empty."
+        },
+        {
+            "start": 107.5,
+            "end": 109.5,
+            "text": " So, we pushed 4 here."
+        },
+        {
+            "start": 109.5,
+            "end": 111.5,
+            "text": " Next, what happened to us?"
+        },
+        {
+            "start": 111.5,
+            "end": 115.5,
+            "text": " This is our sorted part and this is our unsorted part."
+        },
+        {
+            "start": 115.5,
+            "end": 119.5,
+            "text": " The next element that we have to place in the right place is 1."
+        },
+        {
+            "start": 119.5,
+            "end": 121.5,
+            "text": " So, what will we do with 1?"
+        },
+        {
+            "start": 121.5,
+            "end": 124.5,
+            "text": " Now, we will put 1 in the temporary memory."
+        },
+        {
+            "start": 124.5,
+            "end": 129.5,
+            "text": " And now we have 5 places again, out of which 2 and 3 will remain there."
+        },
+        {
+            "start": 129.5,
+            "end": 131.5,
+            "text": " We will compare 1 with 5."
+        },
+        {
+            "start": 131.5,
+            "end": 135.5,
+            "text": " If 5 is bigger than 5, then we will push it back and 5 will come here."
+        },
+        {
+            "start": 135.5,
+            "end": 137.5,
+            "text": " Then we will compare 1 with 4."
+        },
+        {
+            "start": 137.5,
+            "end": 141.5,
+            "text": " If 4 is bigger than 4, then we will push 4 back and 4 will come here."
+        },
+        {
+            "start": 141.5,
+            "end": 144.5,
+            "text": " So, 5 came back one place and 4 came back one place."
+        },
+        {
+            "start": 144.5,
+            "end": 148.5,
+            "text": " Now, if we want to compare any other element, then we have to put 1 in its place."
+        },
+        {
+            "start": 148.5,
+            "end": 150.5,
+            "text": " So, we placed 1 here."
+        },
+        {
+            "start": 150.5,
+            "end": 155.5,
+            "text": " Now, this is our sorted part and this is our unsorted part."
+        },
+        {
+            "start": 155.5,
+            "end": 158.5,
+            "text": " The next element that we will compare is 3."
+        },
+        {
+            "start": 158.5,
+            "end": 162.5,
+            "text": " We will place 3 in a temporary memory and there are 5 empty places in our array."
+        },
+        {
+            "start": 162.5,
+            "end": 165.5,
+            "text": " So, there will be no comparison with 2, so 2 will remain behind."
+        },
+        {
+            "start": 165.5,
+            "end": 167.5,
+            "text": " We will compare 3 and 5."
+        },
+        {
+            "start": 167.5,
+            "end": 170.5,
+            "text": " If 3 is smaller than 5, then we will push 5 back."
+        },
+        {
+            "start": 170.5,
+            "end": 175.5,
+            "text": " If we compare 3 and 4, then 3 is smaller than 4, then we will push 4 back."
+        },
+        {
+            "start": 175.5,
+            "end": 176.5,
+            "text": " Here, 1 is there."
+        },
+        {
+            "start": 176.5,
+            "end": 180.5,
+            "text": " When 1 is compared with 3, then 1 is obviously smaller."
+        },
+        {
+            "start": 180.5,
+            "end": 185.5,
+            "text": " So, 1 will remain in its position and 3 will be pushed back to where it was before."
+        },
+        {
+            "start": 185.5,
+            "end": 187.5,
+            "text": " Because 4 was pushed back one place."
+        },
+        {
+            "start": 187.5,
+            "end": 191.5,
+            "text": " Now, the current position is empty, so we put 3 there."
+        },
+        {
+            "start": 191.5,
+            "end": 196.5,
+            "text": " So, this is our sorted part and this is our unsorted part."
+        },
+        {
+            "start": 196.5,
+            "end": 199.5,
+            "text": " Now, we have to place 2 in its place."
+        },
+        {
+            "start": 199.5,
+            "end": 203.5,
+            "text": " We will place 2 in a temporary memory."
+        },
+        {
+            "start": 203.5,
+            "end": 206.5,
+            "text": " There are 5 spaces in our array."
+        },
+        {
+            "start": 206.5,
+            "end": 208.5,
+            "text": " We will compare 2 with 5."
+        },
+        {
+            "start": 208.5,
+            "end": 211.5,
+            "text": " If 5 is bigger than 5, then we will push 5 back."
+        },
+        {
+            "start": 211.5,
+            "end": 213.5,
+            "text": " After that, we will compare 2 with 4."
+        },
+        {
+            "start": 213.5,
+            "end": 215.5,
+            "text": " If 4 is bigger than 4, then we will push 4 back."
+        },
+        {
+            "start": 215.5,
+            "end": 220.5,
+            "text": " If we compare 2 with 3, then 3 is bigger than 3, so we will push 3 back."
+        },
+        {
+            "start": 220.5,
+            "end": 222.5,
+            "text": " Then, we will compare 2 with 1."
+        },
+        {
+            "start": 222.5,
+            "end": 226.5,
+            "text": " 2 is obviously bigger than 1, so 1 will remain in its position."
+        },
+        {
+            "start": 226.5,
+            "end": 230.5,
+            "text": " 2 will have to adjust to 3."
+        },
+        {
+            "start": 230.5,
+            "end": 233.5,
+            "text": " 3 was in index 1, so 2 will be there."
+        },
+        {
+            "start": 233.5,
+            "end": 238.5,
+            "text": " In this way, our array will be seen as a sorted array."
+        },
+        {
+            "start": 238.5,
+            "end": 244.5,
+            "text": " The unsorted part is null now because we have put all the elements in the sorted part."
+        },
+        {
+            "start": 244.5,
+            "end": 246.5,
+            "text": " Now, our array is sorted."
+        },
+        {
+            "start": 247.5,
+            "end": 255.5,
+            "text": " The logic here is that we have to pick up each element from the unsorted part and insert it in the sorted part."
+        },
+        {
+            "start": 255.5,
+            "end": 260.5,
+            "text": " We will insert each element and finally our array will be sorted."
+        }
+    ],
+    "full_text": " The next sorting technique we are going to talk about is Insertion Sort. The inspiration for insertion sort comes from our cards. So, if you have played with your siblings in your childhood or played any other cards, then what usually happens in cards is that when we get new cards to deal with, we try to arrange them in sorted order like 1, 2, 3, 4, 5, 6. So, imagine that we have got some cards in this order. First, we got 1, then we got 3, then we got 5 and now we get a new card whose number is 4. So, we will try to insert it here. We have already made a sorted part of ours, in which we are inserting a new card in the correct position. So, with this type of technique, we get inspiration from our insertion sort, whose idea is that you pick an element from the unsorted part. This is your unsorted part. We have to pick an element from here and place it in the right position in the sorted part. This is our sorted part and we have to bring our element here and place it in the right place. This is actually called implementing it. So, let's assume that this is our sorted part and this much part is our unsorted part. So, the first step is to pick the first element of the unsorted part and insert it in the sorted part. For example, we are going to pick 4 from here and insert it in the sorted part. So, we have 5 positions in the array. So, this 2, 3, 1 will remain like this. The first step is to compare 4 and 5. If 5 is bigger than 4, then we will push it forward. We will push it in the place of 5. Till then, we are assuming that we have stored 4 in a temporary memory, in a temporary variable. And now we will see that nothing happened here, the space is empty. So, we pushed 4 here. Next, what happened to us? This is our sorted part and this is our unsorted part. The next element that we have to place in the right place is 1. So, what will we do with 1? Now, we will put 1 in the temporary memory. And now we have 5 places again, out of which 2 and 3 will remain there. We will compare 1 with 5. If 5 is bigger than 5, then we will push it back and 5 will come here. Then we will compare 1 with 4. If 4 is bigger than 4, then we will push 4 back and 4 will come here. So, 5 came back one place and 4 came back one place. Now, if we want to compare any other element, then we have to put 1 in its place. So, we placed 1 here. Now, this is our sorted part and this is our unsorted part. The next element that we will compare is 3. We will place 3 in a temporary memory and there are 5 empty places in our array. So, there will be no comparison with 2, so 2 will remain behind. We will compare 3 and 5. If 3 is smaller than 5, then we will push 5 back. If we compare 3 and 4, then 3 is smaller than 4, then we will push 4 back. Here, 1 is there. When 1 is compared with 3, then 1 is obviously smaller. So, 1 will remain in its position and 3 will be pushed back to where it was before. Because 4 was pushed back one place. Now, the current position is empty, so we put 3 there. So, this is our sorted part and this is our unsorted part. Now, we have to place 2 in its place. We will place 2 in a temporary memory. There are 5 spaces in our array. We will compare 2 with 5. If 5 is bigger than 5, then we will push 5 back. After that, we will compare 2 with 4. If 4 is bigger than 4, then we will push 4 back. If we compare 2 with 3, then 3 is bigger than 3, so we will push 3 back. Then, we will compare 2 with 1. 2 is obviously bigger than 1, so 1 will remain in its position. 2 will have to adjust to 3. 3 was in index 1, so 2 will be there. In this way, our array will be seen as a sorted array. The unsorted part is null now because we have put all the elements in the sorted part. Now, our array is sorted. The logic here is that we have to pick up each element from the unsorted part and insert it in the sorted part. We will insert each element and finally our array will be sorted."
+}

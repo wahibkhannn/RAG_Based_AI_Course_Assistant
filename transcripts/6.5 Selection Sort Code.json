@@ -1,0 +1,585 @@
+{
+    "chunks": [
+        {
+            "start": 0.0,
+            "end": 2.2800000000000002,
+            "text": " now we will be writing code in our same file"
+        },
+        {
+            "start": 2.2800000000000002,
+            "end": 4.28,
+            "text": " let's make a function here"
+        },
+        {
+            "start": 4.28,
+            "end": 9.56,
+            "text": " public static void selection sort"
+        },
+        {
+            "start": 9.56,
+            "end": 12.56,
+            "text": " in selection sort we will have an array"
+        },
+        {
+            "start": 12.56,
+            "end": 15.36,
+            "text": " now for this what will outer loop do?"
+        },
+        {
+            "start": 15.36,
+            "end": 17.36,
+            "text": " outer loop will count turns"
+        },
+        {
+            "start": 17.36,
+            "end": 18.36,
+            "text": " how many turns do we need?"
+        },
+        {
+            "start": 18.36,
+            "end": 22.36,
+            "text": " from turn 0 to turn 3"
+        },
+        {
+            "start": 22.36,
+            "end": 24.36,
+            "text": " so we need n-2 turns"
+        },
+        {
+            "start": 24.36,
+            "end": 26.36,
+            "text": " for int"
+        },
+        {
+            "start": 26.72,
+            "end": 28.72,
+            "text": " so we will write i instead of turns"
+        },
+        {
+            "start": 28.72,
+            "end": 30.72,
+            "text": " i is equal to 0 to"
+        },
+        {
+            "start": 30.72,
+            "end": 32.72,
+            "text": " i less than n-1"
+        },
+        {
+            "start": 32.72,
+            "end": 34.72,
+            "text": " which is array.length-1"
+        },
+        {
+            "start": 34.72,
+            "end": 36.72,
+            "text": " and i++"
+        },
+        {
+            "start": 36.72,
+            "end": 38.72,
+            "text": " now in inner loop"
+        },
+        {
+            "start": 38.72,
+            "end": 40.72,
+            "text": " first we will define a minimum position"
+        },
+        {
+            "start": 40.72,
+            "end": 42.72,
+            "text": " now our minimum element"
+        },
+        {
+            "start": 42.72,
+            "end": 44.72,
+            "text": " we will consider our current element as minimum"
+        },
+        {
+            "start": 44.72,
+            "end": 46.72,
+            "text": " so current minimum element"
+        },
+        {
+            "start": 46.72,
+            "end": 48.72,
+            "text": " position is i"
+        },
+        {
+            "start": 48.72,
+            "end": 50.72,
+            "text": " and for inner loop we will start"
+        },
+        {
+            "start": 50.72,
+            "end": 52.72,
+            "text": " from i++"
+        },
+        {
+            "start": 52.72,
+            "end": 54.72,
+            "text": " and this loop will go"
+        },
+        {
+            "start": 55.08,
+            "end": 57.08,
+            "text": " array.length-1"
+        },
+        {
+            "start": 57.08,
+            "end": 59.08,
+            "text": " here we will do j++"
+        },
+        {
+            "start": 59.08,
+            "end": 61.08,
+            "text": " and finally"
+        },
+        {
+            "start": 61.08,
+            "end": 63.08,
+            "text": " inside we will be comparing all the elements"
+        },
+        {
+            "start": 63.08,
+            "end": 65.08,
+            "text": " so if at any point"
+        },
+        {
+            "start": 65.08,
+            "end": 67.08,
+            "text": " our minimum"
+        },
+        {
+            "start": 67.08,
+            "end": 69.08,
+            "text": " element at position"
+        },
+        {
+            "start": 69.08,
+            "end": 71.08,
+            "text": " its value increases"
+        },
+        {
+            "start": 71.08,
+            "end": 73.08,
+            "text": " our array at position j"
+        },
+        {
+            "start": 73.08,
+            "end": 75.08,
+            "text": " what we need? we need minimum element"
+        },
+        {
+            "start": 75.08,
+            "end": 77.08,
+            "text": " we have assumed that minimum element is at current position"
+        },
+        {
+            "start": 77.08,
+            "end": 79.08,
+            "text": " but if we get a smaller minimum than that"
+        },
+        {
+            "start": 79.08,
+            "end": 81.08,
+            "text": " that is this element"
+        },
+        {
+            "start": 81.08,
+            "end": 83.08,
+            "text": " which is smaller than this then what will we do?"
+        },
+        {
+            "start": 83.44,
+            "end": 85.44,
+            "text": " we will update minimum position"
+        },
+        {
+            "start": 85.44,
+            "end": 87.44,
+            "text": " so our minimum position will be j"
+        },
+        {
+            "start": 87.44,
+            "end": 89.44,
+            "text": " now we will not swap directly"
+        },
+        {
+            "start": 89.44,
+            "end": 91.44,
+            "text": " because if we swap"
+        },
+        {
+            "start": 91.44,
+            "end": 93.44,
+            "text": " then it will become bubble sort"
+        },
+        {
+            "start": 93.44,
+            "end": 95.44,
+            "text": " which has a lot of swapping"
+        },
+        {
+            "start": 95.44,
+            "end": 97.44,
+            "text": " we don't have to swap at every step"
+        },
+        {
+            "start": 97.44,
+            "end": 99.44,
+            "text": " we don't have to swap in inner loop"
+        },
+        {
+            "start": 99.44,
+            "end": 101.44,
+            "text": " we will swap in outer loop"
+        },
+        {
+            "start": 101.44,
+            "end": 103.44,
+            "text": " what we did in bubble sort?"
+        },
+        {
+            "start": 103.44,
+            "end": 105.44,
+            "text": " we swapped in inner loop"
+        },
+        {
+            "start": 105.44,
+            "end": 107.44,
+            "text": " with adjacent elements"
+        },
+        {
+            "start": 107.44,
+            "end": 109.44,
+            "text": " so here we will get minimum element"
+        },
+        {
+            "start": 109.44,
+            "end": 111.44,
+            "text": " after this what we will do?"
+        },
+        {
+            "start": 111.8,
+            "end": 113.8,
+            "text": " here we will swap"
+        },
+        {
+            "start": 113.8,
+            "end": 115.8,
+            "text": " int temporary"
+        },
+        {
+            "start": 117.8,
+            "end": 119.8,
+            "text": " is equal to"
+        },
+        {
+            "start": 119.8,
+            "end": 121.8,
+            "text": " array of minimum position"
+        },
+        {
+            "start": 123.8,
+            "end": 125.8,
+            "text": " and we will store"
+        },
+        {
+            "start": 125.8,
+            "end": 127.8,
+            "text": " our array of i"
+        },
+        {
+            "start": 127.8,
+            "end": 129.8,
+            "text": " because i was being compared"
+        },
+        {
+            "start": 129.8,
+            "end": 131.8,
+            "text": " for any position"
+        },
+        {
+            "start": 131.8,
+            "end": 133.8,
+            "text": " like for zeroth index"
+        },
+        {
+            "start": 133.8,
+            "end": 135.8,
+            "text": " we are looking for first smallest"
+        },
+        {
+            "start": 135.8,
+            "end": 137.8,
+            "text": " if for first position"
+        },
+        {
+            "start": 137.8,
+            "end": 139.8,
+            "text": " we are looking for first smallest"
+        },
+        {
+            "start": 140.16000000000003,
+            "end": 142.16000000000003,
+            "text": " if for second index"
+        },
+        {
+            "start": 142.16000000000003,
+            "end": 144.16000000000003,
+            "text": " we are looking for third smallest"
+        },
+        {
+            "start": 144.16000000000003,
+            "end": 146.16000000000003,
+            "text": " so we are counting like this"
+        },
+        {
+            "start": 146.16000000000003,
+            "end": 148.16000000000003,
+            "text": " array of i will be our temp"
+        },
+        {
+            "start": 150.16000000000003,
+            "end": 152.16000000000003,
+            "text": " so this will be our swapping in selection sort"
+        },
+        {
+            "start": 152.16000000000003,
+            "end": 154.16000000000003,
+            "text": " and like this"
+        },
+        {
+            "start": 154.16000000000003,
+            "end": 156.16000000000003,
+            "text": " we have completed our sorting"
+        },
+        {
+            "start": 156.16000000000003,
+            "end": 158.16000000000003,
+            "text": " here what we did in every step?"
+        },
+        {
+            "start": 158.16000000000003,
+            "end": 160.16000000000003,
+            "text": " here we counted turns"
+        },
+        {
+            "start": 160.16000000000003,
+            "end": 162.16000000000003,
+            "text": " here we considered minimum position as current position"
+        },
+        {
+            "start": 162.16000000000003,
+            "end": 164.16000000000003,
+            "text": " here we actually found minimum"
+        },
+        {
+            "start": 164.16000000000003,
+            "end": 166.16000000000003,
+            "text": " from unsorted part"
+        },
+        {
+            "start": 166.16000000000003,
+            "end": 168.16000000000003,
+            "text": " and here we swapped that minimum"
+        },
+        {
+            "start": 168.52,
+            "end": 170.52,
+            "text": " with current position"
+        },
+        {
+            "start": 170.52,
+            "end": 172.52,
+            "text": " in main function"
+        },
+        {
+            "start": 172.52,
+            "end": 174.52,
+            "text": " we will call selection sort"
+        },
+        {
+            "start": 174.52,
+            "end": 176.51999999999998,
+            "text": " instead of bubble sort"
+        },
+        {
+            "start": 176.51999999999998,
+            "end": 178.51999999999998,
+            "text": " save it and run"
+        },
+        {
+            "start": 182.51999999999998,
+            "end": 184.51999999999998,
+            "text": " so we didn't get sorted array"
+        },
+        {
+            "start": 184.51999999999998,
+            "end": 186.51999999999998,
+            "text": " because we missed something"
+        },
+        {
+            "start": 190.51999999999998,
+            "end": 192.51999999999998,
+            "text": " now in inner loop"
+        },
+        {
+            "start": 192.51999999999998,
+            "end": 194.51999999999998,
+            "text": " we were going to go to n-1"
+        },
+        {
+            "start": 194.51999999999998,
+            "end": 196.51999999999998,
+            "text": " so here we will make less than array.length"
+        },
+        {
+            "start": 196.88000000000002,
+            "end": 198.88000000000002,
+            "text": " here j is less than or equal to array.length"
+        },
+        {
+            "start": 198.88000000000002,
+            "end": 200.88000000000002,
+            "text": " so we will save it"
+        },
+        {
+            "start": 200.88000000000002,
+            "end": 202.88000000000002,
+            "text": " and in main function"
+        },
+        {
+            "start": 202.88000000000002,
+            "end": 204.88,
+            "text": " we will call selection sort instead of bubble sort"
+        },
+        {
+            "start": 204.88,
+            "end": 206.88,
+            "text": " save it and run"
+        },
+        {
+            "start": 208.88,
+            "end": 210.88,
+            "text": " so we have sorted array"
+        },
+        {
+            "start": 210.88,
+            "end": 212.88,
+            "text": " which is in increasing order"
+        },
+        {
+            "start": 212.88,
+            "end": 214.88,
+            "text": " if we wanted to do this in decreasing order"
+        },
+        {
+            "start": 214.88,
+            "end": 216.88,
+            "text": " then we would have"
+        },
+        {
+            "start": 216.88,
+            "end": 218.88,
+            "text": " swapped the condition"
+        },
+        {
+            "start": 218.88,
+            "end": 220.88,
+            "text": " if we would have made condition less than"
+        },
+        {
+            "start": 220.88,
+            "end": 222.88,
+            "text": " then it would have brought maximum element"
+        },
+        {
+            "start": 222.88,
+            "end": 224.88,
+            "text": " and would have pushed it in starting"
+        },
+        {
+            "start": 225.24,
+            "end": 227.24,
+            "text": " let's see this"
+        },
+        {
+            "start": 229.24,
+            "end": 231.24,
+            "text": " now our array is in decreasing order"
+        },
+        {
+            "start": 231.24,
+            "end": 233.24,
+            "text": " 5,4,3,2,1"
+        },
+        {
+            "start": 233.24,
+            "end": 235.24,
+            "text": " so we will write selection sort like this"
+        },
+        {
+            "start": 235.24,
+            "end": 237.24,
+            "text": " and you will notice that"
+        },
+        {
+            "start": 237.24,
+            "end": 239.24,
+            "text": " outer loop is running n times"
+        },
+        {
+            "start": 239.24,
+            "end": 241.24,
+            "text": " and inner loop is running n times"
+        },
+        {
+            "start": 241.24,
+            "end": 243.24,
+            "text": " so its time complexity is big O of n square"
+        },
+        {
+            "start": 243.24,
+            "end": 245.24,
+            "text": " this is not that good"
+        },
+        {
+            "start": 245.24,
+            "end": 247.24,
+            "text": " in terms of time as compared to bubble sort"
+        },
+        {
+            "start": 247.24,
+            "end": 249.24,
+            "text": " but yes it doesn't have so many swaps"
+        },
+        {
+            "start": 249.24,
+            "end": 251.24,
+            "text": " it is slightly simple"
+        },
+        {
+            "start": 251.24,
+            "end": 253.24,
+            "text": " when we compare the logic"
+        },
+        {
+            "start": 253.60000000000002,
+            "end": 255.60000000000002,
+            "text": " so we will learn how to learn algorithm"
+        },
+        {
+            "start": 255.60000000000002,
+            "end": 257.6,
+            "text": " and how to select it"
+        },
+        {
+            "start": 257.6,
+            "end": 259.6,
+            "text": " do remember that"
+        }
+    ],
+    "full_text": " now we will be writing code in our same file let's make a function here public static void selection sort in selection sort we will have an array now for this what will outer loop do? outer loop will count turns how many turns do we need? from turn 0 to turn 3 so we need n-2 turns for int so we will write i instead of turns i is equal to 0 to i less than n-1 which is array.length-1 and i++ now in inner loop first we will define a minimum position now our minimum element we will consider our current element as minimum so current minimum element position is i and for inner loop we will start from i++ and this loop will go array.length-1 here we will do j++ and finally inside we will be comparing all the elements so if at any point our minimum element at position its value increases our array at position j what we need? we need minimum element we have assumed that minimum element is at current position but if we get a smaller minimum than that that is this element which is smaller than this then what will we do? we will update minimum position so our minimum position will be j now we will not swap directly because if we swap then it will become bubble sort which has a lot of swapping we don't have to swap at every step we don't have to swap in inner loop we will swap in outer loop what we did in bubble sort? we swapped in inner loop with adjacent elements so here we will get minimum element after this what we will do? here we will swap int temporary is equal to array of minimum position and we will store our array of i because i was being compared for any position like for zeroth index we are looking for first smallest if for first position we are looking for first smallest if for second index we are looking for third smallest so we are counting like this array of i will be our temp so this will be our swapping in selection sort and like this we have completed our sorting here what we did in every step? here we counted turns here we considered minimum position as current position here we actually found minimum from unsorted part and here we swapped that minimum with current position in main function we will call selection sort instead of bubble sort save it and run so we didn't get sorted array because we missed something now in inner loop we were going to go to n-1 so here we will make less than array.length here j is less than or equal to array.length so we will save it and in main function we will call selection sort instead of bubble sort save it and run so we have sorted array which is in increasing order if we wanted to do this in decreasing order then we would have swapped the condition if we would have made condition less than then it would have brought maximum element and would have pushed it in starting let's see this now our array is in decreasing order 5,4,3,2,1 so we will write selection sort like this and you will notice that outer loop is running n times and inner loop is running n times so its time complexity is big O of n square this is not that good in terms of time as compared to bubble sort but yes it doesn't have so many swaps it is slightly simple when we compare the logic so we will learn how to learn algorithm and how to select it do remember that"
+}

@@ -1,0 +1,905 @@
+{
+    "chunks": [
+        {
+            "start": 0.0,
+            "end": 6.9,
+            "text": " Now let's talk about bubble sort. The basic idea of bubble sort is that we will be given an array like this"
+        },
+        {
+            "start": 6.9,
+            "end": 12.3,
+            "text": " where we have elements like 5,4,1,3,2"
+        },
+        {
+            "start": 12.3,
+            "end": 15.1,
+            "text": " Now this array is an unsorted array"
+        },
+        {
+            "start": 15.1,
+            "end": 20.0,
+            "text": " We want the final result, we want to get the result from the bubble sort algorithm"
+        },
+        {
+            "start": 20.0,
+            "end": 22.6,
+            "text": " Either it gives us an array in increasing order"
+        },
+        {
+            "start": 22.6,
+            "end": 26.3,
+            "text": " Like the smallest element in the beginning and the largest element in the end"
+        },
+        {
+            "start": 26.3,
+            "end": 28.3,
+            "text": " So this is our increasing order"
+        },
+        {
+            "start": 28.3,
+            "end": 31.1,
+            "text": " Or we want a decreasing order of elements"
+        },
+        {
+            "start": 31.1,
+            "end": 34.1,
+            "text": " In which the largest element is in the beginning and the smallest in the end"
+        },
+        {
+            "start": 34.1,
+            "end": 36.3,
+            "text": " We call this decreasing order"
+        },
+        {
+            "start": 36.3,
+            "end": 41.6,
+            "text": " So if we talk about the method of implementing bubble sort"
+        },
+        {
+            "start": 41.6,
+            "end": 44.6,
+            "text": " So listening to the name bubble sort, it must be very funny"
+        },
+        {
+            "start": 44.6,
+            "end": 46.6,
+            "text": " that is it talking about bubbles?"
+        },
+        {
+            "start": 46.6,
+            "end": 50.8,
+            "text": " So the inspiration of this sort is also a little funny"
+        },
+        {
+            "start": 50.8,
+            "end": 55.400000000000006,
+            "text": " Imagine that we are taking water in a pot or we are taking some other liquid"
+        },
+        {
+            "start": 55.400000000000006,
+            "end": 57.400000000000006,
+            "text": " and we put it on fire"
+        },
+        {
+            "start": 57.4,
+            "end": 61.3,
+            "text": " Now what will happen is that small bubbles will start forming in the water"
+        },
+        {
+            "start": 61.3,
+            "end": 68.3,
+            "text": " and slowly those bubbles will start rising as they increase in size with the heat"
+        },
+        {
+            "start": 68.3,
+            "end": 72.3,
+            "text": " So the idea of this sorting has also come from here"
+        },
+        {
+            "start": 72.3,
+            "end": 73.5,
+            "text": " What is the idea?"
+        },
+        {
+            "start": 73.5,
+            "end": 78.5,
+            "text": " That large elements come up to the end of the array by swapping with adjacent elements"
+        },
+        {
+            "start": 78.5,
+            "end": 81.5,
+            "text": " That means we will be given an array"
+        },
+        {
+            "start": 81.6,
+            "end": 87.4,
+            "text": " And the largest element of the array will come to the end by moving from here"
+        },
+        {
+            "start": 87.4,
+            "end": 93.4,
+            "text": " Then the second largest element of this array will move from here and come to the second last position"
+        },
+        {
+            "start": 93.4,
+            "end": 98.8,
+            "text": " Then the third largest element of this array will move from here and come to the third largest position"
+        },
+        {
+            "start": 98.8,
+            "end": 103.8,
+            "text": " And in this way, we will sort our elements in increasing order"
+        },
+        {
+            "start": 103.8,
+            "end": 105.8,
+            "text": " So this is a very basic idea"
+        },
+        {
+            "start": 105.8,
+            "end": 108.2,
+            "text": " We will be using it, what is going to happen?"
+        },
+        {
+            "start": 108.3,
+            "end": 114.10000000000001,
+            "text": " The largest element of all will move slowly and reach the end"
+        },
+        {
+            "start": 114.10000000000001,
+            "end": 116.7,
+            "text": " Then the second largest will reach the second last position"
+        },
+        {
+            "start": 116.7,
+            "end": 121.7,
+            "text": " And this process will keep repeating until we get an increasing array"
+        },
+        {
+            "start": 121.7,
+            "end": 123.7,
+            "text": " So let's see an example of this"
+        },
+        {
+            "start": 123.7,
+            "end": 128.7,
+            "text": " Let's assume that we have this array given in which we have 5, 4, 1, 3, 2"
+        },
+        {
+            "start": 128.7,
+            "end": 130.7,
+            "text": " These are the elements of the array"
+        },
+        {
+            "start": 130.7,
+            "end": 133.1,
+            "text": " The size of our array is n is equal to 5"
+        },
+        {
+            "start": 133.1,
+            "end": 137.5,
+            "text": " Now the first term of our sorting is called the zeroth term"
+        },
+        {
+            "start": 138.0,
+            "end": 141.0,
+            "text": " Because we will also follow zero-based indexing"
+        },
+        {
+            "start": 141.0,
+            "end": 143.0,
+            "text": " We call zeroth sorting as sorting in the first order"
+        },
+        {
+            "start": 143.0,
+            "end": 145.0,
+            "text": " I have called it sorting in the zero-order"
+        },
+        {
+            "start": 145.0,
+            "end": 150.0,
+            "text": " So what we will do is compare this first element with the next element"
+        },
+        {
+            "start": 150.0,
+            "end": 153.0,
+            "text": " So obviously 5 is bigger than 4 and 5"
+        },
+        {
+            "start": 153.0,
+            "end": 155.0,
+            "text": " So what will happen? 5 will move backwards"
+        },
+        {
+            "start": 155.0,
+            "end": 158.0,
+            "text": " And here we will get 4, 5, 1, 3, 2"
+        },
+        {
+            "start": 158.0,
+            "end": 160.0,
+            "text": " Then what will I do?"
+        },
+        {
+            "start": 160.0,
+            "end": 162.0,
+            "text": " Then I will compare 5 with 1"
+        },
+        {
+            "start": 162.0,
+            "end": 167.0,
+            "text": " In this case, our array will be 4, 1, 5, 3, 2"
+        },
+        {
+            "start": 167.0,
+            "end": 169.0,
+            "text": " Because this has been exchanged"
+        },
+        {
+            "start": 169.0,
+            "end": 171.0,
+            "text": " Because 1 is smaller than 5, so it will move forward"
+        },
+        {
+            "start": 171.0,
+            "end": 173.0,
+            "text": " We will call this swapping"
+        },
+        {
+            "start": 173.0,
+            "end": 175.0,
+            "text": " We have talked about swapping earlier"
+        },
+        {
+            "start": 175.0,
+            "end": 180.0,
+            "text": " Swapping means when two elements exchange their positions"
+        },
+        {
+            "start": 180.0,
+            "end": 182.0,
+            "text": " Now what will be the next comparison?"
+        },
+        {
+            "start": 182.0,
+            "end": 184.0,
+            "text": " The next comparison will be of 5 and 3"
+        },
+        {
+            "start": 184.0,
+            "end": 188.0,
+            "text": " In comparison of 5 and 3, we will get 4, 1, 3, 5, 2"
+        },
+        {
+            "start": 188.0,
+            "end": 190.0,
+            "text": " Some array of this type will be formed"
+        },
+        {
+            "start": 190.0,
+            "end": 192.0,
+            "text": " Then the comparison will be of 5 and 2"
+        },
+        {
+            "start": 192.0,
+            "end": 194.0,
+            "text": " In comparison of 5 and 2, this array will be formed"
+        },
+        {
+            "start": 194.0,
+            "end": 196.0,
+            "text": " 4, 1, 3, 2, 5"
+        },
+        {
+            "start": 196.0,
+            "end": 198.0,
+            "text": " So this was our first turn"
+        },
+        {
+            "start": 198.0,
+            "end": 201.0,
+            "text": " In which our array finally came out like this"
+        },
+        {
+            "start": 201.0,
+            "end": 204.0,
+            "text": " Now let's talk about our next turn"
+        },
+        {
+            "start": 204.0,
+            "end": 207.0,
+            "text": " In our next turn, our array looks like this"
+        },
+        {
+            "start": 207.0,
+            "end": 210.0,
+            "text": " In which we have 4, 1, 3, 2, 5"
+        },
+        {
+            "start": 210.0,
+            "end": 213.0,
+            "text": " Now we are going to start our first turn"
+        },
+        {
+            "start": 213.0,
+            "end": 215.0,
+            "text": " I have called this second turn as first turn"
+        },
+        {
+            "start": 215.0,
+            "end": 217.0,
+            "text": " Because we are following zero based"
+        },
+        {
+            "start": 217.0,
+            "end": 220.0,
+            "text": " So here we will first compare 4 and 1"
+        },
+        {
+            "start": 220.0,
+            "end": 222.0,
+            "text": " We compared 4 and 1"
+        },
+        {
+            "start": 222.0,
+            "end": 225.0,
+            "text": " So here we have 1, 4, 3, 2, 5"
+        },
+        {
+            "start": 225.0,
+            "end": 227.0,
+            "text": " Then we will compare 4 and 3"
+        },
+        {
+            "start": 227.0,
+            "end": 232.0,
+            "text": " So here we have 1, 3, 4, 2, 5"
+        },
+        {
+            "start": 232.0,
+            "end": 234.0,
+            "text": " Next we are going to compare 4 and 2"
+        },
+        {
+            "start": 234.0,
+            "end": 238.0,
+            "text": " So here we have 1, 3, 2, 4, 5"
+        },
+        {
+            "start": 238.0,
+            "end": 242.0,
+            "text": " Now the question arises, do we need to compare 4 and 5?"
+        },
+        {
+            "start": 242.0,
+            "end": 244.0,
+            "text": " Obviously not, because what we did in the beginning"
+        },
+        {
+            "start": 244.0,
+            "end": 248.0,
+            "text": " Our largest element, our largest bubble"
+        },
+        {
+            "start": 248.0,
+            "end": 250.0,
+            "text": " Has come to the last position"
+        },
+        {
+            "start": 250.0,
+            "end": 252.0,
+            "text": " So we know that the element which came to the next from 4"
+        },
+        {
+            "start": 252.0,
+            "end": 254.0,
+            "text": " Means the element which came to the last position"
+        },
+        {
+            "start": 254.0,
+            "end": 255.0,
+            "text": " Has already increased from 4"
+        },
+        {
+            "start": 255.0,
+            "end": 258.0,
+            "text": " So here we are not doing the comparison"
+        },
+        {
+            "start": 258.0,
+            "end": 260.0,
+            "text": " And here we will stop"
+        },
+        {
+            "start": 260.0,
+            "end": 264.0,
+            "text": " Here after our first turn, the final array looks like this"
+        },
+        {
+            "start": 264.0,
+            "end": 266.0,
+            "text": " After this, let's move towards our next turn"
+        },
+        {
+            "start": 266.0,
+            "end": 269.0,
+            "text": " We will name the next turn as second turn"
+        },
+        {
+            "start": 269.0,
+            "end": 272.0,
+            "text": " Now in the second turn, the array that will come in the beginning"
+        },
+        {
+            "start": 272.0,
+            "end": 274.0,
+            "text": " That is 1, 3, 2, 4, 5"
+        },
+        {
+            "start": 274.0,
+            "end": 277.0,
+            "text": " Which is coming from here, this array came from here"
+        },
+        {
+            "start": 277.0,
+            "end": 280.0,
+            "text": " In this, we will start the comparison"
+        },
+        {
+            "start": 280.0,
+            "end": 284.0,
+            "text": " If we compare 3, then 1 will remain in the same position"
+        },
+        {
+            "start": 284.0,
+            "end": 287.0,
+            "text": " 1, 3, 2, 4, 5, the same array will remain"
+        },
+        {
+            "start": 287.0,
+            "end": 289.0,
+            "text": " Then we will compare 3 and 2"
+        },
+        {
+            "start": 289.0,
+            "end": 292.0,
+            "text": " So in this, obviously 1 will come first, 2 will come first"
+        },
+        {
+            "start": 292.0,
+            "end": 295.0,
+            "text": " Then 3 will come, then 4 will come, then 5 will come"
+        },
+        {
+            "start": 295.0,
+            "end": 298.0,
+            "text": " Now it will be the turn of comparison of 3 and 4"
+        },
+        {
+            "start": 298.0,
+            "end": 301.0,
+            "text": " So here we are not going to do this comparison"
+        },
+        {
+            "start": 301.0,
+            "end": 304.0,
+            "text": " Because we know that two turns have come in the beginning"
+        },
+        {
+            "start": 304.0,
+            "end": 305.0,
+            "text": " 0th turn and 1st turn"
+        },
+        {
+            "start": 305.0,
+            "end": 308.0,
+            "text": " So we have pushed two large elements back"
+        },
+        {
+            "start": 308.0,
+            "end": 310.0,
+            "text": " So now we don't have to compare the last two elements"
+        },
+        {
+            "start": 310.0,
+            "end": 312.0,
+            "text": " Because we know that they are big"
+        },
+        {
+            "start": 312.0,
+            "end": 316.0,
+            "text": " So here our final array will look like this"
+        },
+        {
+            "start": 316.0,
+            "end": 322.0,
+            "text": " Next turn will come, next turn will be our third turn"
+        },
+        {
+            "start": 322.0,
+            "end": 325.0,
+            "text": " In the third turn, the final array that came last time"
+        },
+        {
+            "start": 325.0,
+            "end": 327.0,
+            "text": " That was 1, 2, 3, 4, 5"
+        },
+        {
+            "start": 327.0,
+            "end": 331.0,
+            "text": " Now in the third turn, we will be comparing 1 and 2"
+        },
+        {
+            "start": 331.0,
+            "end": 334.0,
+            "text": " So we will compare 1 and 2, the same order will remain"
+        },
+        {
+            "start": 334.0,
+            "end": 336.0,
+            "text": " 1, 2, 3, 4, 5"
+        },
+        {
+            "start": 336.0,
+            "end": 339.0,
+            "text": " Now we don't have to compare 2 and 3"
+        },
+        {
+            "start": 339.0,
+            "end": 342.0,
+            "text": " Because we had set these three last time"
+        },
+        {
+            "start": 342.0,
+            "end": 344.0,
+            "text": " This time we had to set these two"
+        },
+        {
+            "start": 344.0,
+            "end": 345.0,
+            "text": " We have set these too"
+        },
+        {
+            "start": 345.0,
+            "end": 347.0,
+            "text": " So finally what will we see?"
+        },
+        {
+            "start": 347.0,
+            "end": 351.0,
+            "text": " We will see our array in a sorted fashion"
+        },
+        {
+            "start": 352.0,
+            "end": 354.0,
+            "text": " And how did it come in a sorted fashion?"
+        },
+        {
+            "start": 354.0,
+            "end": 357.0,
+            "text": " We took n-1 turns"
+        },
+        {
+            "start": 357.0,
+            "end": 358.0,
+            "text": " How many turns did we take?"
+        },
+        {
+            "start": 358.0,
+            "end": 359.0,
+            "text": " How did we know?"
+        },
+        {
+            "start": 359.0,
+            "end": 362.0,
+            "text": " First, second, third and fourth"
+        },
+        {
+            "start": 362.0,
+            "end": 363.0,
+            "text": " So we took 4 turns"
+        },
+        {
+            "start": 363.0,
+            "end": 366.0,
+            "text": " We had 5 turns in the array"
+        },
+        {
+            "start": 366.0,
+            "end": 368.0,
+            "text": " So how many turns did we take in total?"
+        },
+        {
+            "start": 368.0,
+            "end": 370.0,
+            "text": " We took n-1 turns"
+        },
+        {
+            "start": 370.0,
+            "end": 373.0,
+            "text": " The numbers of which were 0, 1, 2 and 3"
+        },
+        {
+            "start": 373.0,
+            "end": 378.0,
+            "text": " Now in our zeroth term, we went from 0 to n-2"
+        },
+        {
+            "start": 378.0,
+            "end": 379.0,
+            "text": " How did we go to the 2th index?"
+        },
+        {
+            "start": 379.0,
+            "end": 382.0,
+            "text": " Because the last comparison was of this element"
+        },
+        {
+            "start": 382.0,
+            "end": 383.0,
+            "text": " With this element"
+        },
+        {
+            "start": 383.0,
+            "end": 386.0,
+            "text": " So this is at index n-1"
+        },
+        {
+            "start": 386.0,
+            "end": 388.0,
+            "text": " And this is our index n-2"
+        },
+        {
+            "start": 388.0,
+            "end": 390.0,
+            "text": " So the element of the index n-2"
+        },
+        {
+            "start": 390.0,
+            "end": 393.0,
+            "text": " The element of this index compared with the next element"
+        },
+        {
+            "start": 393.0,
+            "end": 395.0,
+            "text": " So we went from 0 to n-2"
+        },
+        {
+            "start": 395.0,
+            "end": 398.0,
+            "text": " Here we went from 0 to n-3"
+        },
+        {
+            "start": 398.0,
+            "end": 402.0,
+            "text": " In the second turn, we went from 0 to n-4"
+        },
+        {
+            "start": 402.0,
+            "end": 405.0,
+            "text": " And here we went from 0 to n-5"
+        },
+        {
+            "start": 405.0,
+            "end": 408.0,
+            "text": " That means we were standing at 0"
+        },
+        {
+            "start": 408.0,
+            "end": 410.0,
+            "text": " That means here we had done a single comparison"
+        },
+        {
+            "start": 410.0,
+            "end": 412.0,
+            "text": " With whom did we compare?"
+        },
+        {
+            "start": 412.0,
+            "end": 416.0,
+            "text": " We only compared with the next element of the element at 0"
+        },
+        {
+            "start": 416.0,
+            "end": 419.0,
+            "text": " So let's make it a little smaller from here"
+        },
+        {
+            "start": 419.0,
+            "end": 422.0,
+            "text": " Let's try to summarize this algorithm"
+        },
+        {
+            "start": 422.0,
+            "end": 424.0,
+            "text": " When we will summarize this whole thing"
+        },
+        {
+            "start": 424.0,
+            "end": 426.0,
+            "text": " Then we will know that outside"
+        },
+        {
+            "start": 426.0,
+            "end": 429.0,
+            "text": " To count the number of turns, we need a loop"
+        },
+        {
+            "start": 429.0,
+            "end": 432.0,
+            "text": " Because we know that the number of turns"
+        },
+        {
+            "start": 432.0,
+            "end": 439.0,
+            "text": " For that, the value of turns is going from 0 to n-2"
+        },
+        {
+            "start": 439.0,
+            "end": 441.0,
+            "text": " Because earlier the value was 0, then 1, then 2"
+        },
+        {
+            "start": 441.0,
+            "end": 443.0,
+            "text": " And in the last turn, our value was 3"
+        },
+        {
+            "start": 443.0,
+            "end": 447.0,
+            "text": " Now we can take this loop from the first turn to 4 turns"
+        },
+        {
+            "start": 447.0,
+            "end": 449.0,
+            "text": " But if we follow zero-based indexing"
+        },
+        {
+            "start": 449.0,
+            "end": 453.0,
+            "text": " Then the outer loop will be of turns from 0 to n-1"
+        },
+        {
+            "start": 453.0,
+            "end": 457.0,
+            "text": " Now in every turn, we are swapping some elements"
+        },
+        {
+            "start": 457.0,
+            "end": 460.0,
+            "text": " Here we are swapping some elements in turn 1"
+        },
+        {
+            "start": 460.0,
+            "end": 462.0,
+            "text": " Here we are swapping some elements in turn 0"
+        },
+        {
+            "start": 462.0,
+            "end": 464.0,
+            "text": " We are swapping some elements in turn 1"
+        },
+        {
+            "start": 464.0,
+            "end": 466.0,
+            "text": " And we are swapping some elements in turn 2"
+        },
+        {
+            "start": 466.0,
+            "end": 469.0,
+            "text": " And you can notice that every time we are swapping adjacent elements"
+        },
+        {
+            "start": 469.0,
+            "end": 471.0,
+            "text": " And we are pushing the bigger one behind"
+        },
+        {
+            "start": 471.0,
+            "end": 473.0,
+            "text": " So what will be the logic?"
+        },
+        {
+            "start": 473.0,
+            "end": 475.0,
+            "text": " The value of the inner loop will be"
+        },
+        {
+            "start": 475.0,
+            "end": 480.0,
+            "text": " From j is equal to 0 to n-2-turns"
+        },
+        {
+            "start": 480.0,
+            "end": 482.0,
+            "text": " We can also verify this"
+        },
+        {
+            "start": 482.0,
+            "end": 484.0,
+            "text": " Like when the value of turns was 0"
+        },
+        {
+            "start": 484.0,
+            "end": 486.0,
+            "text": " So where did we go at that time?"
+        },
+        {
+            "start": 486.0,
+            "end": 488.0,
+            "text": " We will start from j is equal to 0"
+        },
+        {
+            "start": 488.0,
+            "end": 492.0,
+            "text": " And our final index will be 5-2-turns"
+        },
+        {
+            "start": 492.0,
+            "end": 494.0,
+            "text": " That is equal to 3"
+        },
+        {
+            "start": 494.0,
+            "end": 497.0,
+            "text": " So in turn 0, the last index that we checked"
+        },
+        {
+            "start": 497.0,
+            "end": 500.0,
+            "text": " We compared that was our index number 3"
+        },
+        {
+            "start": 500.0,
+            "end": 502.0,
+            "text": " If you want to verify this more"
+        },
+        {
+            "start": 502.0,
+            "end": 504.0,
+            "text": " So when we were in turn 1"
+        },
+        {
+            "start": 504.0,
+            "end": 506.0,
+            "text": " So the value of j will be from 0"
+        },
+        {
+            "start": 506.0,
+            "end": 508.0,
+            "text": " Means the first comparison will be at 0"
+        },
+        {
+            "start": 508.0,
+            "end": 512.0,
+            "text": " And the last comparison will be 5-2-1"
+        },
+        {
+            "start": 512.0,
+            "end": 514.0,
+            "text": " That is at index number 2"
+        },
+        {
+            "start": 514.0,
+            "end": 517.0,
+            "text": " And index number 2 was this value"
+        },
+        {
+            "start": 517.0,
+            "end": 520.0,
+            "text": " Where our last comparison was with 4 and 2"
+        },
+        {
+            "start": 520.0,
+            "end": 523.0,
+            "text": " So in this way, we can verify the algorithm"
+        },
+        {
+            "start": 523.0,
+            "end": 526.0,
+            "text": " But if we write the code for this, we will understand it better"
+        }
+    ],
+    "full_text": " Now let's talk about bubble sort. The basic idea of bubble sort is that we will be given an array like this where we have elements like 5,4,1,3,2 Now this array is an unsorted array We want the final result, we want to get the result from the bubble sort algorithm Either it gives us an array in increasing order Like the smallest element in the beginning and the largest element in the end So this is our increasing order Or we want a decreasing order of elements In which the largest element is in the beginning and the smallest in the end We call this decreasing order So if we talk about the method of implementing bubble sort So listening to the name bubble sort, it must be very funny that is it talking about bubbles? So the inspiration of this sort is also a little funny Imagine that we are taking water in a pot or we are taking some other liquid and we put it on fire Now what will happen is that small bubbles will start forming in the water and slowly those bubbles will start rising as they increase in size with the heat So the idea of this sorting has also come from here What is the idea? That large elements come up to the end of the array by swapping with adjacent elements That means we will be given an array And the largest element of the array will come to the end by moving from here Then the second largest element of this array will move from here and come to the second last position Then the third largest element of this array will move from here and come to the third largest position And in this way, we will sort our elements in increasing order So this is a very basic idea We will be using it, what is going to happen? The largest element of all will move slowly and reach the end Then the second largest will reach the second last position And this process will keep repeating until we get an increasing array So let's see an example of this Let's assume that we have this array given in which we have 5, 4, 1, 3, 2 These are the elements of the array The size of our array is n is equal to 5 Now the first term of our sorting is called the zeroth term Because we will also follow zero-based indexing We call zeroth sorting as sorting in the first order I have called it sorting in the zero-order So what we will do is compare this first element with the next element So obviously 5 is bigger than 4 and 5 So what will happen? 5 will move backwards And here we will get 4, 5, 1, 3, 2 Then what will I do? Then I will compare 5 with 1 In this case, our array will be 4, 1, 5, 3, 2 Because this has been exchanged Because 1 is smaller than 5, so it will move forward We will call this swapping We have talked about swapping earlier Swapping means when two elements exchange their positions Now what will be the next comparison? The next comparison will be of 5 and 3 In comparison of 5 and 3, we will get 4, 1, 3, 5, 2 Some array of this type will be formed Then the comparison will be of 5 and 2 In comparison of 5 and 2, this array will be formed 4, 1, 3, 2, 5 So this was our first turn In which our array finally came out like this Now let's talk about our next turn In our next turn, our array looks like this In which we have 4, 1, 3, 2, 5 Now we are going to start our first turn I have called this second turn as first turn Because we are following zero based So here we will first compare 4 and 1 We compared 4 and 1 So here we have 1, 4, 3, 2, 5 Then we will compare 4 and 3 So here we have 1, 3, 4, 2, 5 Next we are going to compare 4 and 2 So here we have 1, 3, 2, 4, 5 Now the question arises, do we need to compare 4 and 5? Obviously not, because what we did in the beginning Our largest element, our largest bubble Has come to the last position So we know that the element which came to the next from 4 Means the element which came to the last position Has already increased from 4 So here we are not doing the comparison And here we will stop Here after our first turn, the final array looks like this After this, let's move towards our next turn We will name the next turn as second turn Now in the second turn, the array that will come in the beginning That is 1, 3, 2, 4, 5 Which is coming from here, this array came from here In this, we will start the comparison If we compare 3, then 1 will remain in the same position 1, 3, 2, 4, 5, the same array will remain Then we will compare 3 and 2 So in this, obviously 1 will come first, 2 will come first Then 3 will come, then 4 will come, then 5 will come Now it will be the turn of comparison of 3 and 4 So here we are not going to do this comparison Because we know that two turns have come in the beginning 0th turn and 1st turn So we have pushed two large elements back So now we don't have to compare the last two elements Because we know that they are big So here our final array will look like this Next turn will come, next turn will be our third turn In the third turn, the final array that came last time That was 1, 2, 3, 4, 5 Now in the third turn, we will be comparing 1 and 2 So we will compare 1 and 2, the same order will remain 1, 2, 3, 4, 5 Now we don't have to compare 2 and 3 Because we had set these three last time This time we had to set these two We have set these too So finally what will we see? We will see our array in a sorted fashion And how did it come in a sorted fashion? We took n-1 turns How many turns did we take? How did we know? First, second, third and fourth So we took 4 turns We had 5 turns in the array So how many turns did we take in total? We took n-1 turns The numbers of which were 0, 1, 2 and 3 Now in our zeroth term, we went from 0 to n-2 How did we go to the 2th index? Because the last comparison was of this element With this element So this is at index n-1 And this is our index n-2 So the element of the index n-2 The element of this index compared with the next element So we went from 0 to n-2 Here we went from 0 to n-3 In the second turn, we went from 0 to n-4 And here we went from 0 to n-5 That means we were standing at 0 That means here we had done a single comparison With whom did we compare? We only compared with the next element of the element at 0 So let's make it a little smaller from here Let's try to summarize this algorithm When we will summarize this whole thing Then we will know that outside To count the number of turns, we need a loop Because we know that the number of turns For that, the value of turns is going from 0 to n-2 Because earlier the value was 0, then 1, then 2 And in the last turn, our value was 3 Now we can take this loop from the first turn to 4 turns But if we follow zero-based indexing Then the outer loop will be of turns from 0 to n-1 Now in every turn, we are swapping some elements Here we are swapping some elements in turn 1 Here we are swapping some elements in turn 0 We are swapping some elements in turn 1 And we are swapping some elements in turn 2 And you can notice that every time we are swapping adjacent elements And we are pushing the bigger one behind So what will be the logic? The value of the inner loop will be From j is equal to 0 to n-2-turns We can also verify this Like when the value of turns was 0 So where did we go at that time? We will start from j is equal to 0 And our final index will be 5-2-turns That is equal to 3 So in turn 0, the last index that we checked We compared that was our index number 3 If you want to verify this more So when we were in turn 1 So the value of j will be from 0 Means the first comparison will be at 0 And the last comparison will be 5-2-1 That is at index number 2 And index number 2 was this value Where our last comparison was with 4 and 2 So in this way, we can verify the algorithm But if we write the code for this, we will understand it better"
+}
